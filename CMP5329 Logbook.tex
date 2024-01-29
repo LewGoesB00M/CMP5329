@@ -1,0 +1,75 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[a4paper, margin=3cm]{geometry}
+\graphicspath{{images/}}
+
+\title{CMP5329 Logbook}
+\author{Lewis Higgins - Student ID 22133848}
+\date{January - March, 2024}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{float} % here for H placement parameter
+\usepackage{subcaption}
+
+
+
+% To prevent "Chapter N" display for each chapter
+\usepackage[compact]{titlesec}
+\usepackage{wasysym}
+
+\titlespacing*{\chapter}{0pt}{-2cm}{0.5cm}
+\titleformat{\chapter}[display]
+{\normalfont\bfseries}{}{0pt}{\Huge}
+
+\begin{document}
+
+    \makeatletter
+    \begin{titlepage}
+        \begin{center}
+            \includegraphics[width=0.7\linewidth]{bcu logo}\\[4ex]
+            {\huge \bfseries  \@title }\\[2ex]
+            {\@author}\\[50ex]
+            {\large \@date}
+        \end{center}
+    \end{titlepage}
+    \makeatother
+    \thispagestyle{empty}
+    \newpage
+
+
+    \tableofcontents
+    \chapter*{Introduction}\label{ch:introduction}
+    \addcontentsline{toc}{chapter}{Introduction}
+
+    This logbook documents the work completed and knowledge gained across the CMP5329 labs, showcasing
+    the use of a wide variety of security techniques and access control methods on a Linux OS\@.
+    \begin{itemize}
+        \item Lab 1, covering OpenSSL\@.
+        \item Lab 2, covering simple usage of GPG\@.
+        \item Lab 5, covering the use of Linux Discretionary Access Control commands.
+        \item Lab 6, covering password cracking.
+    \end{itemize}
+    \newline
+
+
+
+    \chapter{Lab 1 - OpenSSL}\label{ch:lab1}
+    \input{lab1}
+
+    \chapter{Lab 2 - Usage of GPG}\label{ch:lab2}
+    \input{lab2}
+
+    \chapter{Lab 5 - Discretionary Access Control}\label{ch:lab5}
+    \input{lab5}
+
+    \chapter{Lab 6 - Password Cracking}\label{ch:lab6n}
+    \input{lab6}
+
+    \chapter*{Conclusion}\label{ch:conclusion}
+    \addcontentsline{toc}{chapter}{Conclusion}
+
+    Text text text text
+
+\end{document}
