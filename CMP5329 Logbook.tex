@@ -1,6 +1,6 @@
 \documentclass[12pt]{report}
 \usepackage{graphicx} % Required for inserting images
-\usepackage[a4paper, margin=3cm]{geometry}
+\usepackage[a4paper, margin=2.5cm]{geometry}
 \graphicspath{{images/}}
 
 \title{CMP5329 Logbook}
@@ -13,15 +13,74 @@
 \usepackage{float} % here for H placement parameter
 \usepackage{subcaption}
 
+\usepackage{filecontents}
+\usepackage[
+    firstinits=true, % render first and middle names as initials
+    useprefix=true,
+    maxcitenames=3,
+    maxbibnames=99,
+    style=authoryear,
+    dashed=false, % re-print recurring author names in bibliography
+    natbib=true,
+    url=false
+]{biblatex}
+
+\renewbibmacro*{volume+number+eid}{%
+    \printfield{volume}%
+%  \setunit*{\adddot}% DELETED
+    \setunit*{\addnbspace}% NEW (optional); there's also \addnbthinspace
+    \printfield{number}%
+    \setunit{\addcomma\space}%
+    \printfield{eid}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+
+\addbibresource{logbook.bib}
+
+% Use single quotes around titles:
+\usepackage[british]{babel}
+\usepackage{csquotes}
+
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,
+    urlcolor=blue,
+    citecolor=black,
+}
+
+
+\urlstyle{same}
 
 
 % To prevent "Chapter N" display for each chapter
 \usepackage[compact]{titlesec}
 \usepackage{wasysym}
+\usepackage{import}
 
 \titlespacing*{\chapter}{0pt}{-2cm}{0.5cm}
 \titleformat{\chapter}[display]
 {\normalfont\bfseries}{}{0pt}{\Huge}
+
+\newcommand\blfootnote[1]{
+    \begingroup
+    \renewcommand\thefootnote{}\footnote{#1}
+    \addtocounter{footnote}{-1}
+    \endgroup
+}
+
+\usepackage{fancyhdr}
+\usepackage{calc}
+\pagestyle{fancy}
+
+\setlength\headheight{26pt}
+
+\renewcommand{\chaptermark}[1]{%
+    \markboth{#1}{}}
+
+\lhead{Lewis Higgins - ID 22133848~~~~~~~~~~~~~~~\includegraphics[width=1.75cm]{bcu logo}}
+\fancyhead[R]{\leftmark}
 
 \begin{document}
 
@@ -45,13 +104,16 @@
 
     This logbook documents the work completed and knowledge gained across the CMP5329 labs, showcasing
     the use of a wide variety of security techniques and access control methods on a Linux OS\@.
+    This logbook specifically covers the following labs:
     \begin{itemize}
         \item Lab 1, covering OpenSSL\@.
         \item Lab 2, covering simple usage of GPG\@.
         \item Lab 5, covering the use of Linux Discretionary Access Control commands.
         \item Lab 6, covering password cracking.
     \end{itemize}
-    \newline
+
+    As per module specifications, screenshots taken in each lab
+    include the date and time at which they were taken.
 
 
 
@@ -71,5 +133,7 @@
     \addcontentsline{toc}{chapter}{Conclusion}
 
     Text text text text
+
+    \printbibliography
 
 \end{document}
