@@ -74,7 +74,7 @@
 \usepackage{calc}
 \pagestyle{fancy}
 
-\setlength\headheight{26pt}
+\setlength\headheight{37pt}
 
 \renewcommand{\chaptermark}[1]{%
     \markboth{#1}{}}
@@ -84,11 +84,14 @@
 
 \begin{document}
 
+    \pagecolor{yellow}
+
     \makeatletter
     \begin{titlepage}
         \begin{center}
             \includegraphics[width=0.7\linewidth]{bcu logo}\\[4ex]
             {\huge \bfseries  \@title }\\[2ex]
+            {\huge \bfseries  DRAFT VERSION }\\[2ex]
             {\@author}\\[50ex]
             {\large \@date}
         \end{center}
@@ -97,6 +100,7 @@
     \thispagestyle{empty}
     \newpage
 
+    \pagecolor{white}
 
     \tableofcontents
     \chapter*{Introduction}\label{ch:introduction}

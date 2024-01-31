@@ -1,0 +1,5 @@
+! You may notice that in some bash commands, "gpg" and "gpg1" are used interchangably. This was due to an issue I was facing in this lab with a GPG incompatibility, solved by installing GNUPG,
+which uses the command "gpg1".
+
+Image 18: Note that the /tmp/secret file can be directly accessed by the command as it's a public folder.
+^ Probably don't need to say this though, you've already shown it via copy command
