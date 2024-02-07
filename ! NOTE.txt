@@ -1,5 +1,18 @@
-! You may notice that in some bash commands, "gpg" and "gpg1" are used interchangeably. This was due to an issue I was facing in this lab with a GPG incompatibility, solved by installing GNUPG,
-which uses the command "gpg1".
+Lab 2:
 
-Image 18: Note that the /tmp/secret file can be directly accessed by the command as it's a public folder.
-^ Probably don't need to say this though, you've already shown it via copy command
+! You may notice that in some bash commands, "gpg" and "gpg1" are used interchangeably. This was due to an issue I was facing in this lab with a GPG incompatibility, solved by installing GNUPG,
+which uses the command "gpg1".                         ^ Go through and redo it so that gpg is never used. Seen in image 14.
+
+Lab 2/3:
+
+-r flag when transferring the message specifies its recipient. So when you put -r bob, you're saying "encrypt with bob's public key". Obviously needs 
+the active user to acknowledge bob's key by having imported and signed it.
+
+Lab 3:
+
+Instead of signing the key, TRUST the key by saying trust.
+
+
+
+Anywhere that you're using a private key, the passphrase is the user's name. Applies to all passwords too.
+Base64 encoding == ASCII encoding. That's why it's -a.

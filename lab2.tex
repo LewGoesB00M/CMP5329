@@ -1,5 +1,11 @@
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=Important note]
+    In this lab and further labs using GPG, an incompatibility meant that instead
+    of using the base GPG program, the alternative \textbf{GnuPG1} was used.
+    Therefore, commands use the phrase "gpg1" instead of "gpg".
+\end{tcolorbox}
+
 This lab expanded on the concepts of asymmetric encryption through the use of\newline
-GPG/GnuPG (GNU Privacy Guard) to produce, sign and verify public and private keys.
+GPG/GnuPG (GNU Privacy Guard) to produce, sign and verify public and private keys.\\
 
 \section{Creating test users}\label{sec:testUsers}
 For this lab, two test users were created and used to execute the necessary commands.
@@ -76,8 +82,39 @@ and then the password of the given account.
 
 \pagebreak
 
-\section{Exchanging files over an insecure channel}\label{sec:tmpExchange}
+\section{Exchanging encrypted files over an insecure channel}\label{sec:tmpExchange}
+\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black]
+    For this section, assume that all commands have been executed on \textbf{both} the Bob and Alice
+    user accounts unless stated otherwise.
+\end{tcolorbox}
 On standard Linux distributions, the /tmp directory is a public directory accessible to all users.
-For this reason, it is therefore unsecure, as every user on the system can access the files placed there.
+For this reason, it is therefore insecure, as every user on the system can read the files placed there.\footnote{However, they cannot update/change them without sudo permissions.}
+To transfer files across insecure channels such as /tmp/, they should first be encrypted so that
+they can only be read and/or used by their intended recipient.
+Therefore, GNU Privacy Guard (GPG hereafter) can be used to generate and store public
+and private asymmetric keys.
+
+\subsection{Generating private keys}
+
+To generate a private key, the command "gpg1 --gen-key" can be used.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.5\linewidth]{lab2/9}
+    \caption{Generating a private key for Bob.}
+    \label{fig:GPGgen}
+\end{figure}
+
+This will open a submenu where the user can select the kind of key they wish to generate,
+as well as the size and expiry date of the key.
+Once this is established, they must create a user ID if they didn't already have one,
+consisting of their full name, email address and an optional comment.
+While the key generates, the user is prompted to perform random inputs such as moving the mouse
+and typing on the keyboard to enhance the randomness of the generated key.
+
+
+
+
+
 
 
