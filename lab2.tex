@@ -83,7 +83,7 @@ and then the password of the given account.
 \pagebreak
 
 \section{Exchanging encrypted files over an insecure channel}\label{sec:tmpExchange}
-\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black]
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
     For this section, assume that all commands have been executed on \textbf{both} the Bob and Alice
     user accounts unless stated otherwise.
 \end{tcolorbox}
@@ -94,14 +94,14 @@ they can only be read and/or used by their intended recipient.
 Therefore, GNU Privacy Guard (GPG hereafter) can be used to generate and store public
 and private asymmetric keys.
 
-\subsection{Generating private keys}
+\subsection{Generating public/private key-pairs}\label{subsec:generating-private-keys}
 
 To generate a private key, the command "gpg1 --gen-key" can be used.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=.5\linewidth]{lab2/9}
-    \caption{Generating a private key for Bob.}
+    \caption{Generating a private key.}
     \label{fig:GPGgen}
 \end{figure}
 
@@ -111,10 +111,39 @@ Once this is established, they must create a user ID if they didn't already have
 consisting of their full name, email address and an optional comment.
 While the key generates, the user is prompted to perform random inputs such as moving the mouse
 and typing on the keyboard to enhance the randomness of the generated key.
+A key was also generated for Alice.
+
+\subsection{Exporting public keys}\label{subsec:exporting-public-keys}
+It is possible to export the public keys from the generated key-pairs using GPG's export command.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\linewidth]{lab2/11b}
+    \caption{Exporting Alice's public key.}
+    \label{fig:GPGexport}
+\end{figure}
+
+\noindent This exports the public key in ASCII format (due to the use of the -a flag) to the file "alicepub.asc".
+This can be seen by using "ls" to show the files in the directory.\footnote{The file can be read using "cat alicepub.asc", but it is a 2048-bit key, so it fills the terminal window.}
+Because this is Alice's \textbf{public} key, we are comfortable sharing this to the public /tmp/ directory where all
+users can see it.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\linewidth]{lab2/13}
+    \caption{Copying Alice's public key to /tmp.}
+    \label{fig:alicePubTmp}
+\end{figure}
 
 
+\subsection{Importing and signing public keys}\label{subsec:importing-public-keys}
+Now that Alice's public key is in /tmp, Bob can copy this to his own directory and import it using GPG\@.
 
-
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\linewidth]{lab2/14}
+    \caption{Importing Alice's public key as Bob.}
+    \label{fig:importAlice}
+\end{figure}
 
 
