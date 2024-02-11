@@ -1,0 +1,25 @@
+\babel@toc {british}{}\relax 
+\contentsline {chapter}{Introduction}{2}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Lab 1 - OpenSSL}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Version checking and ciphers}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Symmetric encryption}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}DES symmetric encryption}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}AES256 symmetric encryption and decryption}{5}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Asymmetric encryption}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Generating an RSA private key}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Storing DES3 \& passphrase encrypted RSA keys in a file}{7}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Getting a public key from the private key}{8}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Obtaining a message/file digest}{9}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Signing a digest}{10}{subsection.1.3.5}%
+\contentsline {chapter}{\numberline {2}Lab 2 - Usage of GPG}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Creating test users}{12}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Elevating the terminal}{12}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Creating Bob and Alice}{12}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Exchanging encrypted files over an insecure channel}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Generating public/private key-pairs}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Exporting public keys}{16}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Importing and signing public keys}{16}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Encrypting and decrypting data}{18}{subsection.2.2.4}%
+\contentsline {chapter}{\numberline {3}Lab 5 - Discretionary Access Control}{20}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Lab 6 - Password Cracking}{21}{chapter.4}%
+\contentsline {chapter}{Conclusion}{22}{chapter*.34}%

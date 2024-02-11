@@ -146,4 +146,51 @@ Now that Alice's public key is in /tmp, Bob can copy this to his own directory a
     \label{fig:importAlice}
 \end{figure}
 
+\pagebreak
 
+\noindent Bob can then \textbf{sign} this key, verifying that he trusts that this key does belong to Alice.
+This is done by editing Alice's key as Bob, signing it, and then saving this.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.7\linewidth]{lab2/15}
+    \caption{Bob signing Alice's public key.}
+    \label{fig:signAliceKey}
+\end{figure}
+
+\pagebreak
+
+\subsection{Encrypting and decrypting data}\label{subsec:encrDecr}
+Now that Alice and Bob have their key-pairs generated, they can transfer asymmetrically encrypted data to each other.
+This was tested by making a file, encrypting it using Alice's public key, and copying it to the /tmp directory.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\linewidth]{lab2/16}
+    \caption{Making a file and encrypting it using Alice's public key.}
+    \label{fig:encLab2Msg}
+\end{figure}
+
+This command can be broken down to its components:
+\begin{itemize}
+    \item -r alice - Sets Alice as the recipient of the file by using her public key.
+    \item -o SECRET.asc - Outputs the encrypted data to SECRET.asc.
+    \item -sea message.txt - Sign and encrypt the contents of message.txt in ASCII format.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\linewidth]{lab2/17}
+    \caption{Copying the encrypted file to /tmp with the name "secret_to_alice.asc".}
+    \label{fig:copyLab2Msg}
+\end{figure}
+
+Alice can then decrypt "secret\_to\_alice.asc" and output the results to "message.txt", where they can then
+be read in human-legible form.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.9\linewidth]{lab2/18}
+    \caption{Decrypting the encrypted message and reading it.}
+    \label{fig:decryptLab2Msg}
+\end{figure}
