@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'CMP5329 Logbook.blg'
-[83] biber-MSWIN64:340> INFO - === 
-[114] Biber.pm:419> INFO - Reading 'CMP5329 Logbook.bcf'
-[194] Biber.pm:979> INFO - Found 2 citekeys in bib section 0
-[204] Biber.pm:4419> INFO - Processing section 0
-[212] Biber.pm:4610> INFO - Looking for bibtex file 'logbook.bib' for section 0
-[252] bibtex.pm:1713> INFO - LaTeX decoding ...
-[257] bibtex.pm:1519> INFO - Found BibTeX data source 'C:\Users\Lewis\DataspellProjects\Cybersec\logbook.bib'
-[287] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[287] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[287] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
-[287] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
-[292] bbl.pm:660> INFO - Writing 'CMP5329 Logbook.bbl' with encoding 'UTF-8'
-[292] bbl.pm:763> INFO - Output to CMP5329 Logbook.bbl
+[228] biber-MSWIN64:340> INFO - === 
+[282] Biber.pm:419> INFO - Reading 'CMP5329 Logbook.bcf'
+[441] Biber.pm:979> INFO - Found 2 citekeys in bib section 0
+[529] Biber.pm:4419> INFO - Processing section 0
+[548] Biber.pm:4610> INFO - Looking for bibtex file 'logbook.bib' for section 0
+[681] bibtex.pm:1713> INFO - LaTeX decoding ...
+[706] bibtex.pm:1519> INFO - Found BibTeX data source 'C:\Users\Lewis\DataspellProjects\CMP5329\logbook.bib'
+[781] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[781] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[781] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
+[781] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
+[794] bbl.pm:660> INFO - Writing 'CMP5329 Logbook.bbl' with encoding 'UTF-8'
+[796] bbl.pm:763> INFO - Output to CMP5329 Logbook.bbl

@@ -1,5 +1,5 @@
 \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=Important note]
-    In this lab and further labs using GPG, an incompatibility meant that instead
+    In this lab, an incompatibility meant that instead
     of using the base GPG program, the alternative \textbf{GnuPG1} was used.
     Therefore, commands use the phrase "gpg1" instead of "gpg".
 \end{tcolorbox}
@@ -25,22 +25,23 @@ To gain the necessary privileges, the command "sudo -s" or "sudo bash" can be en
 \subsection{Creating Bob and Alice}\label{subsec:createUsers}
 With the elevated privileges gained from being a superuser, it is now possible to add users to the system using
 "adduser" followed by the given username.
-A password will then be necessary, followed by optional information such as phone numbers, which are left empty
-for this lab.
+A password for the user will then be necessary, followed by optional information such as phone
+numbers, which are left blank for this lab.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.6\linewidth]{lab2/3}
-    \caption{Creating user 'bob'}
+    \includegraphics[width=.49\linewidth]{lab2/2}
+    \includegraphics[width=.49\linewidth]{lab2/3}
+    \caption{Creating users 'bob' and 'alice'.}
     \label{fig:createBob}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.6\linewidth]{lab2/2}
-    \caption{Creating user 'alice'.}
-    \label{fig:createAlice}
-\end{figure}
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=.6\linewidth]{lab2/2}
+%    \caption{Creating user 'alice'.}
+%    \label{fig:createAlice}
+%\end{figure}
 
 For ease of access, multiple terminal tabs can be open at a time, so I elected to use one for the superuser root,
 and one each for Bob and Alice.
@@ -58,16 +59,19 @@ with elevated permissions.
 \begin{figure}[H]
     \centering
     \includegraphics[width=.8\linewidth]{lab2/5}
+    \includegraphics[width=.8\linewidth]{lab2/5b}
     \caption{Adding bob and alice to sudo.}
     \label{fig:sudoAdd1}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.8\linewidth]{lab2/5b}
-    \caption{Adding bob and alice to sudo.}
-    \label{fig:sudoAdd2}
-\end{figure}
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=.8\linewidth]{lab2/5b}
+%    \caption{Adding bob and alice to sudo.}
+%    \label{fig:sudoAdd2}
+%\end{figure}
+
+% ^ Unnecessary because this can be one figure.
 
 It is possible to switch the active terminal user using the command "su" followed by the account to switch to,
 and then the password of the given account.
@@ -124,7 +128,7 @@ It is possible to export the public keys from the generated key-pairs using GPG'
 \end{figure}
 
 \noindent This exports the public key in ASCII format (due to the use of the -a flag) to the file "alicepub.asc".
-This can be seen by using "ls" to show the files in the directory.\footnote{The file can be read using "cat alicepub.asc", but it is a 2048-bit key, so it fills the terminal window.}
+This can be seen by using "ls" to show the files in the directory.\footnote{The file can be read using "cat alicepub.asc", but it is a 2048-bit key, so it would completely fill the terminal window.}
 Because this is Alice's \textbf{public} key, we are comfortable sharing this to the public /tmp/ directory where all
 users can see it.
 
@@ -181,7 +185,7 @@ This command can be broken down to its components:
 \begin{figure}[H]
     \centering
     \includegraphics[width=.9\linewidth]{lab2/17}
-    \caption{Copying the encrypted file to /tmp with the name "secret_to_alice.asc".}
+    \caption{Copying the encrypted file to /tmp with the name "secret\_to\_alice.asc".}
     \label{fig:copyLab2Msg}
 \end{figure}
 

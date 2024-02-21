@@ -1,0 +1,1 @@
+When dave signs the key and exports it, the resultant data is different because it now has dave's signature (metaphorically or literally?) on it.

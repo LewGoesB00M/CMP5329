@@ -20,6 +20,13 @@
 \contentsline {subsection}{\numberline {2.2.2}Exporting public keys}{16}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Importing and signing public keys}{16}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Encrypting and decrypting data}{18}{subsection.2.2.4}%
-\contentsline {chapter}{\numberline {3}Lab 5 - Discretionary Access Control}{20}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Lab 6 - Password Cracking}{21}{chapter.4}%
-\contentsline {chapter}{Conclusion}{22}{chapter*.34}%
+\contentsline {chapter}{\numberline {5}Lab 5 - Discretionary Access Control}{20}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Creating test users and groups}{20}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Creating groups}{20}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Adding users to groups}{20}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Using chmod and chgrp to assign permissions}{23}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Mnemonic and octal chmod}{23}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Restricting directory access}{23}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Using chown}{26}{subsection.5.2.3}%
+\contentsline {chapter}{\numberline {6}Lab 6 - Password Cracking}{28}{chapter.6}%
+\contentsline {chapter}{Conclusion}{29}{chapter*.45}%

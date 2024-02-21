@@ -119,8 +119,16 @@
     \end{itemize}
 
     As per module specifications, screenshots taken in each lab
-    include the date and time at which they were taken.
+    include the date and time at which they were taken.\\
 
+    \begin{tcolorbox}[colback=orange!5!white,colframe=orange!75!black,title=Example note]
+        Additional notes, such as minor issues encountered or omitted screenshots due to
+        work having been done in earlier labs, are documented using these orange notes.
+    \end{tcolorbox}
+
+    \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=Example important note]
+        Critical issues that required special workarounds are documented using these red notes.
+    \end{tcolorbox}
 
 
     \chapter{Lab 1 - OpenSSL}\label{ch:lab1}
@@ -131,6 +139,7 @@
     \chapter{Lab 2 - Usage of GPG}\label{ch:lab2}
     \input{lab2}
 
+    \addtocounter{chapter}{2} % Makes the chapter number 5, so sections show as "5.1", "5.1.1"
     \chapter{Lab 5 - Discretionary Access Control}\label{ch:lab5}
     \input{lab5}
 
@@ -140,7 +149,19 @@
     \chapter*{Conclusion}\label{ch:conclusion}
     \addcontentsline{toc}{chapter}{Conclusion}
 
-    Text text text text
+    \large\textbf{Remember to change the title page to not be yellow!}
+
+    Check Lab2 Sec \ref{subsec:sudo}, is sudo -s actually the same?
+    Also in Figure \ref{fig:sudoAdd1}, both of those are the same.
+
+    \noindent Looking at your header, specifically in Lab 5 as well, it may be worth
+    removing the "Lab 1 -" "Lab 2 -" parts of the chapter names as you already did it
+    using chapter numbering.
+
+
+    \large\textbf{You've not done what Lab 5 asks you to. Yes, you've demonstrated the knowledge,
+    but it's not in the specific way they wanted. Redo it with the /home/photos folder. Could just
+    mv it for rename but timestamps may snitch?}
 
     \printbibliography
 

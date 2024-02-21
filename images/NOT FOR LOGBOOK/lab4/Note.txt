@@ -1,0 +1,1 @@
+You technically never finished this lab because of something firewall-related preventing certbot from working properly? I'm not too sure.
