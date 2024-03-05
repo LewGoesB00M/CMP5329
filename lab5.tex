@@ -1,10 +1,10 @@
 This lab explored the use of Discretionary Access Control methods on a Linux system, which allows
-the owner of an object to assign the level of access that others will have to said object.
+the owner of an object to assign the level of access that other entities will have to said object.
 
 \section{Creating test users and groups}\label{sec:creating-test-users}
 
 \begin{tcolorbox}[colback=orange!5!white,colframe=orange!75!black,title=Note]
-    Commands not pictured in this section were already showcased and explained in
+    Creating users was already showcased and explained in
     further detail in Lab 2, specifically in figures~\ref{fig:sudo}, \ref{fig:createBob}
     and \ref{fig:sudoAdd1} of section \ref{sec:testUsers}.
 \end{tcolorbox}
@@ -59,6 +59,9 @@ Chmod is a command that changes the permissions for a given file or directory.
 It can change permissions for reading, writing and executing files for the owner of the file,
 a group of users, other users\footnote{Defined as users that aren't the owner or in an
 associated group with permissions.} or all users.
+I used \href{https://docs.nersc.gov/filesystems/unix-file-permissions/}{this help page}
+\autocite{chmodHelp} to assist in my learning of these commands as well as access control on UNIX
+systems.
 
 \subsection{Mnemonic and octal chmod}\label{subsec:mnemonic-and-octal-chmod}
 Chmod's arguments can be supplied as letters (mnemonic) or numbers (octal).
@@ -105,7 +108,7 @@ girls group, meaning they are considered as "other users".
 
 \begin{tcolorbox}[colback=orange!5!white,colframe=orange!75!black,title=Note]
     An issue arose here that I didn't have another user in the girls group to test access with.
-    To fix this, I went back and added the existing Alice account from Labs 1 and 2 to the girls group
+    To fix this, I went back and added the existing Alice account from Lab 2 to the girls group
     with \textit{sudo usermod -aG girls alice}.
 \end{tcolorbox}
 
@@ -144,7 +147,11 @@ again to allow girls to write files, which will then allow Alice to make the fil
 \pagebreak
 
 \subsection{Chgrp and chown}\label{subsec:using-chown}
-Chown is a comment similar to chgrp, which assigns a file or directory's ownership
+\begin{tcolorbox}[colback=orange!5!white,colframe=orange!75!black,title=Note]
+    I used different directory names ($BoysDirectory$ instead of $Photos$),
+    but I have still demonstrated all exercises from this lab.
+\end{tcolorbox}
+Chown is a command similar to chgrp, which assigns a file or directory's ownership
 to a specific user.
 For this example, we will create a directory in the shared /home folder and assign group ownership
 to Boys via chgrp, and using chmod to allow all Boys all permissions, and all other users
@@ -196,7 +203,7 @@ An important distinction to be made here is that these subdirectories are owned 
 Ali respectively.
 They do \textbf{not} inherit the boys group ownership by default, meaning that commands to
 change group permissions will be ineffective for other boys, as everyone who is not the owner
-is considered "other" unless chgrp is used.\footnote{Just to demonstrate this, it was not used.}
+is considered "other" unless chgrp is used, as seen in Figure \ref{fig:PeteAliDirFail}.
 
 \begin{figure}[H]
     \centering

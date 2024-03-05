@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.8)  21 FEB 2024 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.30)  5 MAR 2024 21:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -575,7 +575,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip72
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 51.
+Package hyperref Info: Option `colorlinks' set `true' on input line 54.
 
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
@@ -916,51 +916,75 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box69
 \tcb@temp=\box70
 )
+(C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count435
+\lst@gtempboxa=\box71
+\lst@token=\toks38
+\lst@length=\count436
+\lst@currlwidth=\dimen267
+\lst@column=\count437
+\lst@pos=\count438
+\lst@lostspace=\dimen268
+\lst@width=\dimen269
+\lst@newlines=\count439
+\lst@lineno=\count440
+\lst@maxwidth=\dimen270
+
+(C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count441
+\lst@skipnumbers=\count442
+\lst@framebox=\box72
+)
+(C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 87.
+(biblatex)                Setting 'uniquename=init' on input line 92.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'british'.
-(C:/Users\Lewis\DataspellProjects\CMP5329\auxil\CMP5329 Logbook.aux)
+(C:/Users\Lewis\DataspellProjects\Cybersec\auxil\CMP5329 Logbook.aux)
 \openout1 = `"CMP5329 Logbook.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
 
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count435
-\scratchdimen=\dimen267
-\scratchbox=\box71
-\nofMPsegments=\count436
-\nofMParguments=\count437
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count438
-\MPscratchDim=\dimen268
-\MPnumerator=\count439
-\makeMPintoPDFobject=\count440
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count443
+\scratchdimen=\dimen271
+\scratchbox=\box73
+\nofMPsegments=\count444
+\nofMParguments=\count445
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count446
+\MPscratchDim=\dimen272
+\MPnumerator=\count447
+\makeMPintoPDFobject=\count448
+\everyMPtoPDFconversion=\toks40
 )
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1008,6 +1032,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'british'...
 Package biblatex Info: ... file 'british.lbx' found.
@@ -1029,27 +1054,28 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"CMP5329 Logbook".bbl' found.
- (C:/Users\Lewis\DataspellProjects\CMP5329\auxil\CMP5329 Logbook.bbl)
-Package biblatex Info: Reference section=0 on input line 87.
-Package biblatex Info: Reference segment=0 on input line 87.
-Package hyperref Info: Link coloring ON on input line 87.
+ (C:/Users\Lewis\DataspellProjects\Cybersec\auxil\CMP5329 Logbook.bbl)
+Package biblatex Info: Reference section=0 on input line 92.
+Package biblatex Info: Reference segment=0 on input line 92.
+Package hyperref Info: Link coloring ON on input line 92.
 
-(C:/Users\Lewis\DataspellProjects\CMP5329\auxil\CMP5329 Logbook.out)
-(C:/Users\Lewis\DataspellProjects\CMP5329\auxil\CMP5329 Logbook.out)
+(C:/Users\Lewis\DataspellProjects\Cybersec\auxil\CMP5329 Logbook.out)
+(C:/Users\Lewis\DataspellProjects\Cybersec\auxil\CMP5329 Logbook.out)
 \@outlinefile=\write5
 \openout5 = `"CMP5329 Logbook.out"'.
 
-<images/bcu logo.png, id=130, 621.32124pt x 404.51125pt>
+\c@lstlisting=\count449
+<images/bcu logo.png, id=150, 621.32124pt x 404.51125pt>
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 94.
+Package pdftex.def Info: images/bcu logo.png  used on input line 99.
 (pdftex.def)             Requested size: 318.66948pt x 207.47075pt.
  [1
 
 {C:/Users/Lewis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Lewi
 s/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./im
-ages/bcu logo.png>] (C:/Users\Lewis\DataspellProjects\CMP5329\auxil\CMP5329 Log
-book.toc
+ages/bcu logo.png>]
+(C:/Users\Lewis\DataspellProjects\Cybersec\auxil\CMP5329 Logbook.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1057,6 +1083,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 4.
+
 
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
@@ -1069,11 +1096,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108     \chapter
+l.113     \chapter
                   *{Introduction}\label{ch:introduction} [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
@@ -1087,12 +1114,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 10.
-<images/lab1/2.png, id=184, 376.40625pt x 98.61844pt>
+<images/lab1/2.png, id=209, 376.40625pt x 98.61844pt>
 File: images/lab1/2.png Graphic file (type png)
 <use images/lab1/2.png>
 Package pdftex.def Info: images/lab1/2.png  used on input line 14.
 (pdftex.def)             Requested size: 409.71692pt x 107.3535pt.
-<images/lab1/3.png, id=185, 579.66562pt x 313.9228pt>
+<images/lab1/3.png, id=210, 579.66562pt x 313.9228pt>
 File: images/lab1/3.png Graphic file (type png)
 <use images/lab1/3.png>
 Package pdftex.def Info: images/lab1/3.png  used on input line 23.
@@ -1100,12 +1127,12 @@ Package pdftex.def Info: images/lab1/3.png  used on input line 23.
  [3
 
  <./images/lab1/2.png> <./images/lab1/3.png>]
-<images/lab1/4.png, id=200, 606.76688pt x 116.68594pt>
+<images/lab1/4.png, id=225, 606.76688pt x 116.68594pt>
 File: images/lab1/4.png Graphic file (type png)
 <use images/lab1/4.png>
 Package pdftex.def Info: images/lab1/4.png  used on input line 53.
 (pdftex.def)             Requested size: 409.71692pt x 78.79343pt.
-<images/lab1/5.png, id=201, 803.25093pt x 138.5175pt>
+<images/lab1/5.png, id=226, 803.25093pt x 138.5175pt>
 File: images/lab1/5.png Graphic file (type png)
 <use images/lab1/5.png>
 Package pdftex.def Info: images/lab1/5.png  used on input line 62.
@@ -1115,7 +1142,7 @@ File: images/bcu logo.png Graphic file (type png)
 Package pdftex.def Info: images/bcu logo.png  used on input line 75.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [4 <./images/lab1/4.png> <./images/lab1/5.png>]
-<images/lab1/6.png, id=215, 733.99219pt x 114.4275pt>
+<images/lab1/6.png, id=240, 733.99219pt x 114.4275pt>
 File: images/lab1/6.png Graphic file (type png)
 <use images/lab1/6.png>
 Package pdftex.def Info: images/lab1/6.png  used on input line 88.
@@ -1129,7 +1156,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--113
 
  []
 
-<images/lab1/7.png, id=223, 609.02531pt x 494.59781pt>
+<images/lab1/7.png, id=248, 609.02531pt x 494.59781pt>
 File: images/lab1/7.png Graphic file (type png)
 <use images/lab1/7.png>
 Package pdftex.def Info: images/lab1/7.png  used on input line 120.
@@ -1139,7 +1166,7 @@ File: images/bcu logo.png Graphic file (type png)
 Package pdftex.def Info: images/bcu logo.png  used on input line 129.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
 [6 <./images/lab1/7.png>]
-<images/lab1/8.png, id=233, 606.01407pt x 158.84344pt>
+<images/lab1/8.png, id=258, 606.01407pt x 158.84344pt>
 File: images/lab1/8.png Graphic file (type png)
 <use images/lab1/8.png>
 Package pdftex.def Info: images/lab1/8.png  used on input line 143.
@@ -1149,7 +1176,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
-<images/lab1/9.png, id=234, 554.82281pt x 316.18124pt>
+<images/lab1/9.png, id=259, 554.82281pt x 316.18124pt>
 File: images/lab1/9.png Graphic file (type png)
 <use images/lab1/9.png>
 Package pdftex.def Info: images/lab1/9.png  used on input line 161.
@@ -1159,12 +1186,12 @@ File: images/bcu logo.png Graphic file (type png)
 Package pdftex.def Info: images/bcu logo.png  used on input line 170.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
 [7 <./images/lab1/8.png> <./images/lab1/9.png>]
-<images/lab1/10.png, id=245, 554.82281pt x 180.675pt>
+<images/lab1/10.png, id=270, 554.82281pt x 180.675pt>
 File: images/lab1/10.png Graphic file (type png)
 <use images/lab1/10.png>
 Package pdftex.def Info: images/lab1/10.png  used on input line 173.
 (pdftex.def)             Requested size: 409.71692pt x 133.4217pt.
-<images/lab1/11.png, id=246, 542.77782pt x 194.22563pt>
+<images/lab1/11.png, id=271, 542.77782pt x 194.22563pt>
 File: images/lab1/11.png Graphic file (type png)
 <use images/lab1/11.png>
 Package pdftex.def Info: images/lab1/11.png  used on input line 185.
@@ -1178,12 +1205,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--204
 
  []
 
-<images/lab1/12.png, id=256, 532.23843pt x 142.28156pt>
+<images/lab1/12.png, id=281, 532.23843pt x 142.28156pt>
 File: images/lab1/12.png Graphic file (type png)
 <use images/lab1/12.png>
 Package pdftex.def Info: images/lab1/12.png  used on input line 208.
 (pdftex.def)             Requested size: 409.71692pt x 109.53108pt.
-<images/lab1/13.png, id=257, 414.04688pt x 88.07906pt>
+<images/lab1/13.png, id=282, 414.04688pt x 88.07906pt>
 File: images/lab1/13.png Graphic file (type png)
 <use images/lab1/13.png>
 Package pdftex.def Info: images/lab1/13.png  used on input line 218.
@@ -1193,12 +1220,12 @@ File: images/bcu logo.png Graphic file (type png)
 Package pdftex.def Info: images/bcu logo.png  used on input line 224.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
 [9 <./images/lab1/12.png> <./images/lab1/13.png>]
-<images/lab1/14.png, id=266, 728.7225pt x 130.23656pt>
+<images/lab1/14.png, id=291, 728.7225pt x 130.23656pt>
 File: images/lab1/14.png Graphic file (type png)
 <use images/lab1/14.png>
 Package pdftex.def Info: images/lab1/14.png  used on input line 237.
 (pdftex.def)             Requested size: 409.71692pt x 73.22409pt.
-<images/lab1/15.png, id=267, 529.22719pt x 112.92188pt>
+<images/lab1/15.png, id=292, 529.22719pt x 112.92188pt>
 File: images/lab1/15.png Graphic file (type png)
 <use images/lab1/15.png>
 Package pdftex.def Info: images/lab1/15.png  used on input line 248.
@@ -1208,12 +1235,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--255
 
  []
 
-<images/lab1/16.png, id=268, 733.99219pt x 89.58469pt>
+<images/lab1/16.png, id=293, 733.99219pt x 89.58469pt>
 File: images/lab1/16.png Graphic file (type png)
 <use images/lab1/16.png>
 Package pdftex.def Info: images/lab1/16.png  used on input line 261.
 (pdftex.def)             Requested size: 409.71692pt x 50.00714pt.
-<images/lab1/17.png, id=269, 725.71124pt x 102.3825pt>
+<images/lab1/17.png, id=294, 725.71124pt x 102.3825pt>
 File: images/lab1/17.png Graphic file (type png)
 <use images/lab1/17.png>
 Package pdftex.def Info: images/lab1/17.png  used on input line 272.
@@ -1225,7 +1252,7 @@ Package pdftex.def Info: images/bcu logo.png  used on input line 276.
 [10 <./images/lab1/14.png> <./images/lab1/15.png> <./images/lab1/16.png>])
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 137.
+Package pdftex.def Info: images/bcu logo.png  used on input line 146.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
 
 [11 <./images/lab1/17.png>]
@@ -1235,17 +1262,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
 
-<images/lab2/1.png, id=286, 407.27156pt x 142.28156pt>
+<images/lab2/1.png, id=311, 407.27156pt x 142.28156pt>
 File: images/lab2/1.png Graphic file (type png)
 <use images/lab2/1.png>
 Package pdftex.def Info: images/lab2/1.png  used on input line 20.
 (pdftex.def)             Requested size: 409.71692pt x 143.14093pt.
-<images/lab2/2.png, id=287, 379.4175pt x 292.09125pt>
+<images/lab2/2.png, id=312, 379.4175pt x 292.09125pt>
 File: images/lab2/2.png Graphic file (type png)
 <use images/lab2/2.png>
 Package pdftex.def Info: images/lab2/2.png  used on input line 33.
 (pdftex.def)             Requested size: 223.07211pt x 171.73064pt.
-<images/lab2/3.png, id=288, 374.90062pt x 292.09125pt>
+<images/lab2/3.png, id=313, 374.90062pt x 292.09125pt>
 File: images/lab2/3.png Graphic file (type png)
 <use images/lab2/3.png>
 Package pdftex.def Info: images/lab2/3.png  used on input line 34.
@@ -1253,17 +1280,17 @@ Package pdftex.def Info: images/lab2/3.png  used on input line 34.
 [12
 
  <./images/lab2/1.png>]
-<images/lab2/4.png, id=296, 648.92438pt x 92.59593pt>
+<images/lab2/4.png, id=321, 648.92438pt x 92.59593pt>
 File: images/lab2/4.png Graphic file (type png)
 <use images/lab2/4.png>
 Package pdftex.def Info: images/lab2/4.png  used on input line 51.
 (pdftex.def)             Requested size: 409.71692pt x 58.4643pt.
-<images/lab2/5.png, id=297, 409.53pt x 200.24812pt>
+<images/lab2/5.png, id=322, 409.53pt x 200.24812pt>
 File: images/lab2/5.png Graphic file (type png)
 <use images/lab2/5.png>
 Package pdftex.def Info: images/lab2/5.png  used on input line 61.
 (pdftex.def)             Requested size: 364.19667pt x 178.09193pt.
-<images/lab2/5b.png, id=298, 383.93437pt x 119.69719pt>
+<images/lab2/5b.png, id=323, 383.93437pt x 119.69719pt>
 File: images/lab2/5b.png Graphic file (type png)
 <use images/lab2/5b.png>
 Package pdftex.def Info: images/lab2/5b.png  used on input line 62.
@@ -1273,7 +1300,7 @@ File: images/bcu logo.png Graphic file (type png)
 Package pdftex.def Info: images/bcu logo.png  used on input line 66.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [13 <./images/lab2/2.png> <./images/lab2/3.png> <./images/lab2/4.png>]
-<images/lab2/5c.png, id=308, 449.42906pt x 246.1697pt>
+<images/lab2/5c.png, id=333, 449.42906pt x 246.1697pt>
 File: images/lab2/5c.png Graphic file (type png)
 <use images/lab2/5c.png>
 Package pdftex.def Info: images/lab2/5c.png  used on input line 81.
@@ -1283,12 +1310,12 @@ File: images/bcu logo.png Graphic file (type png)
 Package pdftex.def Info: images/bcu logo.png  used on input line 88.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [14 <./images/lab2/5.png> <./images/lab2/5b.png> <./images/lab2/5c.png>]
-<images/lab2/9.png, id=319, 504.38437pt x 719.68875pt>
+<images/lab2/9.png, id=344, 504.38437pt x 719.68875pt>
 File: images/lab2/9.png Graphic file (type png)
 <use images/lab2/9.png>
 Package pdftex.def Info: images/lab2/9.png  used on input line 107.
 (pdftex.def)             Requested size: 227.62206pt x 324.79037pt.
-<images/lab2/11b.png, id=320, 502.87875pt x 134.75343pt>
+<images/lab2/11b.png, id=345, 502.87875pt x 134.75343pt>
 File: images/lab2/11b.png Graphic file (type png)
 <use images/lab2/11b.png>
 Package pdftex.def Info: images/lab2/11b.png  used on input line 125.
@@ -1298,12 +1325,12 @@ File: images/bcu logo.png Graphic file (type png)
 Package pdftex.def Info: images/bcu logo.png  used on input line 128.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [15 <./images/lab2/9.png>]
-<images/lab2/13.png, id=329, 557.83406pt x 106.89937pt>
+<images/lab2/13.png, id=354, 557.83406pt x 106.89937pt>
 File: images/lab2/13.png Graphic file (type png)
 <use images/lab2/13.png>
 Package pdftex.def Info: images/lab2/13.png  used on input line 137.
 (pdftex.def)             Requested size: 409.71692pt x 78.51706pt.
-<images/lab2/14.png, id=330, 626.34pt x 187.45032pt>
+<images/lab2/14.png, id=355, 626.34pt x 187.45032pt>
 File: images/lab2/14.png Graphic file (type png)
 <use images/lab2/14.png>
 Package pdftex.def Info: images/lab2/14.png  used on input line 148.
@@ -1313,7 +1340,7 @@ File: images/bcu logo.png Graphic file (type png)
 Package pdftex.def Info: images/bcu logo.png  used on input line 154.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [16 <./images/lab2/11b.png> <./images/lab2/13.png> <./images/lab2/14.png>]
-<images/lab2/15.png, id=342, 531.48563pt x 525.46312pt>
+<images/lab2/15.png, id=367, 531.48563pt x 525.46312pt>
 File: images/lab2/15.png Graphic file (type png)
 <use images/lab2/15.png>
 Package pdftex.def Info: images/lab2/15.png  used on input line 160.
@@ -1323,17 +1350,17 @@ File: images/bcu logo.png Graphic file (type png)
 Package pdftex.def Info: images/bcu logo.png  used on input line 166.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [17 <./images/lab2/15.png>]
-<images/lab2/16.png, id=349, 524.71031pt x 252.19218pt>
+<images/lab2/16.png, id=374, 524.71031pt x 252.19218pt>
 File: images/lab2/16.png Graphic file (type png)
 <use images/lab2/16.png>
 Package pdftex.def Info: images/lab2/16.png  used on input line 173.
 (pdftex.def)             Requested size: 409.71692pt x 196.92845pt.
-<images/lab2/17.png, id=350, 488.57532pt x 106.89937pt>
+<images/lab2/17.png, id=375, 488.57532pt x 106.89937pt>
 File: images/lab2/17.png Graphic file (type png)
 <use images/lab2/17.png>
 Package pdftex.def Info: images/lab2/17.png  used on input line 187.
 (pdftex.def)             Requested size: 409.71692pt x 89.64641pt.
-<images/lab2/18.png, id=351, 563.85657pt x 279.29344pt>
+<images/lab2/18.png, id=376, 563.85657pt x 279.29344pt>
 File: images/lab2/18.png Graphic file (type png)
 <use images/lab2/18.png>
 Package pdftex.def Info: images/lab2/18.png  used on input line 197.
@@ -1341,22 +1368,22 @@ Package pdftex.def Info: images/lab2/18.png  used on input line 197.
 )
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 141.
+Package pdftex.def Info: images/bcu logo.png  used on input line 150.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [18 <./images/lab2/16.png> <./images/lab2/17.png>]
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 143.
+Package pdftex.def Info: images/bcu logo.png  used on input line 152.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [19 <./images/lab2/18.png>]
 Chapter 5.
 (lab5.tex
-<images/lab5/1.png, id=371, 331.99031pt x 174.6525pt>
+<images/lab5/1.png, id=396, 331.99031pt x 174.6525pt>
 File: images/lab5/1.png Graphic file (type png)
 <use images/lab5/1.png>
 Package pdftex.def Info: images/lab5/1.png  used on input line 20.
 (pdftex.def)             Requested size: 409.71692pt x 215.55415pt.
-<images/lab5/2.png, id=372, 377.15906pt x 173.14688pt>
+<images/lab5/2.png, id=397, 377.15906pt x 173.14688pt>
 File: images/lab5/2.png Graphic file (type png)
 <use images/lab5/2.png>
 Package pdftex.def Info: images/lab5/2.png  used on input line 32.
@@ -1364,12 +1391,12 @@ Package pdftex.def Info: images/lab5/2.png  used on input line 32.
  [20
 
  <./images/lab5/1.png>]
-<images/lab5/3.png, id=379, 339.51843pt x 170.88844pt>
+<images/lab5/3.png, id=404, 339.51843pt x 170.88844pt>
 File: images/lab5/3.png Graphic file (type png)
 <use images/lab5/3.png>
 Package pdftex.def Info: images/lab5/3.png  used on input line 41.
 (pdftex.def)             Requested size: 409.71692pt x 206.23067pt.
-<images/lab5/3b.png, id=380, 354.57469pt x 402.00188pt>
+<images/lab5/3b.png, id=405, 354.57469pt x 402.00188pt>
 File: images/lab5/3b.png Graphic file (type png)
 <use images/lab5/3b.png>
 Package pdftex.def Info: images/lab5/3b.png  used on input line 50.
@@ -1384,147 +1411,246 @@ File: images/bcu logo.png Graphic file (type png)
 Package pdftex.def Info: images/bcu logo.png  used on input line 56.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [22 <./images/lab5/3b.png>]
-<images/lab5/4.png, id=396, 391.4625pt x 158.09062pt>
+<images/lab5/4.png, id=424, 391.4625pt x 158.09062pt>
 File: images/lab5/4.png Graphic file (type png)
 <use images/lab5/4.png>
-Package pdftex.def Info: images/lab5/4.png  used on input line 82.
+Package pdftex.def Info: images/lab5/4.png  used on input line 85.
 (pdftex.def)             Requested size: 409.71692pt x 165.47176pt.
-<images/lab5/5.png, id=397, 315.42844pt x 158.09062pt>
+<images/lab5/5.png, id=425, 315.42844pt x 158.09062pt>
 File: images/lab5/5.png Graphic file (type png)
 <use images/lab5/5.png>
-Package pdftex.def Info: images/lab5/5.png  used on input line 100.
+Package pdftex.def Info: images/lab5/5.png  used on input line 103.
 (pdftex.def)             Requested size: 364.19667pt x 182.54335pt.
-<images/lab5/6.png, id=398, 390.70969pt x 158.09062pt>
+<images/lab5/6.png, id=426, 390.70969pt x 158.09062pt>
 File: images/lab5/6.png Graphic file (type png)
 <use images/lab5/6.png>
-Package pdftex.def Info: images/lab5/6.png  used on input line 101.
+Package pdftex.def Info: images/lab5/6.png  used on input line 104.
 (pdftex.def)             Requested size: 364.19667pt x 147.37012pt.
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 105.
+Package pdftex.def Info: images/bcu logo.png  used on input line 108.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [23 <./images/lab5/4.png>]
-<images/lab5/7.png, id=406, 565.36218pt x 164.11313pt>
+<images/lab5/7.png, id=436, 565.36218pt x 164.11313pt>
 File: images/lab5/7.png Graphic file (type png)
 <use images/lab5/7.png>
-Package pdftex.def Info: images/lab5/7.png  used on input line 117.
+Package pdftex.def Info: images/lab5/7.png  used on input line 120.
 (pdftex.def)             Requested size: 364.19667pt x 105.72067pt.
-<images/lab5/8.png, id=407, 393.72093pt x 120.45pt>
+<images/lab5/8.png, id=437, 393.72093pt x 120.45pt>
 File: images/lab5/8.png Graphic file (type png)
 <use images/lab5/8.png>
-Package pdftex.def Info: images/lab5/8.png  used on input line 127.
+Package pdftex.def Info: images/lab5/8.png  used on input line 130.
 (pdftex.def)             Requested size: 364.19667pt x 111.41632pt.
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 131.
+Package pdftex.def Info: images/bcu logo.png  used on input line 134.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [24 <./images/lab5/5.png> <./images/lab5/6.png> <./images/lab5/7.png>]
-<images/lab5/9.png, id=420, 350.81062pt x 106.89937pt>
+<images/lab5/9.png, id=449, 350.81062pt x 106.89937pt>
 File: images/lab5/9.png Graphic file (type png)
 <use images/lab5/9.png>
-Package pdftex.def Info: images/lab5/9.png  used on input line 138.
+Package pdftex.def Info: images/lab5/9.png  used on input line 141.
 (pdftex.def)             Requested size: 364.19667pt x 110.98676pt.
-<images/lab5/10.png, id=421, 403.5075pt x 136.25906pt>
+<images/lab5/10.png, id=450, 403.5075pt x 136.25906pt>
 File: images/lab5/10.png Graphic file (type png)
 <use images/lab5/10.png>
-Package pdftex.def Info: images/lab5/10.png  used on input line 139.
+Package pdftex.def Info: images/lab5/10.png  used on input line 142.
 (pdftex.def)             Requested size: 364.19667pt x 122.98546pt.
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 145.
+Package pdftex.def Info: images/bcu logo.png  used on input line 148.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [25 <./images/lab5/8.png> <./images/lab5/9.png> <./images/lab5/10.png>]
-<images/lab5/11.png, id=432, 385.44pt x 228.10219pt>
+<images/lab5/11.png, id=461, 385.44pt x 228.10219pt>
 File: images/lab5/11.png Graphic file (type png)
 <use images/lab5/11.png>
-Package pdftex.def Info: images/lab5/11.png  used on input line 155.
+Package pdftex.def Info: images/lab5/11.png  used on input line 162.
 (pdftex.def)             Requested size: 364.19667pt x 215.52983pt.
-<images/lab5/12.png, id=434, 492.33937pt x 133.24782pt>
+<images/lab5/12.png, id=463, 492.33937pt x 133.24782pt>
 File: images/lab5/12.png Graphic file (type png)
 <use images/lab5/12.png>
-Package pdftex.def Info: images/lab5/12.png  used on input line 169.
+Package pdftex.def Info: images/lab5/12.png  used on input line 176.
 (pdftex.def)             Requested size: 364.19667pt x 98.57133pt.
-<images/lab5/12b.png, id=435, 472.76625pt x 137.01187pt>
+<images/lab5/12b.png, id=464, 472.76625pt x 137.01187pt>
 File: images/lab5/12b.png Graphic file (type png)
 <use images/lab5/12b.png>
-Package pdftex.def Info: images/lab5/12b.png  used on input line 170.
+Package pdftex.def Info: images/lab5/12b.png  used on input line 177.
 (pdftex.def)             Requested size: 364.19667pt x 105.54964pt.
-<images/lab5/12c.png, id=436, 465.23813pt x 121.95563pt>
-File: images/lab5/12c.png Graphic file (type png)
-<use images/lab5/12c.png>
-Package pdftex.def Info: images/lab5/12c.png  used on input line 177.
-(pdftex.def)             Requested size: 364.19667pt x 95.47112pt.
-<images/lab5/12d.png, id=437, 453.94594pt x 118.94438pt>
-File: images/lab5/12d.png Graphic file (type png)
-<use images/lab5/12d.png>
-Package pdftex.def Info: images/lab5/12d.png  used on input line 178.
-(pdftex.def)             Requested size: 364.19667pt x 95.42786pt.
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 182.
+Package pdftex.def Info: images/bcu logo.png  used on input line 181.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
- [26 <./images/lab5/11.png> <./images/lab5/12.png> <./images/lab5/12b.png>]
-<images/lab5/13.png, id=448, 436.63126pt x 146.04562pt>
+ [26 <./images/lab5/11.png>]
+<images/lab5/12c.png, id=473, 465.23813pt x 121.95563pt>
+File: images/lab5/12c.png Graphic file (type png)
+<use images/lab5/12c.png>
+Package pdftex.def Info: images/lab5/12c.png  used on input line 184.
+(pdftex.def)             Requested size: 364.19667pt x 95.47112pt.
+<images/lab5/12d.png, id=474, 453.94594pt x 118.94438pt>
+File: images/lab5/12d.png Graphic file (type png)
+<use images/lab5/12d.png>
+Package pdftex.def Info: images/lab5/12d.png  used on input line 185.
+(pdftex.def)             Requested size: 364.19667pt x 95.42786pt.
+<images/lab5/13.png, id=475, 436.63126pt x 146.04562pt>
 File: images/lab5/13.png Graphic file (type png)
 <use images/lab5/13.png>
-Package pdftex.def Info: images/lab5/13.png  used on input line 188.
+Package pdftex.def Info: images/lab5/13.png  used on input line 195.
 (pdftex.def)             Requested size: 364.19667pt x 121.81728pt.
-<images/lab5/13b.png, id=449, 440.39531pt x 146.79843pt>
+<images/lab5/13b.png, id=476, 440.39531pt x 146.79843pt>
 File: images/lab5/13b.png Graphic file (type png)
 <use images/lab5/13b.png>
-Package pdftex.def Info: images/lab5/13b.png  used on input line 189.
+Package pdftex.def Info: images/lab5/13b.png  used on input line 196.
 (pdftex.def)             Requested size: 364.19667pt x 121.40363pt.
+File: images/bcu logo.png Graphic file (type png)
+<use images/bcu logo.png>
+Package pdftex.def Info: images/bcu logo.png  used on input line 201.
+(pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
+
+[27 <./images/lab5/12.png> <./images/lab5/12b.png> <./images/lab5/12c.png> <./i
+mages/lab5/12d.png>]
+<images/lab5/14.png, id=488, 493.845pt x 108.405pt>
+File: images/lab5/14.png Graphic file (type png)
+<use images/lab5/14.png>
+Package pdftex.def Info: images/lab5/14.png  used on input line 210.
+(pdftex.def)             Requested size: 364.19667pt x 79.9455pt.
+<images/lab5/14b.png, id=489, 442.65375pt x 119.69719pt>
+File: images/lab5/14b.png Graphic file (type png)
+<use images/lab5/14b.png>
+Package pdftex.def Info: images/lab5/14b.png  used on input line 211.
+(pdftex.def)             Requested size: 364.19667pt x 98.48656pt.
 )
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 146.
+Package pdftex.def Info: images/bcu logo.png  used on input line 155.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
- [27 <./images/lab5/12c.png> <./images/lab5/12d.png> <./images/lab5/13.png> <./
-images/lab5/13b.png>]
+ [28 <./images/lab5/13.png> <./images/lab5/13b.png> <./images/lab5/14.png> <./i
+mages/lab5/14b.png>]
 Chapter 6.
-(lab6.tex) [28
+(lab6.tex
+<images/lab6/1.png, id=502, 617.30624pt x 386.19281pt>
+File: images/lab6/1.png Graphic file (type png)
+<use images/lab6/1.png>
+Package pdftex.def Info: images/lab6/1.png  used on input line 13.
+(pdftex.def)             Requested size: 409.71692pt x 256.33177pt.
+<images/lab6/1b.png, id=503, 392.96812pt x 85.82062pt>
+File: images/lab6/1b.png Graphic file (type png)
+<use images/lab6/1b.png>
+Package pdftex.def Info: images/lab6/1b.png  used on input line 14.
+(pdftex.def)             Requested size: 409.71692pt x 89.4844pt.
+File: images/lab6/1.png Graphic file (type png)
+<use images/lab6/1.png>
+Package pdftex.def Info: images/lab6/1.png  used on input line 21.
+(pdftex.def)             Requested size: 409.71692pt x 256.33177pt.
+File: images/lab6/1b.png Graphic file (type png)
+<use images/lab6/1b.png>
+Package pdftex.def Info: images/lab6/1b.png  used on input line 22.
+(pdftex.def)             Requested size: 409.71692pt x 89.4844pt.
+ [29
 
-] [29
+ <./images/lab6/1.png> <./images/lab6/1b.png>]
+<images/lab6/3.png, id=512, 408.77719pt x 75.28125pt>
+File: images/lab6/3.png Graphic file (type png)
+<use images/lab6/3.png>
+Package pdftex.def Info: images/lab6/3.png  used on input line 52.
+(pdftex.def)             Requested size: 409.71692pt x 75.45909pt.
+<images/lab6/3b.png, id=513, 481.8pt x 73.77562pt>
+File: images/lab6/3b.png Graphic file (type png)
+<use images/lab6/3b.png>
+Package pdftex.def Info: images/lab6/3b.png  used on input line 62.
+(pdftex.def)             Requested size: 409.71692pt x 62.73994pt.
+File: images/bcu logo.png Graphic file (type png)
+<use images/bcu logo.png>
+Package pdftex.def Info: images/bcu logo.png  used on input line 66.
+(pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
+ [30 <./images/lab6/3.png>]
+<images/lab6/4.png, id=522, 516.42938pt x 267.24844pt>
+File: images/lab6/4.png Graphic file (type png)
+<use images/lab6/4.png>
+Package pdftex.def Info: images/lab6/4.png  used on input line 77.
+(pdftex.def)             Requested size: 409.71692pt x 212.03331pt.
+<images/lab6/4b.png, id=523, 425.33907pt x 304.13625pt>
+File: images/lab6/4b.png Graphic file (type png)
+<use images/lab6/4b.png>
+Package pdftex.def Info: images/lab6/4b.png  used on input line 84.
+(pdftex.def)             Requested size: 273.14923pt x 195.32407pt.
+File: images/bcu logo.png Graphic file (type png)
+<use images/bcu logo.png>
+Package pdftex.def Info: images/bcu logo.png  used on input line 93.
+(pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
+ [31 <./images/lab6/3b.png> <./images/lab6/4.png> <./images/lab6/4b.png>]
+<images/lab6/5.png, id=534, 736.25063pt x 87.32625pt>
+File: images/lab6/5.png Graphic file (type png)
+<use images/lab6/5.png>
+Package pdftex.def Info: images/lab6/5.png  used on input line 96.
+(pdftex.def)             Requested size: 409.71692pt x 48.59721pt.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+07.
+ (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+<images/lab6/6.png, id=536, 674.52pt x 96.36pt>
+File: images/lab6/6.png Graphic file (type png)
+<use images/lab6/6.png>
+Package pdftex.def Info: images/lab6/6.png  used on input line 130.
+(pdftex.def)             Requested size: 455.24411pt x 65.03577pt.
+<images/lab6/6b.png, id=537, 829.59938pt x 374.14781pt>
+File: images/lab6/6b.png Graphic file (type png)
+<use images/lab6/6b.png>
+Package pdftex.def Info: images/lab6/6b.png  used on input line 137.
+(pdftex.def)             Requested size: 409.71692pt x 184.7784pt.
+File: images/bcu logo.png Graphic file (type png)
+<use images/bcu logo.png>
+Package pdftex.def Info: images/bcu logo.png  used on input line 141.
+(pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
 
-] [30
+[32 <./images/lab6/5.png> <./images/lab6/6.png>])
+File: images/bcu logo.png Graphic file (type png)
+<use images/bcu logo.png>
+Package pdftex.def Info: images/bcu logo.png  used on input line 158.
+(pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
+ [33 <./images/lab6/6b.png>]
+[34
 
-]
-(C:/Users\Lewis\DataspellProjects\CMP5329\auxil\CMP5329 Logbook.aux)
+] [35
+
+] (C:/Users\Lewis\DataspellProjects\Cybersec\auxil\CMP5329 Logbook.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `"CMP5329 Logbook".out' has not changed.
-(rerunfilecheck)             Checksum: 3BE1631DFEE400817DA50C470840DC63;6203.
+(rerunfilecheck)             Checksum: EB9081F5664A3C6E3E774F3DE4456C65;6828.
 Package logreq Info: Writing requests to '"CMP5329 Logbook".run.xml'.
 \openout1 = `"CMP5329 Logbook.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31068 strings out of 474542
- 596693 string characters out of 5744447
- 1936978 words of memory out of 5000000
- 52747 multiletter control sequences out of 15000+600000
- 572285 words of font info for 65 fonts, out of 8000000 for 9000
+ 32620 strings out of 474541
+ 620741 string characters out of 5744425
+ 1938978 words of memory out of 5000000
+ 54265 multiletter control sequences out of 15000+600000
+ 572598 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,15n,93p,692b,2365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfb
-x1200.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-s
-uper/sfbx1440.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/cm-super/sfbx1728.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/cm-super/sfbx2488.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/cm-super/sfcc1200.pfb><C:/Users/Lewis/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users/Lewis/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/Lewis/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/Lew
-is/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/U
-sers/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.p
-fb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sf
-ti1200.pfb>
-Output written on "C:/Users\Lewis\DataspellProjects\CMP5329\out\CMP5329 Logbook
-.pdf" (31 pages, 2109459 bytes).
+<C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-
+super/sfbx1200.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/cm-super/sfbx1440.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/cm-super/sfbx1728.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Users/Lewis/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/cm-super/sfcc1200.pfb><C:/Users/Lewis/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users/Lewis/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/Le
+wis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/
+Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.
+pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/s
+frm1440.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm
+-super/sfti1200.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/cm-super/sftt1200.pfb>
+Output written on "C:/Users\Lewis\DataspellProjects\Cybersec\out\CMP5329 Logboo
+k.pdf" (36 pages, 2601138 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 116 named destinations out of 1000 (max. 500000)
- 511 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 661 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 500000)
+ 606 words of extra memory for PDF output out of 10000 (max. 10000000)
 

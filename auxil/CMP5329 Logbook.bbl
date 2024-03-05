@@ -19,6 +19,43 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{accStorage}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1cae381c203fd1241b5efcd033a26df0}{%
+           family={Gite},
+           familyi={G\bibinitperiod},
+           given={Vivek},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1cae381c203fd1241b5efcd033a26df0}
+      \strng{fullhash}{1cae381c203fd1241b5efcd033a26df0}
+      \strng{bibnamehash}{1cae381c203fd1241b5efcd033a26df0}
+      \strng{authorbibnamehash}{1cae381c203fd1241b5efcd033a26df0}
+      \strng{authornamehash}{1cae381c203fd1241b5efcd033a26df0}
+      \strng{authorfullhash}{1cae381c203fd1241b5efcd033a26df0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{2}
+      \field{title}{Understanding /etc/passwd File Format}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/
+      \endverb
+      \verb{url}
+      \verb https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/
+      \endverb
+    \endentry
     \entry{openSSLHelp}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=acfd0303db210b722254eed1219e1a7f}{%
@@ -92,6 +129,23 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S016975529600089X
+      \endverb
+    \endentry
+    \entry{chmodHelp}{online}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Unix File Permissions}
+      \field{urlday}{21}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.nersc.gov/filesystems/unix-file-permissions/
+      \endverb
+      \verb{url}
+      \verb https://docs.nersc.gov/filesystems/unix-file-permissions/
       \endverb
     \endentry
   \enddatalist
