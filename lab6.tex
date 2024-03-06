@@ -18,8 +18,8 @@ file contains the encrypted passwords of users on the system.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.9\linewidth]{lab6/1}
-    \includegraphics[width=.9\linewidth]{lab6/1b}
+    \includegraphics[width=.9\linewidth]{lab6/2}
+    \includegraphics[width=.9\linewidth]{lab6/2b}
     \caption{Some of the contents of /etc/shadow, with the created users from earlier labs.}
     \label{fig:etcshadow}
 \end{figure}
@@ -40,12 +40,13 @@ file contains the encrypted passwords of users on the system.
 
 
 \section{crack.c}\label{sec:crack.c}
-The provided code in crack.c is a small program that cracks passwords against the builtin Ubuntu dictionary,
-located in $/usr/share/dict/words$.
+The provided code in crack.c is a small program that performs a dictionary attack,
+cracking hashed passwords by hashing each word in the dictionary, adding the salt
+and comparing the product to the hashed password.
+The Ubuntu dictionary is located in $/usr/share/dict/words$.
 
 \subsection{Importing and compilation}\label{subsec:importing-and-compilation}
 First, this code must be ported into the Ubuntu VM using "nano crack.c", and pasting the code from Moodle
-into the file.
 
 \begin{figure}[H]
     \centering
@@ -55,7 +56,7 @@ into the file.
 \end{figure}
 
 Because C code can't be natively run, it must first be compiled.
-This creates an executable called 'crack'.
+This creates an executable called 'crack' which we will later run.
 
 \begin{figure}[H]
     \centering
@@ -66,6 +67,8 @@ This creates an executable called 'crack'.
 
 The '-lcrypt' argument supplies the Linux crypt library when compiling, allowing the crypt() function
 to be used more securely.
+
+\pagebreak
 
 \subsection{Creating a test user}\label{subsec:creating-a-test-user}
 To use the program, it will be necessary to create a new user, whose password can be found in the dictionary.
@@ -87,7 +90,7 @@ We can see if 'peach' appears in the dictionary, as well as the overall dictiona
 \end{figure}
 
 It will then be necessary to get the hashed version of Fred's password, which can be done using
-"cat /etc/shadow | grep fred | awk -F: '\{ print \$2 \}'.
+"\textbf{cat /etc/shadow | grep fred | awk -F: '\{ print \$2 \}'}".
 This command will read the shadow file, selecting the row starting with 'fred'.
 Then, it will extract his hash by selecting the second column.
 

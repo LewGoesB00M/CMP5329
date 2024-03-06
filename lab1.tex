@@ -130,6 +130,7 @@ store it anywhere on the system.
 \subsection{Storing DES3 \& passphrase encrypted RSA keys in a file}\label{subsec:storing-keys-in-file}
 The key generated can then be encrypted using an encryption algorithm, which would be DES3 for this example,
 and a passphrase.
+DES3 is a format that uses the DES algorithm three times.
 Upon doing this, the key can be stored into a .pem file, also known as a Privacy Enhanced Mail file, which is
 a file format 'to provide the creation and validation of digital signatures, and in addition the
 encryption and decryption of signed data, based on asymmetric and symmetric cryptography.'
@@ -250,8 +251,8 @@ as the argument.
     \label{fig:base64Digest}
 \end{figure}
 
-This doesn't have any use other than allowing us to see the key in a Base64 format - the key functions even
-if it can't be conventionally read. \newline
+%This doesn't have any use other than allowing us to see the key in a Base64 format;
+%the key will function even if it can't be conventionally read. \newline
 
 Now that we have the signed digest, it can be verified using the public key, which confirms the authenticity
 of the data in example.txt.
@@ -264,8 +265,9 @@ of the data in example.txt.
 \end{figure}
 
 This returns "Verified OK" as intended, as the file has not been modified.
-If the file does get modified through either corruption or a threat actor, the digest would not be the same,
-which can be verified by modifying the file ourselves and then verifying the digest of the file once again.
+If the file does get modified through either corruption or a threat actor's inteference,
+the digest would not be the same, which we can verify by modifying the file ourselves
+and then verifying the digest of the file once again.
 
 \begin{figure}[H]
     \centering

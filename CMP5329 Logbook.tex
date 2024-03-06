@@ -22,9 +22,8 @@
     style=authoryear,
     dashed=false, % re-print recurring author names in bibliography
     natbib=true,
-    natbib=true,
     url=false
-]{biblatex}
+]{biblatex} % biblatex config for harvard refs
 
 \renewbibmacro*{volume+number+eid}{%
     \printfield{volume}%
@@ -87,8 +86,6 @@
 \lhead{Lewis Higgins - ID 22133848~~~~~~~~~~~~~~~\includegraphics[width=1.75cm]{bcu logo}}
 \fancyhead[R]{\leftmark}
 
-\usepackage{listings}
-
 \begin{document}
 
     \pagecolor{yellow}
@@ -110,6 +107,8 @@
     \pagecolor{white}
 
     \tableofcontents
+    \footnotesize{\listoffigures}
+
     \chapter*{Introduction}\label{ch:introduction}
     \addcontentsline{toc}{chapter}{Introduction}
 
@@ -155,22 +154,20 @@
     \chapter{Password Cracking}\label{ch:lab6n}
     \input{lab6}
 
-    \chapter*{Conclusion}\label{ch:conclusion}
-    \addcontentsline{toc}{chapter}{Conclusion}
+    \chapter*{Relective report}\label{ch:conclusion}
+    \addcontentsline{toc}{chapter}{Reflective report}
 
     \large\textbf{Remember to change the title page to not be yellow!}
 
-    Check Lab2 Sec \ref{subsec:sudo}, is sudo -s actually the same?
-    Also in Figure \ref{fig:sudoAdd1}, both of those are the same.
+    \textbf{Heavily} reduce word count.
+    You're near 5000 before the conclusion, ideally it should be 3000/3500 \textbf{MAX}.
 
-    \noindent Looking at your header, specifically in Lab 5 as well, it may be worth
-    removing the "Lab 1 -" "Lab 2 -" parts of the chapter names as you already did it
-    using chapter numbering.
+    Check Lab2 Sec~\ref{subsec:sudo}, is sudo -s actually the same?
 
-
-    \large\textbf{You've not done what Lab 5 asks you to. Yes, you've demonstrated the knowledge,
-    but it's not in the specific way they wanted. Redo it with the /home/photos folder. Could just
-    mv it for rename but timestamps may snitch?}
+    \large\textbf{You've not necessarily done what Lab 5 asks you to.
+    Yes, you've demonstrated the knowledge, but it's not in the specific way they wanted.
+    Redo it with the /home/photos folder. Could just mv it for rename, but you'll need to
+    redo your screenshots.}
 
     \printbibliography
 

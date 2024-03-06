@@ -58,7 +58,6 @@ with elevated permissions.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.8\linewidth]{lab2/5}
     \includegraphics[width=.8\linewidth]{lab2/5b}
     \caption{Adding bob and alice to sudo.}
     \label{fig:sudoAdd1}
@@ -79,15 +78,18 @@ and then the password of the given account.
 \begin{figure}[H]
     \centering
     \includegraphics[width=.9\linewidth]{lab2/5c}
-    \caption{Switching the active terminal user. Note the prompt about running commands as an administrator,
-    which signifies that they were successfully added to the sudo group.}
+    \caption{Switching the active terminal user.}
     \label{fig:suBobAlice}
 \end{figure}
+
+Note the prompt about running commands as an administrator,
+which signifies that they were successfully added to the sudo group.
+
 
 \pagebreak
 
 \section{Exchanging encrypted files over an insecure channel}\label{sec:tmpExchange}
-\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+\begin{tcolorbox}[colback=orange!5!white,colframe=orange!75!black]
     For this section, assume that all commands have been executed on \textbf{both} the Bob and Alice
     user accounts unless stated otherwise.
 \end{tcolorbox}
@@ -116,6 +118,8 @@ consisting of their full name, email address and an optional comment.
 While the key generates, the user is prompted to perform random inputs such as moving the mouse
 and typing on the keyboard to enhance the randomness of the generated key.
 A key was also generated for Alice.
+
+\pagebreak
 
 \subsection{Exporting public keys}\label{subsec:exporting-public-keys}
 It is possible to export the public keys from the generated key-pairs using GPG's export command.
