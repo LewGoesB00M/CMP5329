@@ -13,7 +13,7 @@ For this lab, two test users were created and used to execute the necessary comm
 \subsection{Elevating the terminal}\label{subsec:sudo}
 To add users to the system, administrative privileges are required.
 To gain the necessary privileges, the command "sudo -s" or "sudo bash" can be entered
-(both commands are functionally identical) which will change the terminal to be at root level.
+which will change the terminal to be at root level.
 
 \begin{figure}[H]
     \centering
@@ -23,10 +23,9 @@ To gain the necessary privileges, the command "sudo -s" or "sudo bash" can be en
 \end{figure}
 
 \subsection{Creating Bob and Alice}\label{subsec:createUsers}
-With the elevated privileges gained from being a superuser, it is now possible to add users to the system using
-"adduser" followed by the given username.
+Sudo allows us to add users to the system using "adduser" followed by the given username.
 A password for the user will then be necessary, followed by optional information such as phone
-numbers, which are left blank for this lab.
+numbers, which are left blank.
 
 \begin{figure}[H]
     \centering
@@ -63,14 +62,7 @@ with elevated permissions.
     \label{fig:sudoAdd1}
 \end{figure}
 
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=.8\linewidth]{lab2/5b}
-%    \caption{Adding bob and alice to sudo.}
-%    \label{fig:sudoAdd2}
-%\end{figure}
 
-% ^ Unnecessary because this can be one figure.
 
 It is possible to switch the active terminal user using the command "su" followed by the account to switch to,
 and then the password of the given account.
@@ -82,10 +74,6 @@ and then the password of the given account.
     \label{fig:suBobAlice}
 \end{figure}
 
-Note the prompt about running commands as an administrator,
-which signifies that they were successfully added to the sudo group.
-
-
 \pagebreak
 
 \section{Exchanging encrypted files over an insecure channel}\label{sec:tmpExchange}
@@ -93,16 +81,15 @@ which signifies that they were successfully added to the sudo group.
     For this section, assume that all commands have been executed on \textbf{both} the Bob and Alice
     user accounts unless stated otherwise.
 \end{tcolorbox}
-On standard Linux distributions, the /tmp directory is a public directory accessible to all users.
-For this reason, it is therefore insecure, as every user on the system can read the files placed there.\footnote{However, they cannot update/change them without sudo permissions.}
+On standard Linux distributions, the /tmp directory is a public directory where all users can read files placed there.
+\footnote{However, they cannot update/change them without sudo permissions.}
 To transfer files across insecure channels such as /tmp/, they should first be encrypted so that
 they can only be read and/or used by their intended recipient.
-Therefore, GNU Privacy Guard (GPG hereafter) can be used to generate and store public
-and private asymmetric keys.
+Therefore, GPG can be used to generate and store public and private asymmetric keys.
 
 \subsection{Generating public/private key-pairs}\label{subsec:generating-private-keys}
 
-To generate a private key, the command "gpg1 --gen-key" can be used.
+"gpg1 --gen-key" generates a private key.
 
 \begin{figure}[H]
     \centering
@@ -112,11 +99,10 @@ To generate a private key, the command "gpg1 --gen-key" can be used.
 \end{figure}
 
 This will open a submenu where the user can select the kind of key they wish to generate,
-as well as the size and expiry date of the key.
-Once this is established, they must create a user ID if they didn't already have one,
-consisting of their full name, email address and an optional comment.
-While the key generates, the user is prompted to perform random inputs such as moving the mouse
-and typing on the keyboard to enhance the randomness of the generated key.
+and its size and expiry date
+After this, they must create a user ID if one doesn't exist, with their full name,
+email address and an optional comment.
+While the key generates, the user is prompted to perform random inputs to enhance its entropy.
 A key was also generated for Alice.
 
 \pagebreak
@@ -132,7 +118,7 @@ It is possible to export the public keys from the generated key-pairs using GPG'
 \end{figure}
 
 \noindent This exports the public key in ASCII format (due to the use of the -a flag) to the file "alicepub.asc".
-This can be seen by using "ls" to show the files in the directory.\footnote{The file can be read using "cat alicepub.asc", but it is a 2048-bit key, so it would completely fill the terminal window.}
+\footnote{The file can be read using "cat alicepub.asc", but it is a 2048-bit key, so it would completely fill the terminal window.}
 Because this is Alice's \textbf{public} key, we are comfortable sharing this to the public /tmp/ directory where all
 users can see it.
 
@@ -145,7 +131,7 @@ users can see it.
 
 
 \subsection{Importing and signing public keys}\label{subsec:importing-public-keys}
-Now that Alice's public key is in /tmp, Bob can copy this to his own directory and import it using GPG\@.
+Bob can copy and import Alice's public key from /tmp\@.
 
 \begin{figure}[H]
     \centering
@@ -157,7 +143,7 @@ Now that Alice's public key is in /tmp, Bob can copy this to his own directory a
 \pagebreak
 
 \noindent Bob can then \textbf{sign} this key, verifying that he trusts that this key does belong to Alice.
-This is done by editing Alice's key as Bob, signing it, and then saving this.
+This is done by editing Alice's key as Bob and signing it.
 
 \begin{figure}[H]
     \centering
@@ -181,9 +167,9 @@ This was tested by making a file, encrypting it using Alice's public key, and co
 
 This command can be broken down to its components:
 \begin{itemize}
-    \item -r alice - Sets Alice as the recipient of the file by using her public key.
+    \item -r alice - Uses Alice's public key for encryption.
     \item -o SECRET.asc - Outputs the encrypted data to SECRET.asc.
-    \item -sea message.txt - Sign and encrypt the contents of message.txt in ASCII format.
+    \item -sea message.txt - \textbf{S}ign and \textbf{e}ncrypt the contents of message.txt in \textbf{A}SCII format.
 \end{itemize}
 
 \begin{figure}[H]
@@ -193,8 +179,7 @@ This command can be broken down to its components:
     \label{fig:copyLab2Msg}
 \end{figure}
 
-Alice can then decrypt "secret\_to\_alice.asc" and output the results to "message.txt", where they can then
-be read in human-legible form.
+Alice can decrypt the file to "message.txt", where it can be read in human-legible form.
 
 \begin{figure}[H]
     \centering

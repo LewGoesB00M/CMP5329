@@ -24,8 +24,7 @@ With sudo privileges, additional groups can be added to the system.
 
 \subsection{Adding users to groups}\label{subsec:adding-users-to-groups}
 
-The new users were added to the groups mentioned above as well as the sudo group, enabling
-their user accounts to run commands with sudo privileges.
+The new users were added to the groups mentioned above as well as the sudo group.
 
 \begin{figure}[H]
     \centering
@@ -34,7 +33,7 @@ their user accounts to run commands with sudo privileges.
     \label{fig:addToGroup}
 \end{figure}
 
-We can verify which groups a given user is in by using the "groups [username]" command.
+We can verify which groups a given user is in by using the "groups" command.
 
 \begin{figure}[H]
     \centering
@@ -55,29 +54,18 @@ This can also be checked by viewing all groups on the system via "getent groups"
 \pagebreak
 
 \section{Using chmod and chgrp to assign permissions}\label{sec:using-chmod}
-Chmod is a command that changes the permissions for a given file or directory.
+Chmod changes the permissions for a given file or directory.
 It can change permissions for reading, writing and executing files for the owner of the file,
-a group of users, other users\footnote{Defined as users that aren't the owner or in an
-associated group with permissions.} or all users.
+a group of users and other users\footnote{Defined as users that aren't the owner or in an
+associated group with permissions.}.
 I used \href{https://docs.nersc.gov/filesystems/unix-file-permissions/}{this help page}
 \autocite{chmodHelp} to assist in my learning of these commands as well as access control on UNIX
 systems.
 
-\subsection{Mnemonic and octal chmod}\label{subsec:mnemonic-and-octal-chmod}
-Chmod's arguments can be supplied as letters (mnemonic) or numbers (octal).
-Functionally, there is no difference between the two, as the permissions will be changed regardless.
-A mnemonic chmod command would be "chmod a \+rwx message.txt", which gives all users read, write
-and execute permissions for the file message.txt.
-An octal chmod command would be "chmod 777 message.txt", which gives the owner, group members
-and others read, write and execute permissions.
-The number 777 correlates to this because octal chmod operates by numeric sums.
-Reading permissions are the number 4, writing is the number 2 and executing is the number 1.
-Adding these together results in the number 7.
-
 \subsection{Restricting directory access}\label{subsec:chgrp}
-For the purposes of testing, a directory called D1 was added to user Mary's home.
-This directory was associated with the girls group via chgrp, and modified with an octal chmod
-command so that other users cannot access the directory whatsoever, but Mary herself and users
+For the purposes of testing, a directory called D1 was added to Mary's home.
+This directory was associated with the girls group via chgrp, and modified with a chmod
+command so that other users cannot access the directory whatsoever, but Mary and users
 of the girls group can read and execute from it.
 
 \begin{figure}[H]
@@ -95,8 +83,8 @@ The returned message reveals that:
     \item Others can only e\textbf{X}ecute.
 \end{itemize}
 
-This can be tested using Ali and Pete's accounts, which are members of the boys group and not of the
-girls group, meaning they are considered as "other users".
+This can be tested using Ali and Pete's accounts, which are not members of the
+girls group, meaning they are "others".
 
 \begin{figure}[H]
     \centering
@@ -122,8 +110,8 @@ which succeeds.
     \label{fig:girlsD1}
 \end{figure}
 
-Because of the permissions set, Alice is permitted to read the d1 directory and execute files
-within it, but she cannot write any files of her own, which is expected behaviour.
+Alice is permitted to read the d1 directory and execute files
+within it, but she cannot write to it, as intended.
 
 \begin{figure}[H]
     \centering
@@ -151,8 +139,7 @@ again to allow girls to write files, which will then allow Alice to make the fil
     I used different directory names ($BoysDirectory$ instead of $Photos$),
     but I have still demonstrated all exercises from this lab.
 \end{tcolorbox}
-Chown is a command similar to chgrp, which assigns a file or directory's ownership
-to a specific user.
+Chown assigns a file or directory's ownership to a specific user.
 For this example, we will create a directory in the shared /home folder and assign group ownership
 to Boys via chgrp, and using chmod to allow all Boys all permissions, and all other users
 read \& execute permissions.
