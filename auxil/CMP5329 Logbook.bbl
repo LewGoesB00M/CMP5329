@@ -19,6 +19,43 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{NR}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7bbef90440b39193b04feafd21ea6a10}{%
+           family={Awati},
+           familyi={A\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7bbef90440b39193b04feafd21ea6a10}
+      \strng{fullhash}{7bbef90440b39193b04feafd21ea6a10}
+      \strng{bibnamehash}{7bbef90440b39193b04feafd21ea6a10}
+      \strng{authorbibnamehash}{7bbef90440b39193b04feafd21ea6a10}
+      \strng{authornamehash}{7bbef90440b39193b04feafd21ea6a10}
+      \strng{authorfullhash}{7bbef90440b39193b04feafd21ea6a10}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{8}
+      \field{title}{What is nonrepudiation?}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.techtarget.com/searchsecurity/definition/nonrepudiation
+      \endverb
+      \verb{url}
+      \verb https://www.techtarget.com/searchsecurity/definition/nonrepudiation
+      \endverb
+    \endentry
     \entry{accStorage}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1cae381c203fd1241b5efcd033a26df0}{%
@@ -93,6 +130,35 @@
       \verb https://www.madboa.com/geek/openssl/#how-do-i-simply-encrypt-a-file
       \endverb
     \endentry
+    \entry{KSCryptography}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=071bf7e58e3c1226b3bf96f5abb2dbf5}{%
+           family={Kaspersky},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
+      \strng{fullhash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
+      \strng{bibnamehash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
+      \strng{authorbibnamehash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
+      \strng{authornamehash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
+      \strng{authorfullhash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Cryptography?}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kaspersky.com/resource-center/definitions/what-is-cryptography
+      \endverb
+      \verb{url}
+      \verb https://www.kaspersky.com/resource-center/definitions/what-is-cryptography
+      \endverb
+    \endentry
     \entry{PEMFormat}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62e3f7142de9716257af05b58f653770}{%
@@ -131,6 +197,73 @@
       \verb https://www.sciencedirect.com/science/article/pii/S016975529600089X
       \endverb
     \endentry
+    \entry{AccessControlMS}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is access control?}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.microsoft.com/en-gb/security/business/security-101/what-is-access-control
+      \endverb
+      \verb{url}
+      \verb https://www.microsoft.com/en-gb/security/business/security-101/what-is-access-control
+      \endverb
+    \endentry
+    \entry{AESFinite}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ea006d7e8e2f5230a3b842625293d617}{%
+           family={Popat},
+           familyi={P\bibinitperiod},
+           given={Jayesh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b84739b673b7434d1d4d6b212176520f}{%
+           family={Mehta},
+           familyi={M\bibinitperiod},
+           given={Usha},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d47ff62c5a2c4345b085ffd67da3b131}
+      \strng{fullhash}{d47ff62c5a2c4345b085ffd67da3b131}
+      \strng{bibnamehash}{d47ff62c5a2c4345b085ffd67da3b131}
+      \strng{authorbibnamehash}{d47ff62c5a2c4345b085ffd67da3b131}
+      \strng{authornamehash}{d47ff62c5a2c4345b085ffd67da3b131}
+      \strng{authorfullhash}{d47ff62c5a2c4345b085ffd67da3b131}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IET circuits, devices \& systems}
+      \field{number}{8}
+      \field{title}{Statistical security analysis of AES with X-tolerant response compactor against all types of test infrastructure attacks with/without novel unified countermeasure}
+      \field{volume}{13}
+      \field{year}{2019}
+      \field{pages}{1117}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1049/iet-cds.2019.0083
+      \endverb
+    \endentry
     \entry{chmodHelp}{online}{}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
@@ -146,6 +279,56 @@
       \endverb
       \verb{url}
       \verb https://docs.nersc.gov/filesystems/unix-file-permissions/
+      \endverb
+    \endentry
+    \entry{DataBreaches}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9f3e40eb85fee7fa41e54632069abda8}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Maochao},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b928dc2d7d36d6a2e37cc17182f299f}{%
+           family={Schweitzer},
+           familyi={S\bibinitperiod},
+           given={Kristin\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92e2f898476207312746f01eceb40ff2}{%
+           family={Bateman},
+           familyi={B\bibinitperiod},
+           given={Raymond\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50a7617b933c2e8176946d628dc2164f}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Shouhuai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1c4c746a2dc50d52eeff8393af78489e}
+      \strng{fullhash}{ef7ceb1aa1ddad51a2b41d6d02b15d69}
+      \strng{bibnamehash}{ef7ceb1aa1ddad51a2b41d6d02b15d69}
+      \strng{authorbibnamehash}{ef7ceb1aa1ddad51a2b41d6d02b15d69}
+      \strng{authornamehash}{1c4c746a2dc50d52eeff8393af78489e}
+      \strng{authorfullhash}{ef7ceb1aa1ddad51a2b41d6d02b15d69}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Information Forensics and Security}
+      \field{number}{11}
+      \field{title}{Modeling and Predicting Cyber Hacking Breaches}
+      \field{volume}{13}
+      \field{year}{2018}
+      \field{pages}{2856\bibrangedash 2871}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/TIFS.2018.2834227
       \endverb
     \endentry
   \enddatalist

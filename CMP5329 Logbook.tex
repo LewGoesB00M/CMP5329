@@ -156,15 +156,61 @@
 
     \chapter*{Relective report}\label{ch:conclusion}
     \addcontentsline{toc}{chapter}{Reflective report}
+    \markboth{Reflective report}{}
 
-    \newpage
+    With the world moving forward into an increasingly digital age, the security of data is paramount for
+    corporations, businesses and general end-users alike.
+    Sensitive data such as bank details and important corporate documents being stored on digital servers inspires
+    countless threat agents to gain unauthorised access to all kinds of devices with each passing year.
+    In 2016, the Identity Theft Resource Center and Cyber Scout reported 1,093 data breach incidents, up 40\%
+    from the 780 reported in 2015~\autocite{DataBreaches}.\\
 
-    \large\textbf{Remember to change the title page to not be yellow!}
+    \noindent It is for this reason that many strategies are employed to secure digital systems, such as cryptography.
+    Cryptography is defined as the technique of obfuscating or coding data~\autocite{KSCryptography}, and often refers
+    to encryption in a cybersecurity context, wherein data transmitted and stored on systems
+    is encrypted as an additional layer of security that ensures data cannot be read by anyone other than its
+    intended recipient, even if it is intercepted during transmission or stolen.
+    Asymmetric encryption is especially important, as it allows for non-repudiation, which provides
+    assurance to the sender that its message was delivered, as well as proof of the sender's identity to the recipient.
+    As a result, neither the sender nor the receiver can deny the message was sent and received~\autocite{NR}.\\
 
-    \large\textbf{You've not necessarily done what Lab 5 asks you to.
-    Yes, you've demonstrated the knowledge, but it's not in the specific way they wanted.
-    Redo it with the /home/photos folder. Could just mv it for rename, but you'll need to
-    redo your screenshots.}
+    \noindent While cryptography is essential in the security and integrity of data, it does not come
+    without some disadvantages of its own, especially on portable and/or low-performance devices.
+    Constant encryption and decryption of data using strong encryption algorithms such as AES256 can be
+    performance-intensive, causing these devices to lag.
+    Additionally, an unavoidable consequence of the security provided by strong encryption is that the data
+    cannot be recovered without the key.
+    Though this is intentional, there are likely to be scenarios wherein a user has lost their key and therefore
+    all of their encrypted data, as cracking stronger encryption methods (namely AES) is not feasibly possible with
+    current computational power in finite time~\autocite{AESFinite}.\\
+
+    \noindent An additional cybersecurity measure utilised across a wide variety of systems is access control.
+    One variant of this known as Discretionary Access Control (DAC) was showcased and explained in detail
+    in Lab~\ref{ch:lab5} of this logbook.
+    Access control is defined as "an essential element of security that determines who is allowed to
+    access certain data, apps, and resources."~\autocite{AccessControlMS}.
+    By limiting user access to only what is strictly necessary, risk can be significantly mitigated due to
+    users not being able to modify or delete data they should not have access to, intentionally or not.\\
+
+    \noindent Access control is also not without some issues of its own.
+    Access control is predicated on authentication, meaning that if someone were to gain access to an account
+    with superior access than their own via methods such as phishing or password cracking via tools like Hashcat or
+    John the Ripper, they could then access privileged data via impersonation.\\
+
+    \noindent These two techniques are typically used in conjunction with each other on the vast majority of
+    IT systems, which is known as Cryptographic Access Control.
+    This is a vastly superior option to using just one of these techniques, as each technique amplifies the other.
+    Cryptography mitigates access control's impersonation drawback because account passwords would be hashed, making
+    them much harder to brute force.
+    Cryptography can also assist in role-based access control, assigning keys dependent upon a user's role and
+    associated privilege level.
+%
+%    \large\textbf{Remember to change the title page to not be yellow!}
+%
+%    \large\textbf{You've not necessarily done what Lab 5 asks you to.
+%    Yes, you've demonstrated the knowledge, but it's not in the specific way they wanted.
+%    Redo it with the /home/photos folder. Could just mv it for rename, but you'll need to
+%    redo your screenshots.}
 
     \printbibliography
 
