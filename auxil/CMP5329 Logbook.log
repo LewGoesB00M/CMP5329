@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.22)  20 MAR 2024 09:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.22)  20 MAR 2024 10:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1203,7 +1203,7 @@ Package pdftex.def Info: images/lab1/17.png  used on input line 202.
 )
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 140.
+Package pdftex.def Info: images/bcu logo.png  used on input line 149.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [9 <./images/lab1/14.png> <./images/lab1/15.png> <./images/lab1/16.png> <./ima
 ges/lab1/17.png>]
@@ -1319,12 +1319,12 @@ Package pdftex.def Info: images/lab2/18.png  used on input line 186.
 )
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 144.
+Package pdftex.def Info: images/bcu logo.png  used on input line 153.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [16 <./images/lab2/16.png> <./images/lab2/17.png>]
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 146.
+Package pdftex.def Info: images/bcu logo.png  used on input line 155.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [17 <./images/lab2/18.png>]
 Chapter 5.
@@ -1472,7 +1472,7 @@ Package pdftex.def Info: images/lab5/14b.png  used on input line 198.
 )
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 149.
+Package pdftex.def Info: images/bcu logo.png  used on input line 158.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [26 <./images/lab5/13.png> <./images/lab5/13b.png> <./images/lab5/14.png> <./i
 mages/lab5/14b.png>]
@@ -1562,36 +1562,30 @@ Package pdftex.def Info: images/bcu logo.png  used on input line 141.
 [30 <./images/lab6/5.png> <./images/lab6/6.png>])
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 153.
+Package pdftex.def Info: images/bcu logo.png  used on input line 162.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [31 <./images/lab6/6b.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 158--164
+Underfull \hbox (badness 10000) in paragraph at lines 167--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--182
 
  []
 
 
-Overfull \hbox (8.31067pt too wide) in paragraph at lines 174--183
-\T1/cmr/m/n/12 without some dis-ad-vant-ages of its own, es-pe-cially on port-a
-ble and/or older, low-performance
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--183
+Underfull \hbox (badness 10000) in paragraph at lines 183--192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--191
+Underfull \hbox (badness 10000) in paragraph at lines 193--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--196
+Underfull \hbox (badness 10000) in paragraph at lines 201--208
 
  []
 
@@ -1611,11 +1605,11 @@ Package logreq Info: Writing requests to '"CMP5329 Logbook".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31310 strings out of 474462
- 602154 string characters out of 5742883
+ 31315 strings out of 474462
+ 602218 string characters out of 5742883
  1940998 words of memory out of 5000000
- 53043 multiletter control sequences out of 15000+600000
- 573374 words of font info for 67 fonts, out of 8000000 for 9000
+ 53046 multiletter control sequences out of 15000+600000
+ 574926 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,15n,93p,692b,2365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1630,14 +1624,15 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users/Le
 wis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/
 Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.
 pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/s
-frm1200.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm
--super/sfrm1440.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/cm-super/sfti1200.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/cm-super/sftt1200.pfb>
+frm1095.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm
+-super/sfrm1200.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/cm-super/sfrm1440.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/cm-super/sfti1200.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/cm-super/sftt1200.pfb>
 Output written on "C:/Users\Lewis\DataspellProjects\CMP5329\out\CMP5329 Logbook
-.pdf" (34 pages, 2669397 bytes).
+.pdf" (34 pages, 2697337 bytes).
 PDF statistics:
- 664 PDF objects out of 1000 (max. 8388607)
+ 669 PDF objects out of 1000 (max. 8388607)
  137 named destinations out of 1000 (max. 500000)
  603 words of extra memory for PDF output out of 10000 (max. 10000000)
 

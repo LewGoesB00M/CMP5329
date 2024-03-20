@@ -117,7 +117,7 @@
         \item Lab 6, covering password cracking.
     \end{itemize}
 
-    As per module specifications, screenshots taken in each lab
+    \noindent As per module specifications, screenshots taken in each lab
     include the date and time at which they were taken.\\
 
     \vspace{50pt}
@@ -131,6 +131,15 @@
 
     \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=Example important note]
         Critical issues that required special workarounds are documented using these red notes.
+    \end{tcolorbox}
+
+    \vspace{5pt}
+
+    \begin{tcolorbox}[colback=pink!2!white,colframe=pink,title=Logbook navigation]
+        This logbook was created in LaTeX, meaning that all references to figures within the
+        logbook and references to external materials in the bibliography can be navigated by
+        clicking on them.
+        This also applies to the contents page.
     \end{tcolorbox}
 
 
@@ -154,7 +163,7 @@
     \addcontentsline{toc}{chapter}{Reflective report on Cryptography and Access Control}
     \markboth{Reflective report}{}
 
-
+    \small
     With the world moving forward into an increasingly digital age, the security of data is paramount for
     corporations, businesses and general end-users alike.
     Sensitive data such as bank details and important corporate documents being stored on digital servers inspires
@@ -192,7 +201,10 @@
     \noindent Access control is also not without some issues of its own.
     Access control is predicated on authentication, meaning that if a threat agent were to gain access to an account
     with superior access than their own via methods such as phishing or password cracking via tools like Hashcat or
-    John the Ripper, they could then access privileged data via impersonation.\\
+    John the Ripper, they could then access privileged data via impersonation.
+    Additionally, access control is reliant upon authorisation, meaning that if access levels are not correctly
+    set by administrators, it is possible that users could gain access to data without having to gain malicious
+    access at all.\\
 
     \noindent These two techniques are typically used in conjunction with each other on the vast majority of
     IT systems, which is known as Cryptographic Access Control.

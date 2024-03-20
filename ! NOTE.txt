@@ -31,6 +31,8 @@ apparently wasn't inherently clear, with formatting added to ensure it sticks to
 
 Draft text removed, title page now official.
 
+Added note about LaTeX navigability.
+
 Corrected some spelling mistakes.
 TODO: You must read through the entire thing, ensuring there aren't more of them.
 
