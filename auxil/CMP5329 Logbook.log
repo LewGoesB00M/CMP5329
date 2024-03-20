@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.30)  19 MAR 2024 22:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.22)  20 MAR 2024 09:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,21 +6,21 @@ entering extended mode
 **"./CMP5329 Logbook.tex"
 (CMP5329 Logbook.tex
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
+L3 programming layer <2024-02-13>
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count187
-\c@chapter=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
+\c@part=\count188
+\c@chapter=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
@@ -59,9 +59,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count196
-\Gm@cntv=\count197
-\c@Gm@tempcnt=\count198
+\Gm@cnth=\count197
+\Gm@cntv=\count198
+\c@Gm@tempcnt=\count199
 \Gm@bindingoffset=\dimen143
 \Gm@wd@mp=\dimen144
 \Gm@odd@mp=\dimen145
@@ -83,7 +83,7 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count199
+\c@float@type=\count266
 \float@exts=\toks21
 \float@box=\box51
 \@float@everytoks=\toks22
@@ -107,14 +107,14 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen158
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count266
-\c@continuedfloat=\count267
+\c@caption@flags=\count267
+\c@continuedfloat=\count268
 Package caption Info: float package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count268
+\c@subfigure=\count269
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count269
+\c@subtable=\count270
 )
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/filecontents\fileconten
 ts.sty
@@ -146,7 +146,7 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ) (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count270
+\etb@tempcnta=\count271
 )
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
@@ -155,7 +155,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count271
+\lrq@indent=\count272
 
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -167,49 +167,49 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count272
-\c@listtotal=\count273
-\c@listcount=\count274
-\c@liststart=\count275
-\c@liststop=\count276
-\c@citecount=\count277
-\c@citetotal=\count278
-\c@multicitecount=\count279
-\c@multicitetotal=\count280
-\c@instcount=\count281
-\c@maxnames=\count282
-\c@minnames=\count283
-\c@maxitems=\count284
-\c@minitems=\count285
-\c@citecounter=\count286
-\c@maxcitecounter=\count287
-\c@savedcitecounter=\count288
-\c@uniquelist=\count289
-\c@uniquename=\count290
-\c@refsection=\count291
-\c@refsegment=\count292
-\c@maxextratitle=\count293
-\c@maxextratitleyear=\count294
-\c@maxextraname=\count295
-\c@maxextradate=\count296
-\c@maxextraalpha=\count297
-\c@abbrvpenalty=\count298
-\c@highnamepenalty=\count299
-\c@lownamepenalty=\count300
-\c@maxparens=\count301
-\c@parenlevel=\count302
-\blx@tempcnta=\count303
-\blx@tempcntb=\count304
-\blx@tempcntc=\count305
-\c@blx@maxsection=\count306
-\blx@maxsegment@0=\count307
-\blx@notetype=\count308
-\blx@parenlevel@text=\count309
-\blx@parenlevel@foot=\count310
-\blx@sectionciteorder@0=\count311
-\blx@sectionciteorderinternal@0=\count312
-\blx@entrysetcounter=\count313
-\blx@biblioinstance=\count314
+\c@tabx@nest=\count273
+\c@listtotal=\count274
+\c@listcount=\count275
+\c@liststart=\count276
+\c@liststop=\count277
+\c@citecount=\count278
+\c@citetotal=\count279
+\c@multicitecount=\count280
+\c@multicitetotal=\count281
+\c@instcount=\count282
+\c@maxnames=\count283
+\c@minnames=\count284
+\c@maxitems=\count285
+\c@minitems=\count286
+\c@citecounter=\count287
+\c@maxcitecounter=\count288
+\c@savedcitecounter=\count289
+\c@uniquelist=\count290
+\c@uniquename=\count291
+\c@refsection=\count292
+\c@refsegment=\count293
+\c@maxextratitle=\count294
+\c@maxextratitleyear=\count295
+\c@maxextraname=\count296
+\c@maxextradate=\count297
+\c@maxextraalpha=\count298
+\c@abbrvpenalty=\count299
+\c@highnamepenalty=\count300
+\c@lownamepenalty=\count301
+\c@maxparens=\count302
+\c@parenlevel=\count303
+\blx@tempcnta=\count304
+\blx@tempcntb=\count305
+\blx@tempcntc=\count306
+\c@blx@maxsection=\count307
+\blx@maxsegment@0=\count308
+\blx@notetype=\count309
+\blx@parenlevel@text=\count310
+\blx@parenlevel@foot=\count311
+\blx@sectionciteorder@0=\count312
+\blx@sectionciteorderinternal@0=\count313
+\blx@entrysetcounter=\count314
+\blx@biblioinstance=\count315
 \labelnumberwidth=\skip50
 \labelalphawidth=\skip51
 \biblabelsep=\skip52
@@ -221,9 +221,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language79
-\c@mincomprange=\count315
-\c@maxcomprange=\count316
-\c@mincompwidth=\count317
+\c@mincomprange=\count316
+\c@maxcomprange=\count317
+\c@mincompwidth=\count318
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -234,74 +234,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count318
-\c@savedafterword=\count319
-\c@annotator=\count320
-\c@savedannotator=\count321
-\c@author=\count322
-\c@savedauthor=\count323
-\c@bookauthor=\count324
-\c@savedbookauthor=\count325
-\c@commentator=\count326
-\c@savedcommentator=\count327
-\c@editor=\count328
-\c@savededitor=\count329
-\c@editora=\count330
-\c@savededitora=\count331
-\c@editorb=\count332
-\c@savededitorb=\count333
-\c@editorc=\count334
-\c@savededitorc=\count335
-\c@foreword=\count336
-\c@savedforeword=\count337
-\c@holder=\count338
-\c@savedholder=\count339
-\c@introduction=\count340
-\c@savedintroduction=\count341
-\c@namea=\count342
-\c@savednamea=\count343
-\c@nameb=\count344
-\c@savednameb=\count345
-\c@namec=\count346
-\c@savednamec=\count347
-\c@translator=\count348
-\c@savedtranslator=\count349
-\c@shortauthor=\count350
-\c@savedshortauthor=\count351
-\c@shorteditor=\count352
-\c@savedshorteditor=\count353
-\c@labelname=\count354
-\c@savedlabelname=\count355
-\c@institution=\count356
-\c@savedinstitution=\count357
-\c@lista=\count358
-\c@savedlista=\count359
-\c@listb=\count360
-\c@savedlistb=\count361
-\c@listc=\count362
-\c@savedlistc=\count363
-\c@listd=\count364
-\c@savedlistd=\count365
-\c@liste=\count366
-\c@savedliste=\count367
-\c@listf=\count368
-\c@savedlistf=\count369
-\c@location=\count370
-\c@savedlocation=\count371
-\c@organization=\count372
-\c@savedorganization=\count373
-\c@origlocation=\count374
-\c@savedoriglocation=\count375
-\c@origpublisher=\count376
-\c@savedorigpublisher=\count377
-\c@publisher=\count378
-\c@savedpublisher=\count379
-\c@language=\count380
-\c@savedlanguage=\count381
-\c@origlanguage=\count382
-\c@savedoriglanguage=\count383
-\c@pageref=\count384
-\c@savedpageref=\count385
+\c@afterword=\count319
+\c@savedafterword=\count320
+\c@annotator=\count321
+\c@savedannotator=\count322
+\c@author=\count323
+\c@savedauthor=\count324
+\c@bookauthor=\count325
+\c@savedbookauthor=\count326
+\c@commentator=\count327
+\c@savedcommentator=\count328
+\c@editor=\count329
+\c@savededitor=\count330
+\c@editora=\count331
+\c@savededitora=\count332
+\c@editorb=\count333
+\c@savededitorb=\count334
+\c@editorc=\count335
+\c@savededitorc=\count336
+\c@foreword=\count337
+\c@savedforeword=\count338
+\c@holder=\count339
+\c@savedholder=\count340
+\c@introduction=\count341
+\c@savedintroduction=\count342
+\c@namea=\count343
+\c@savednamea=\count344
+\c@nameb=\count345
+\c@savednameb=\count346
+\c@namec=\count347
+\c@savednamec=\count348
+\c@translator=\count349
+\c@savedtranslator=\count350
+\c@shortauthor=\count351
+\c@savedshortauthor=\count352
+\c@shorteditor=\count353
+\c@savedshorteditor=\count354
+\c@labelname=\count355
+\c@savedlabelname=\count356
+\c@institution=\count357
+\c@savedinstitution=\count358
+\c@lista=\count359
+\c@savedlista=\count360
+\c@listb=\count361
+\c@savedlistb=\count362
+\c@listc=\count363
+\c@savedlistc=\count364
+\c@listd=\count365
+\c@savedlistd=\count366
+\c@liste=\count367
+\c@savedliste=\count368
+\c@listf=\count369
+\c@savedlistf=\count370
+\c@location=\count371
+\c@savedlocation=\count372
+\c@organization=\count373
+\c@savedorganization=\count374
+\c@origlocation=\count375
+\c@savedoriglocation=\count376
+\c@origpublisher=\count377
+\c@savedorigpublisher=\count378
+\c@publisher=\count379
+\c@savedpublisher=\count380
+\c@language=\count381
+\c@savedlanguage=\count382
+\c@origlanguage=\count383
+\c@savedoriglanguage=\count384
+\c@pageref=\count385
+\c@savedpageref=\count386
 \shorthandwidth=\skip58
 \shortjournalwidth=\skip59
 \shortserieswidth=\skip60
@@ -326,19 +326,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count386
-\c@textcitetotal=\count387
-\c@textcitemaxnames=\count388
-\c@biburlbigbreakpenalty=\count389
-\c@biburlbreakpenalty=\count390
-\c@biburlnumpenalty=\count391
-\c@biburlucpenalty=\count392
-\c@biburllcpenalty=\count393
+\c@textcitecount=\count387
+\c@textcitetotal=\count388
+\c@textcitemaxnames=\count389
+\c@biburlbigbreakpenalty=\count390
+\c@biburlbreakpenalty=\count391
+\c@biburlnumpenalty=\count392
+\c@biburlucpenalty=\count393
+\c@biburllcpenalty=\count394
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count394
+\c@smartand=\count395
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -360,8 +360,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count395
-\c@bbx:relatedtotal=\count396
+\c@bbx:relatedcount=\count396
+\c@bbx:relatedtotal=\count397
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -390,16 +390,16 @@ Package biblatex Warning: 'firstinits' option is deprecated.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-01-22 L3 programming layer (loader) 
+Package: expl3 2024-02-13 L3 programming layer (loader) 
 
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count397
+\l__color_backend_stack_int=\count398
 \l__pdf_internal_box=\box53
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2024-01-22 L3 programming layer (loader) 
+(biblatex)             2024-02-13 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -407,19 +407,19 @@ Package biblatex Info: ... and expl3
 .sty
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
 e.sty
-Package: xparse 2023-10-10 L3 Experimental document command parser
+Package: xparse 2024-02-13 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count398
+Package: babel 2024/02/07 v24.2 The Babel package
+\babel@savecnt=\count399
 \U@D=\dimen159
 \l@unhyphenated=\language80
 
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count399
+\bbl@dirlevel=\count400
 
 *************************************
 * Local config file bblopts.cfg used
@@ -449,12 +449,12 @@ Package babel Info: Importing font and identification data for british
 )
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count400
-\csq@gtype=\count401
-\csq@glevel=\count402
-\csq@qlevel=\count403
-\csq@maxlvl=\count404
-\csq@tshold=\count405
+\csq@reset=\count401
+\csq@gtype=\count402
+\csq@glevel=\count403
+\csq@qlevel=\count404
+\csq@maxlvl=\count405
+\csq@tshold=\count406
 \csq@ltx@everypar=\toks23
 
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
@@ -491,11 +491,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count406
+\c@section@level=\count407
 )
 \@linkdim=\dimen160
-\Hy@linkcounter=\count407
-\Hy@pagecounter=\count408
+\Hy@linkcounter=\count408
+\Hy@pagecounter=\count409
 
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
@@ -505,7 +505,7 @@ Now handling font encoding PD1 ...
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count409
+\Hy@SavedSpaceFactor=\count410
 
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
@@ -519,7 +519,7 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count410
+\c@Hy@tempcnt=\count411
 LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen161
 
@@ -531,7 +531,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count411
+\Fld@menulength=\count412
 \Field@Width=\dimen162
 \Fld@charsize=\dimen163
 Package hyperref Info: Hyper figures OFF on input line 6063.
@@ -546,9 +546,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count412
-\c@Item=\count413
-\c@Hfootnote=\count414
+\Hy@abspage=\count413
+\c@Item=\count414
+\c@Hfootnote=\count415
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -559,8 +559,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count415
-\c@bookmark@seq@number=\count416
+\Fld@listcount=\count416
+\c@bookmark@seq@number=\count417
 
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -613,15 +613,15 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 )
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count417
-\calc@Bcount=\count418
+\calc@Acount=\count418
+\calc@Bcount=\count419
 \calc@Adimen=\dimen169
 \calc@Bdimen=\dimen170
 \calc@Askip=\skip84
 \calc@Bskip=\skip85
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count419
+\calc@Ccount=\count420
 \calc@Cskip=\skip86
 )
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
@@ -675,14 +675,14 @@ libraryfiltered.code.tex
 \pgf@yd=\dimen182
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count420
-\c@pgf@countb=\count421
-\c@pgf@countc=\count422
-\c@pgf@countd=\count423
+\c@pgf@counta=\count421
+\c@pgf@countb=\count422
+\c@pgf@countc=\count423
+\c@pgf@countd=\count424
 \t@pgf@toka=\toks29
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
-\pgf@sys@id@count=\count424
+\pgf@sys@id@count=\count425
 
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
@@ -701,8 +701,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count425
-\pgfsyssoftpath@bigbuffer@items=\count426
+\pgfsyssoftpath@smallbuffer@items=\count426
+\pgfsyssoftpath@bigbuffer@items=\count427
 )
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -737,7 +737,7 @@ code.tex)
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen183
-\pgfmath@count=\count427
+\pgfmath@count=\count428
 \pgfmath@box=\box56
 \pgfmath@toks=\toks32
 \pgfmath@stack@operand=\toks33
@@ -765,7 +765,7 @@ ions.integerarithmetics.code.tex)
 code.tex)
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count428
+\c@pgfmathroundto@lastzeros=\count429
 ))
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
@@ -805,7 +805,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box57
 \pgf@hbox=\box58
 \pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count429
+\pgf@picture@serial@count=\count430
 )
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
@@ -840,8 +840,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen263
-\pgf@sys@shading@range@num=\count430
-\pgf@shadingcount=\count431
+\pgf@sys@shading@range@num=\count431
+\pgf@shadingcount=\count432
 )
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -906,9 +906,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box63
 \tcb@lowerbox=\box64
 \tcb@phantombox=\box65
-\c@tcbbreakpart=\count432
-\c@tcblayer=\count433
-\c@tcolorbox@number=\count434
+\c@tcbbreakpart=\count433
+\c@tcblayer=\count434
+\c@tcolorbox@number=\count435
 \l__tcobox_tmpa_box=\box66
 \l__tcobox_tmpa_dim=\dimen266
 \tcb@temp=\box67
@@ -925,7 +925,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'british'.
-(C:/Users\Lewis\DataspellProjects\Cybersec\auxil\CMP5329 Logbook.aux)
+(C:/Users\Lewis\DataspellProjects\CMP5329\auxil\CMP5329 Logbook.aux)
 \openout1 = `"CMP5329 Logbook.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -950,16 +950,16 @@ LaTeX Font Info:    ... okay on input line 89.
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count435
+\scratchcounter=\count436
 \scratchdimen=\dimen267
 \scratchbox=\box71
-\nofMPsegments=\count436
-\nofMParguments=\count437
+\nofMPsegments=\count437
+\nofMParguments=\count438
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count438
+\MPscratchCnt=\count439
 \MPscratchDim=\dimen268
-\MPnumerator=\count439
-\makeMPintoPDFobject=\count440
+\MPnumerator=\count440
+\makeMPintoPDFobject=\count441
 \everyMPtoPDFconversion=\toks39
 )
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1029,27 +1029,27 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"CMP5329 Logbook".bbl' found.
- (C:/Users\Lewis\DataspellProjects\Cybersec\auxil\CMP5329 Logbook.bbl)
+ (C:/Users\Lewis\DataspellProjects\CMP5329\auxil\CMP5329 Logbook.bbl)
 Package biblatex Info: Reference section=0 on input line 89.
 Package biblatex Info: Reference segment=0 on input line 89.
 Package hyperref Info: Link coloring ON on input line 89.
 
-(C:/Users\Lewis\DataspellProjects\Cybersec\auxil\CMP5329 Logbook.out)
-(C:/Users\Lewis\DataspellProjects\Cybersec\auxil\CMP5329 Logbook.out)
+(C:/Users\Lewis\DataspellProjects\CMP5329\auxil\CMP5329 Logbook.out)
+(C:/Users\Lewis\DataspellProjects\CMP5329\auxil\CMP5329 Logbook.out)
 \@outlinefile=\write5
 \openout5 = `"CMP5329 Logbook.out"'.
 
 <images/bcu logo.png, id=146, 621.32124pt x 404.51125pt>
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 96.
+Package pdftex.def Info: images/bcu logo.png  used on input line 94.
 (pdftex.def)             Requested size: 318.66948pt x 207.47075pt.
  [1
 
 {C:/Users/Lewis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Lewi
 s/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./im
-ages/bcu logo.png>]
-(C:/Users\Lewis\DataspellProjects\Cybersec\auxil\CMP5329 Logbook.toc
+ages/bcu logo.png>] (C:/Users\Lewis\DataspellProjects\CMP5329\auxil\CMP5329 Log
+book.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1057,7 +1057,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 4.
-
 
 (C:\Users\Lewis\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
@@ -1070,11 +1069,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.112     \chapter
+l.107     \chapter
                   *{Introduction}\label{ch:introduction} [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
@@ -1117,94 +1116,94 @@ File: images/bcu logo.png Graphic file (type png)
 Package pdftex.def Info: images/bcu logo.png  used on input line 72.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [4 <./images/lab1/4.png> <./images/lab1/5.png> <./images/lab1/6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
+Underfull \hbox (badness 10000) in paragraph at lines 74--80
 
  []
 
 <images/lab1/7.png, id=231, 609.02531pt x 494.59781pt>
 File: images/lab1/7.png Graphic file (type png)
 <use images/lab1/7.png>
-Package pdftex.def Info: images/lab1/7.png  used on input line 82.
+Package pdftex.def Info: images/lab1/7.png  used on input line 86.
 (pdftex.def)             Requested size: 409.71692pt x 332.7448pt.
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 88.
+Package pdftex.def Info: images/bcu logo.png  used on input line 92.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
 [5 <./images/lab1/7.png>]
 <images/lab1/8.png, id=239, 606.01407pt x 158.84344pt>
 File: images/lab1/8.png Graphic file (type png)
 <use images/lab1/8.png>
-Package pdftex.def Info: images/lab1/8.png  used on input line 100.
+Package pdftex.def Info: images/lab1/8.png  used on input line 104.
 (pdftex.def)             Requested size: 364.19667pt x 95.46191pt.
 <images/lab1/9.png, id=240, 554.82281pt x 316.18124pt>
 File: images/lab1/9.png Graphic file (type png)
 <use images/lab1/9.png>
-Package pdftex.def Info: images/lab1/9.png  used on input line 107.
+Package pdftex.def Info: images/lab1/9.png  used on input line 111.
 (pdftex.def)             Requested size: 364.19667pt x 207.5465pt.
 <images/lab1/10.png, id=241, 554.82281pt x 180.675pt>
 File: images/lab1/10.png Graphic file (type png)
 <use images/lab1/10.png>
-Package pdftex.def Info: images/lab1/10.png  used on input line 117.
+Package pdftex.def Info: images/lab1/10.png  used on input line 121.
 (pdftex.def)             Requested size: 409.71692pt x 133.4217pt.
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 121.
+Package pdftex.def Info: images/bcu logo.png  used on input line 125.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [6 <./images/lab1/8.png> <./images/lab1/9.png>]
 <images/lab1/11.png, id=252, 542.77782pt x 194.22563pt>
 File: images/lab1/11.png Graphic file (type png)
 <use images/lab1/11.png>
-Package pdftex.def Info: images/lab1/11.png  used on input line 124.
+Package pdftex.def Info: images/lab1/11.png  used on input line 128.
 (pdftex.def)             Requested size: 409.71692pt x 146.61722pt.
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 133.
+Package pdftex.def Info: images/bcu logo.png  used on input line 137.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
 
 [7 <./images/lab1/10.png> <./images/lab1/11.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 135--138
+Underfull \hbox (badness 10000) in paragraph at lines 139--142
 
  []
 
 <images/lab1/12.png, id=261, 532.23843pt x 142.28156pt>
 File: images/lab1/12.png Graphic file (type png)
 <use images/lab1/12.png>
-Package pdftex.def Info: images/lab1/12.png  used on input line 142.
+Package pdftex.def Info: images/lab1/12.png  used on input line 146.
 (pdftex.def)             Requested size: 409.71692pt x 109.53108pt.
 <images/lab1/13.png, id=262, 414.04688pt x 88.07906pt>
 File: images/lab1/13.png Graphic file (type png)
 <use images/lab1/13.png>
-Package pdftex.def Info: images/lab1/13.png  used on input line 151.
+Package pdftex.def Info: images/lab1/13.png  used on input line 155.
 (pdftex.def)             Requested size: 409.71692pt x 87.16089pt.
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 157.
+Package pdftex.def Info: images/bcu logo.png  used on input line 161.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
 [8 <./images/lab1/12.png> <./images/lab1/13.png>]
 <images/lab1/14.png, id=271, 728.7225pt x 130.23656pt>
 File: images/lab1/14.png Graphic file (type png)
 <use images/lab1/14.png>
-Package pdftex.def Info: images/lab1/14.png  used on input line 167.
+Package pdftex.def Info: images/lab1/14.png  used on input line 171.
 (pdftex.def)             Requested size: 409.71692pt x 73.22409pt.
 <images/lab1/15.png, id=272, 529.22719pt x 112.92188pt>
 File: images/lab1/15.png Graphic file (type png)
 <use images/lab1/15.png>
-Package pdftex.def Info: images/lab1/15.png  used on input line 177.
+Package pdftex.def Info: images/lab1/15.png  used on input line 181.
 (pdftex.def)             Requested size: 409.71692pt x 87.42221pt.
 <images/lab1/16.png, id=273, 733.99219pt x 89.58469pt>
 File: images/lab1/16.png Graphic file (type png)
 <use images/lab1/16.png>
-Package pdftex.def Info: images/lab1/16.png  used on input line 187.
+Package pdftex.def Info: images/lab1/16.png  used on input line 191.
 (pdftex.def)             Requested size: 409.71692pt x 50.00714pt.
 <images/lab1/17.png, id=274, 725.71124pt x 102.3825pt>
 File: images/lab1/17.png Graphic file (type png)
 <use images/lab1/17.png>
-Package pdftex.def Info: images/lab1/17.png  used on input line 198.
+Package pdftex.def Info: images/lab1/17.png  used on input line 202.
 (pdftex.def)             Requested size: 409.71692pt x 57.80403pt.
 )
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 145.
+Package pdftex.def Info: images/bcu logo.png  used on input line 140.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [9 <./images/lab1/14.png> <./images/lab1/15.png> <./images/lab1/16.png> <./ima
 ges/lab1/17.png>]
@@ -1320,12 +1319,12 @@ Package pdftex.def Info: images/lab2/18.png  used on input line 186.
 )
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 149.
+Package pdftex.def Info: images/bcu logo.png  used on input line 144.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [16 <./images/lab2/16.png> <./images/lab2/17.png>]
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 151.
+Package pdftex.def Info: images/bcu logo.png  used on input line 146.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [17 <./images/lab2/18.png>]
 Chapter 5.
@@ -1473,7 +1472,7 @@ Package pdftex.def Info: images/lab5/14b.png  used on input line 198.
 )
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 154.
+Package pdftex.def Info: images/bcu logo.png  used on input line 149.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [26 <./images/lab5/13.png> <./images/lab5/13b.png> <./images/lab5/14.png> <./i
 mages/lab5/14b.png>]
@@ -1563,30 +1562,36 @@ Package pdftex.def Info: images/bcu logo.png  used on input line 141.
 [30 <./images/lab6/5.png> <./images/lab6/6.png>])
 File: images/bcu logo.png Graphic file (type png)
 <use images/bcu logo.png>
-Package pdftex.def Info: images/bcu logo.png  used on input line 157.
+Package pdftex.def Info: images/bcu logo.png  used on input line 153.
 (pdftex.def)             Requested size: 49.79231pt x 32.4171pt.
  [31 <./images/lab6/6b.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 161--167
+Underfull \hbox (badness 10000) in paragraph at lines 158--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--176
+Underfull \hbox (badness 10000) in paragraph at lines 165--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--186
+Overfull \hbox (8.31067pt too wide) in paragraph at lines 174--183
+\T1/cmr/m/n/12 without some dis-ad-vant-ages of its own, es-pe-cially on port-a
+ble and/or older, low-performance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--194
+Underfull \hbox (badness 10000) in paragraph at lines 184--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
+Underfull \hbox (badness 10000) in paragraph at lines 192--196
 
  []
 
@@ -1594,48 +1599,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--199
 
 ] [33
 
-] (C:/Users\Lewis\DataspellProjects\Cybersec\auxil\CMP5329 Logbook.aux)
+] (C:/Users\Lewis\DataspellProjects\CMP5329\auxil\CMP5329 Logbook.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
+L3 programming layer <2024-02-13>
  ***********
 Package rerunfilecheck Info: File `"CMP5329 Logbook".out' has not changed.
-(rerunfilecheck)             Checksum: 94896BF7D5BA35068DB6383BE12E3B41;6675.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+(rerunfilecheck)             Checksum: 57D2D3858BEC4D77E9FBA7724AC79FF6;6865.
 Package logreq Info: Writing requests to '"CMP5329 Logbook".run.xml'.
 \openout1 = `"CMP5329 Logbook.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31310 strings out of 474541
- 602186 string characters out of 5744425
- 1938978 words of memory out of 5000000
- 52965 multiletter control sequences out of 15000+600000
- 572598 words of font info for 66 fonts, out of 8000000 for 9000
+ 31310 strings out of 474462
+ 602154 string characters out of 5742883
+ 1940998 words of memory out of 5000000
+ 53043 multiletter control sequences out of 15000+600000
+ 573374 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,15n,93p,692b,2365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi12.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-
-super/sfbx1200.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/cm-super/sfbx1440.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/cm-super/sfbx1728.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Users/Lewis/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/cm-super/sfcc1200.pfb><C:/Users/Lewis/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users/Lewis/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/Le
-wis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/
-Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.
+super/sfbx1000.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/cm-super/sfbx1200.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/cm-super/sfbx1440.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/Lewis/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Users/Lewis/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1200.pfb><C:/Users/Lewis/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users/Le
+wis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/
+Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.
 pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/s
-frm1440.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm
--super/sfti1200.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/cm-super/sftt1200.pfb>
-Output written on "C:/Users\Lewis\DataspellProjects\Cybersec\out\CMP5329 Logboo
-k.pdf" (34 pages, 2650800 bytes).
+frm1200.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm
+-super/sfrm1440.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/cm-super/sfti1200.pfb><C:/Users/Lewis/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/cm-super/sftt1200.pfb>
+Output written on "C:/Users\Lewis\DataspellProjects\CMP5329\out\CMP5329 Logbook
+.pdf" (34 pages, 2669397 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
+ 664 PDF objects out of 1000 (max. 8388607)
  137 named destinations out of 1000 (max. 500000)
  603 words of extra memory for PDF output out of 10000 (max. 10000000)
 

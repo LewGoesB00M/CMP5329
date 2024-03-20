@@ -88,14 +88,11 @@
 
 \begin{document}
 
-    \pagecolor{yellow}
-
     \makeatletter
     \begin{titlepage}
         \begin{center}
             \includegraphics[width=0.7\linewidth]{bcu logo}\\[4ex]
             {\huge \bfseries  \@title }\\[2ex]
-            {\huge \bfseries  DRAFT VERSION }\\[2ex]
             {\@author}\\[50ex]
             {\large \@date}
         \end{center}
@@ -103,8 +100,6 @@
     \makeatother
     \thispagestyle{empty}
     \newpage
-
-    \pagecolor{white}
 
     \tableofcontents
     %\footnotesize{\listoffigures}
@@ -154,9 +149,11 @@
     \chapter{Password Cracking}\label{ch:lab6}
     \input{lab6}
 
-    \chapter*{Relective report}\label{ch:conclusion}
-    \addcontentsline{toc}{chapter}{Reflective report}
+    % "Suspicious formatting" - Not wrong, but this is only seen once in the document.
+    \chapter*{Reflective report~~~~~~~~~~~\footnotesize{Cryptography and Access Control}}\label{ch:conclusion}
+    \addcontentsline{toc}{chapter}{Reflective report on Cryptography and Access Control}
     \markboth{Reflective report}{}
+
 
     With the world moving forward into an increasingly digital age, the security of data is paramount for
     corporations, businesses and general end-users alike.
@@ -175,13 +172,13 @@
     As a result, neither the sender nor the receiver can deny the message was sent and received~\autocite{NR}.\\
 
     \noindent While cryptography is essential in the security and integrity of data, it does not come
-    without some disadvantages of its own, especially on portable and/or low-performance devices.
+    without some disadvantages of its own, especially on portable and/or older, low-performance devices.
     Constant encryption and decryption of data using strong encryption algorithms such as AES256 can be
     performance-intensive, causing these devices to lag.
     Additionally, an unavoidable consequence of the security provided by strong encryption is that the data
     cannot be recovered without the key.
     Though this is intentional, there are likely to be scenarios wherein a user has lost their key and therefore
-    all of their encrypted data, as cracking stronger encryption methods (namely AES) is not feasibly possible with
+    all of their encrypted data, as cracking stronger encryption methods is not feasibly possible with
     current computational power in finite time~\autocite{AESFinite}.\\
 
     \noindent An additional cybersecurity measure utilised across a wide variety of systems is access control.
@@ -190,23 +187,23 @@
     Access control is defined as "an essential element of security that determines who is allowed to
     access certain data, apps, and resources."~\autocite{AccessControlMS}.
     By limiting user access to only what is strictly necessary, risk can be significantly mitigated due to
-    users not being able to modify or delete data they should not have access to, intentionally or not.\\
+    users being unable to modify or delete data they are not entitled to, intentionally or not.\\
 
     \noindent Access control is also not without some issues of its own.
-    Access control is predicated on authentication, meaning that if someone were to gain access to an account
+    Access control is predicated on authentication, meaning that if a threat agent were to gain access to an account
     with superior access than their own via methods such as phishing or password cracking via tools like Hashcat or
     John the Ripper, they could then access privileged data via impersonation.\\
 
     \noindent These two techniques are typically used in conjunction with each other on the vast majority of
     IT systems, which is known as Cryptographic Access Control.
     This is a vastly superior option to using just one of these techniques, as each technique amplifies the other.
-    Cryptography mitigates access control's impersonation drawback because account passwords would be hashed, making
-    them much harder to brute force.
-    Cryptography can also assist in role-based access control, assigning keys dependent upon a user's role and
-    associated privilege level.
-%
-%    \large\textbf{Remember to change the title page to not be yellow!}
-%
+    Cryptography mitigates access control's impersonation drawback because account passwords
+    would be hashed and salted, making them much harder to brute force.
+    It can also assist in role-based access control, assigning keys dependent upon a user's role
+    and associated privilege level.
+    With the application of cryptographic access control, digital systems can be much more secure and robust
+    in the face of constantly evolving threats.
+
 %    \large\textbf{You've not necessarily done what Lab 5 asks you to.
 %    Yes, you've demonstrated the knowledge, but it's not in the specific way they wanted.
 %    Redo it with the /home/photos folder. Could just mv it for rename, but you'll need to

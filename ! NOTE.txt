@@ -16,3 +16,28 @@ Instead of signing the key, TRUST the key by saying trust.
 
 Anywhere that you're using a private key, the passphrase is the user's name. Applies to all passwords too.
 Base64 encoding == ASCII encoding. That's why it's -a.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20/3/24
+
+"It looks really good, you'd get full marks. Add a paragraph comparing asymm and symm encryption in
+lab 1."
+
+^ As above, re-added some of the content pre-reduction to address that.
+
+Reflective report had some slight sentence flow change.
+
+Reflective report is now "Reflective Report on Cryptography and Access Control" since it
+apparently wasn't inherently clear, with formatting added to ensure it sticks to one page.
+
+Draft text removed, title page now official.
+
+Corrected some spelling mistakes.
+TODO: You must read through the entire thing, ensuring there aren't more of them.
+
+TODO: Redo Lab 5 using photos directory.
+TODO: Perhaps find an additional source for your final paragraph.
+
+
+
+
+

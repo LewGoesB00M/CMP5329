@@ -72,7 +72,11 @@ the resulting ciphertext, making it harder to decrypt and increasing the strengt
 
 \section{Asymmetric encryption}\label{sec:asymmEncryption}
 Asymmetric cryptography is the practice of using two keys when transmitting data: a public key used to encrypt
-data, and a private key used to decrypt it. \newline
+data, and a private key used to decrypt it.
+This is unlike symmetric encryption which uses one key for both users, but can be much more secure.
+Data transferred this way has a digital signature attached, which allows for non-repudiation, as it cannot
+be denied that the data originated from the user with the private key associated with the signature.
+\newline
 
 \subsection{Generating an RSA private key}\label{subsec:rsa-private-key}
 OpenSSL can be used to generate these keys by using the "openssl genrsa" command.
