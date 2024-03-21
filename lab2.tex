@@ -23,9 +23,9 @@ which will change the terminal to be at root level.
 \end{figure}
 
 \subsection{Creating Bob and Alice}\label{subsec:createUsers}
-Sudo allows us to add users to the system using "adduser" followed by the given username.
+With sudo permissions, users can be added to the system using "adduser" followed by the given username.
 A password for the user will then be necessary, followed by optional information such as phone
-numbers, which are left blank.
+numbers, which are left blank here.
 
 \begin{figure}[H]
     \centering
@@ -82,7 +82,6 @@ and then the password of the given account.
     user accounts unless stated otherwise.
 \end{tcolorbox}
 On standard Linux distributions, the /tmp directory is a public directory where all users can read files placed there.
-\footnote{However, they cannot update/change them without sudo permissions.}
 To transfer files across insecure channels such as /tmp/, they should first be encrypted so that
 they can only be read and/or used by their intended recipient.
 Therefore, GPG can be used to generate and store public and private asymmetric keys.

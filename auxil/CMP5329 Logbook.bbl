@@ -18,81 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
-    \entry{NR}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7bbef90440b39193b04feafd21ea6a10}{%
-           family={Awati},
-           familyi={A\bibinitperiod},
-           given={Rahul},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7bbef90440b39193b04feafd21ea6a10}
-      \strng{fullhash}{7bbef90440b39193b04feafd21ea6a10}
-      \strng{bibnamehash}{7bbef90440b39193b04feafd21ea6a10}
-      \strng{authorbibnamehash}{7bbef90440b39193b04feafd21ea6a10}
-      \strng{authornamehash}{7bbef90440b39193b04feafd21ea6a10}
-      \strng{authorfullhash}{7bbef90440b39193b04feafd21ea6a10}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{8}
-      \field{title}{What is nonrepudiation?}
-      \field{urlday}{19}
-      \field{urlmonth}{3}
-      \field{urlyear}{2024}
-      \field{year}{2021}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.techtarget.com/searchsecurity/definition/nonrepudiation
-      \endverb
-      \verb{url}
-      \verb https://www.techtarget.com/searchsecurity/definition/nonrepudiation
-      \endverb
-    \endentry
-    \entry{accStorage}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=1cae381c203fd1241b5efcd033a26df0}{%
-           family={Gite},
-           familyi={G\bibinitperiod},
-           given={Vivek},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1cae381c203fd1241b5efcd033a26df0}
-      \strng{fullhash}{1cae381c203fd1241b5efcd033a26df0}
-      \strng{bibnamehash}{1cae381c203fd1241b5efcd033a26df0}
-      \strng{authorbibnamehash}{1cae381c203fd1241b5efcd033a26df0}
-      \strng{authornamehash}{1cae381c203fd1241b5efcd033a26df0}
-      \strng{authorfullhash}{1cae381c203fd1241b5efcd033a26df0}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{19}
-      \field{month}{2}
-      \field{title}{Understanding /etc/passwd File Format}
-      \field{urlday}{2}
-      \field{urlmonth}{3}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/
-      \endverb
-      \verb{url}
-      \verb https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/
-      \endverb
-    \endentry
+  \datalist[entry]{none/global//global/global}
     \entry{openSSLHelp}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=acfd0303db210b722254eed1219e1a7f}{%
@@ -108,8 +34,8 @@
       \strng{authorbibnamehash}{acfd0303db210b722254eed1219e1a7f}
       \strng{authornamehash}{acfd0303db210b722254eed1219e1a7f}
       \strng{authorfullhash}{acfd0303db210b722254eed1219e1a7f}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -130,35 +56,6 @@
       \verb https://www.madboa.com/geek/openssl/#how-do-i-simply-encrypt-a-file
       \endverb
     \endentry
-    \entry{KSCryptography}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=071bf7e58e3c1226b3bf96f5abb2dbf5}{%
-           family={Kaspersky},
-           familyi={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
-      \strng{fullhash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
-      \strng{bibnamehash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
-      \strng{authorbibnamehash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
-      \strng{authornamehash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
-      \strng{authorfullhash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{labeldatesource}{nodate}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What is Cryptography?}
-      \field{urlday}{19}
-      \field{urlmonth}{3}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.kaspersky.com/resource-center/definitions/what-is-cryptography
-      \endverb
-      \verb{url}
-      \verb https://www.kaspersky.com/resource-center/definitions/what-is-cryptography
-      \endverb
-    \endentry
     \entry{PEMFormat}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62e3f7142de9716257af05b58f653770}{%
@@ -174,8 +71,8 @@
       \strng{authorbibnamehash}{62e3f7142de9716257af05b58f653770}
       \strng{authornamehash}{62e3f7142de9716257af05b58f653770}
       \strng{authorfullhash}{62e3f7142de9716257af05b58f653770}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -197,77 +94,22 @@
       \verb https://www.sciencedirect.com/science/article/pii/S016975529600089X
       \endverb
     \endentry
-    \entry{AccessControlMS}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={Microsoft},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labeldatesource}{nodate}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What is access control?}
-      \field{urlday}{19}
-      \field{urlmonth}{3}
-      \field{urlyear}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.microsoft.com/en-gb/security/business/security-101/what-is-access-control
-      \endverb
-      \verb{url}
-      \verb https://www.microsoft.com/en-gb/security/business/security-101/what-is-access-control
-      \endverb
-    \endentry
-    \entry{AESFinite}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=ea006d7e8e2f5230a3b842625293d617}{%
-           family={Popat},
-           familyi={P\bibinitperiod},
-           given={Jayesh},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b84739b673b7434d1d4d6b212176520f}{%
-           family={Mehta},
-           familyi={M\bibinitperiod},
-           given={Usha},
-           giveni={U\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d47ff62c5a2c4345b085ffd67da3b131}
-      \strng{fullhash}{d47ff62c5a2c4345b085ffd67da3b131}
-      \strng{bibnamehash}{d47ff62c5a2c4345b085ffd67da3b131}
-      \strng{authorbibnamehash}{d47ff62c5a2c4345b085ffd67da3b131}
-      \strng{authornamehash}{d47ff62c5a2c4345b085ffd67da3b131}
-      \strng{authorfullhash}{d47ff62c5a2c4345b085ffd67da3b131}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IET circuits, devices \& systems}
-      \field{number}{8}
-      \field{title}{Statistical security analysis of AES with X-tolerant response compactor against all types of test infrastructure attacks with/without novel unified countermeasure}
-      \field{volume}{13}
-      \field{year}{2019}
-      \field{pages}{1117}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1049/iet-cds.2019.0083
-      \endverb
-    \endentry
     \entry{chmodHelp}{online}{}
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6ff015bc28fa1c67a6948e81dc4222b}{%
+           family={NERSC},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6ff015bc28fa1c67a6948e81dc4222b}
+      \strng{fullhash}{b6ff015bc28fa1c67a6948e81dc4222b}
+      \strng{bibnamehash}{b6ff015bc28fa1c67a6948e81dc4222b}
+      \strng{authorbibnamehash}{b6ff015bc28fa1c67a6948e81dc4222b}
+      \strng{authornamehash}{b6ff015bc28fa1c67a6948e81dc4222b}
+      \strng{authorfullhash}{b6ff015bc28fa1c67a6948e81dc4222b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Unix File Permissions}
       \field{urlday}{21}
@@ -279,6 +121,43 @@
       \endverb
       \verb{url}
       \verb https://docs.nersc.gov/filesystems/unix-file-permissions/
+      \endverb
+    \endentry
+    \entry{accStorage}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1cae381c203fd1241b5efcd033a26df0}{%
+           family={Gite},
+           familyi={G\bibinitperiod},
+           given={Vivek},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1cae381c203fd1241b5efcd033a26df0}
+      \strng{fullhash}{1cae381c203fd1241b5efcd033a26df0}
+      \strng{bibnamehash}{1cae381c203fd1241b5efcd033a26df0}
+      \strng{authorbibnamehash}{1cae381c203fd1241b5efcd033a26df0}
+      \strng{authornamehash}{1cae381c203fd1241b5efcd033a26df0}
+      \strng{authorfullhash}{1cae381c203fd1241b5efcd033a26df0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{2}
+      \field{title}{Understanding /etc/passwd File Format}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/
+      \endverb
+      \verb{url}
+      \verb https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/
       \endverb
     \endentry
     \entry{DataBreaches}{article}{}
@@ -314,8 +193,8 @@
       \strng{authorbibnamehash}{ef7ceb1aa1ddad51a2b41d6d02b15d69}
       \strng{authornamehash}{1c4c746a2dc50d52eeff8393af78489e}
       \strng{authorfullhash}{ef7ceb1aa1ddad51a2b41d6d02b15d69}
-      \field{sortinit}{X}
-      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -329,6 +208,139 @@
       \range{pages}{16}
       \verb{doi}
       \verb 10.1109/TIFS.2018.2834227
+      \endverb
+    \endentry
+    \entry{KSCryptography}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=071bf7e58e3c1226b3bf96f5abb2dbf5}{%
+           family={Kaspersky},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
+      \strng{fullhash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
+      \strng{bibnamehash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
+      \strng{authorbibnamehash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
+      \strng{authornamehash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
+      \strng{authorfullhash}{071bf7e58e3c1226b3bf96f5abb2dbf5}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Cryptography?}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kaspersky.com/resource-center/definitions/what-is-cryptography
+      \endverb
+      \verb{url}
+      \verb https://www.kaspersky.com/resource-center/definitions/what-is-cryptography
+      \endverb
+    \endentry
+    \entry{NR}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7bbef90440b39193b04feafd21ea6a10}{%
+           family={Awati},
+           familyi={A\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7bbef90440b39193b04feafd21ea6a10}
+      \strng{fullhash}{7bbef90440b39193b04feafd21ea6a10}
+      \strng{bibnamehash}{7bbef90440b39193b04feafd21ea6a10}
+      \strng{authorbibnamehash}{7bbef90440b39193b04feafd21ea6a10}
+      \strng{authornamehash}{7bbef90440b39193b04feafd21ea6a10}
+      \strng{authorfullhash}{7bbef90440b39193b04feafd21ea6a10}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{8}
+      \field{title}{What is nonrepudiation?}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.techtarget.com/searchsecurity/definition/nonrepudiation
+      \endverb
+      \verb{url}
+      \verb https://www.techtarget.com/searchsecurity/definition/nonrepudiation
+      \endverb
+    \endentry
+    \entry{AESFinite}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ea006d7e8e2f5230a3b842625293d617}{%
+           family={Popat},
+           familyi={P\bibinitperiod},
+           given={Jayesh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b84739b673b7434d1d4d6b212176520f}{%
+           family={Mehta},
+           familyi={M\bibinitperiod},
+           given={Usha},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d47ff62c5a2c4345b085ffd67da3b131}
+      \strng{fullhash}{d47ff62c5a2c4345b085ffd67da3b131}
+      \strng{bibnamehash}{d47ff62c5a2c4345b085ffd67da3b131}
+      \strng{authorbibnamehash}{d47ff62c5a2c4345b085ffd67da3b131}
+      \strng{authornamehash}{d47ff62c5a2c4345b085ffd67da3b131}
+      \strng{authorfullhash}{d47ff62c5a2c4345b085ffd67da3b131}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IET circuits, devices \& systems}
+      \field{number}{8}
+      \field{title}{Statistical security analysis of AES with X-tolerant response compactor against all types of test infrastructure attacks with/without novel unified countermeasure}
+      \field{volume}{13}
+      \field{year}{2019}
+      \field{pages}{1117}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1049/iet-cds.2019.0083
+      \endverb
+    \endentry
+    \entry{AccessControlMS}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is access control?}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.microsoft.com/en-gb/security/business/security-101/what-is-access-control
+      \endverb
+      \verb{url}
+      \verb https://www.microsoft.com/en-gb/security/business/security-101/what-is-access-control
       \endverb
     \endentry
   \enddatalist

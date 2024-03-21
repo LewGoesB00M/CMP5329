@@ -22,7 +22,8 @@
     style=authoryear,
     dashed=false, % re-print recurring author names in bibliography
     natbib=true,
-    url=false
+    url=false,
+    sorting=none
 ]{biblatex} % biblatex config for harvard refs
 
 \renewbibmacro*{volume+number+eid}{%
@@ -135,12 +136,12 @@
 
     \vspace{5pt}
 
-    \begin{tcolorbox}[colback=pink!2!white,colframe=pink,title=Logbook navigation]
-        This logbook was created in LaTeX, meaning that all references to figures within the
-        logbook and references to external materials in the bibliography can be navigated by
-        clicking on them.
-        This also applies to the contents page.
-    \end{tcolorbox}
+%    \begin{tcolorbox}[colback=cyan!5!white,colframe=cyan,title=Logbook navigation]
+%        This logbook was created in LaTeX, meaning that all references to figures within the
+%        logbook and references to external materials in the bibliography can be navigated by
+%        clicking on them.
+%        This also applies to the contents page.
+%    \end{tcolorbox}
 
 
     \chapter{OpenSSL}\label{ch:lab1}
@@ -221,6 +222,6 @@
 %    Redo it with the /home/photos folder. Could just mv it for rename, but you'll need to
 %    redo your screenshots.}
 
-    \printbibliography
+    \printbibliography[title=Bibliography~~~~~~~~~~~~~~~~~~~~~~~\footnotesize{In order of appearance}]]
 
 \end{document}
