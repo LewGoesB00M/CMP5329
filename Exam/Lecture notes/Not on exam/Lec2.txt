@@ -1,0 +1,43 @@
+DES < 3DES < AES.
+
+Aes - 128bit fast encryption. Fastest, most commonly used encryption algorithm.
+3DES is 3 layers of DES, still crackable but not as fast, very slow to encrypt. Not recommended at all, but still allowed?
+DES crackable in minutes (maybe faster?) on current devices. Slow to encrypt. Even a raspberry pi could crack DES.
+
+Years to crack: 
+AES-128 takes 1.2 * 10^25 years to bruteforce crack.
+AES-192 is 2.4 * 10^44.
+AES-256 is 5.1 * 10^63. 
+Based on an i7-3612QM processor. (that's outdated, i5-12600K is almost 3x faster?)
+
+Possble combos:
+56-bit (DES) - 7.2 * 10 ^16 combos.
+AES-128 - 3.4 * 10^38.
+AES-192 - 6.2 * 10^57.
+AES-256 - 1,1 * 10^77.
+
+Symmetric encryption is fast, with good read/write performance. However, the shared key used for it could get compromised, so a secure method of exxhanging it is necessary.
+Non-repudiation (from original sender and can be proven) cannot occur as there's no digital signature with the key.
+Research more on non-repudiation.
+
+Asymmetric encryption uses two keys - one to encrypt, one to decrypt. Decryption is private key, encryption is public key.
+The sender uses the receiver's public key to encrypt, and the receiver uses their private key to decrypt it. Slide 19 for image.
+Access to someone's private key would allow you to impersonate them.
+
+Digital signatures are attached to asymmetric communications to validate the source of the message and allow for non-repudiation.
+The signature is formed using your private key, proving that it's from you. Validation of the signature uses the sender's public key.
+Bob sends a message with his signature attached - he now can't deny having sent that message because his signature is verifiably on that message.
+Image on slide 22.
+
+Hashes should be used when passwords are stored in databases; the original plaintext is never written to the hard drive, only its hashed version.
+Password validation occurs by hashing the entered password and comparing this hash to their real password. 
+If a database is storing plaintext passwords, this is a catastrophic risk and likely violates GDPR.
+
+Hashes are also used to create digital signatures, and include: 
+	The author
+	Date & time of signature
+	Contents at time of signature
+They must be verifiable by third-parties to resolve disputes.
+Image on slide 25.
+
+

@@ -27,10 +27,10 @@
 \contentsline {section}{\numberline {5.2}Using chmod and chgrp to assign permissions}{21}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Restricting directory access}{21}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}Chgrp and chown}{24}{subsection.5.2.2}%
-\contentsline {chapter}{\numberline {6}Password Cracking}{27}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Linux password storage}{27}{section.6.1}%
-\contentsline {section}{\numberline {6.2}crack.c}{28}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Importing and compilation}{28}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Creating a test user}{29}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Cracking the password}{30}{subsection.6.2.3}%
-\contentsline {chapter}{Reflective report on Cryptography and Access Control}{32}{chapter*.55}%
+\contentsline {chapter}{\numberline {6}Password Cracking}{28}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Linux password storage}{28}{section.6.1}%
+\contentsline {section}{\numberline {6.2}crack.c}{29}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Importing and compilation}{29}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Creating a test user}{30}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Cracking the password}{31}{subsection.6.2.3}%
+\contentsline {chapter}{Reflective report on Cryptography and Access Control}{33}{chapter*.58}%

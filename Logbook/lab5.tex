@@ -136,7 +136,7 @@ again to allow girls to write files, which will then allow Alice to make the fil
 
 \subsection{Chgrp and chown}\label{subsec:using-chown}
 \begin{tcolorbox}[colback=orange!5!white,colframe=orange!75!black,title=Note]
-    I used different directory names ($BoysDirectory$ instead of $Photos$),
+    I used different directory names for clarity ($BoysDirectory$ instead of $Photos$),
     but I have still demonstrated all exercises from this lab.
 \end{tcolorbox}
 Chown assigns a file or directory's ownership to a specific user.
@@ -188,20 +188,54 @@ own directory, but then attempting to access the other user's directory:
 
 An important distinction to be made here is that these subdirectories are owned by Pete and
 Ali respectively.
-They do \textbf{not} inherit the boys group ownership by default, meaning that commands to
-change group permissions will be ineffective for other boys, as everyone who is not the owner
-is considered "other" unless chgrp is used, as seen in Figure \ref{fig:PeteAliDirFail}.
+They do \textbf{not} inherit the boys group ownership by default, meaning that other boys
+are not considered to have group permissions over the directory until chgrp is used, as everyone who is not the owner
+or in the directory's group (which is currently not set)
+is considered "other" as seen in Figure \ref{fig:PeteAliDirFail}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=.8\linewidth]{lab5/14}
     \includegraphics[width=.8\linewidth]{lab5/14b}
-    \caption{Giving group RWX access to PeteDirectory}
+    \caption{Giving group RWX access to PeteDirectory, which still fails.}
     \label{fig:PeteDirFail}
 \end{figure}
 
 Ali still can't access the directory because he is not part of the "Pete" group, but he
 (and any other users) would be able to use permissions given to "others".
+To fix this, we can assign PeteDirectory to the Boys group.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.8\linewidth]{lab5/15}
+    \includegraphics[width=.8\linewidth]{lab5/15b}
+    \caption{Assigning PeteDirectory to boys, so Ali can now access it.}
+    \label{fig:PeteDirBoys}
+\end{figure}
+
+
+Another option is to make Ali the directory owner, which would then give him the respective read, write
+and execute permissions of Pete, and Pete would then lose these permissions due to not being the owner
+anymore.
+As root, we can execute "chown ali PeteDirectory" to make Ali the owner.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.8\linewidth]{lab5/16}
+    \caption{Making Ali the owner of PeteDirectory.}
+    \label{fig:PeteDirChown}
+\end{figure}
+
+If we then remove the group permissions of Boys, instead assigning them to the "Ali" group, we can see
+that Pete is definitively not the owner of this directory since he cannot access it anymore.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.8\linewidth]{lab5/17}
+    \includegraphics[width=.8\linewidth]{lab5/17b}
+    \caption{Assigning PeteDirectory to the Ali group, removing Pete's access.}
+    \label{fig:PeteDirAli}
+\end{figure}
 
 
 

@@ -1,0 +1,35 @@
+There's more to this exam than what's here, but what he says here is definitely here apparently. 
+You've not focused much on labs, definitely do so. 
+Exam does not cover topics prior to week 7.
+Linux commands will not feature, but good to know.
+No code is expected.
+
+Wk7:
+Common attack techniques, phishing, spear-phishing, spear-phishing vs regular phishing, phishing mitigation techniques, why are phishing attacks so common (because easy, cheap, lots of tools enabling replication of websites), denial of service, difference between DoS and DDoS, injection attacks.
+
+Wk8:
+CIA triad, what is confidentiality, integrity, availability. Objectives of security policies, (you do not need to know all the contents of a template), NIST template controls are split into 5 categories. Difference between LAN and WAN. Definition of a VPN, why are they used, what were they initially created for, what can they do now (allows remote connection to server in another location, appearing as though it originates from the vpn server rather than yours) tunneling and encapsulation, difference between source and destination NAT.
+
+Wk9:
+Formula of risk (probability/likelihood * impact (10 very low, 20 low, 40 medium, 75 high, >75 very high, 1 - 5 score up to 25)), assets threats and vulnerabilities, calculation on slide 14 (value asset calculation based on criteria [impact on revenue, profitability, company image, for example], different control strategies (slide 20, defense, transference (do what you can but insurance in case), mitigation, etc). 
+
+!!! POSSIBLE QUESTION ON RISK ASSESSMENTS !!!
+
+Wk10: [You did not write ANY notes for this week, you MUST go back and do so!]
+Understand cyber essentials key controls (won't necessarily need to be memorised), NIST impacting CIS-18, definitions of control categories in CIS framework (slide 19), IG1, IG2, IG3 (Slide 21, IG3 includes IG2 includes IG1), payment card industry is PRESCRIPTIVE (tells what to do) (no need to memorise the 200 checks),
+
+ISO 27001 is DESCRIPTIVE, not PRESCRIPTIVE (no technical checks but an appendix with technical details) (it focuses on management and risk assessment at its core), to meet it you must regularly do risk assessments.
+
+
+!!! ENTIRE QUESTION DEDICATED TO CIS-18, BECOME FAMILIAR WITH MEANINGS OF ALL CONTROLS !!!
+### Which controls would have helped mitigate this attack described in the scenario? Suggest 3 controls etc ["Control 5 because this and that, also control 15 because this and that etc] (You may receive a list of them, if you do then you need to also know the safeguards too) ###
+
+Wk11:
+
+Data Protection Act and GDPR key terms (slide 3), purposes of these acts (gives control over the handling of your data), rights given to people by DPA and GDPR (right to get their own data, to object, to be forgotten), GDPR penalty (20 mil euro, 4% annual turnover, whichever greater), basic understanding of principles (slide 9), data breaches reported within 72 hours, the 5 offences of computer misuse (an example of each preferably), cybersecurity controls also apply to financial systems as well as their own specific ones,
+
+Suspense accounts, how they can be exploited.
+The definitions of terms in the Clark-Wilson model, "Seperation of duties" with the example, "Triple" Every transaction must give an audit trail and be reproducible.
+Audits (internal/external), multiple unannounced internal audits as well as thorough external audits.
+
+

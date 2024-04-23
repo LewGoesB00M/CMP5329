@@ -1,0 +1,33 @@
+Viewing permissions in Linux is possible via ls -l.
+(UNTESTED) It might return "rwx rwx rwx" for example, stating that all users (owner, group & all users) can read, write and execute it.
+
+Chmod modifies permissions to an access group:
+	u - Owner
+	g - Group
+	o - Others
+	a - All users
+
+Chmod a +rwx message.txt - ALLOWS ALL USERS to READ, WRITE & EXECUTE the file MESSAGE.TXT.
+Chmod a -rwx message.txt - FORBIDS ALL USERS to READ, WRITE & EXECUTE the file MESSAGE.TXT.
+
+It also has number arguments on Slide 28.
+Chmod 777 is rwx for all.
+Seems to be the following - 	N1      N2         N3
+			         Owner  Group   Others
+
+The sum of set numbers defines the permissions. R = 4, W = 2, X = 1.
+So RWX is 4+2+1 = 7.
+Chmod 750 is:
+	Owner - RWX
+	Group - RX
+	Others - None
+
+It might be pronounced as "change mode?"
+
+
+Chown assigns a new owner to a file. 
+Chown bob:boys1 message.txt assigns message.txt's owner as user Bob and group boys1.
+
+You can add a user with adduser, a group with addgroup, and assign a user to a group with usermod -a -G [group] [user]
+											    usermod -a -G sudo bob
+

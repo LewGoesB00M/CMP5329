@@ -1,0 +1,45 @@
+Personal data - Data that can be used to identify a person
+Data controller - A person or public body who determines the purpose and how data should be processed.
+Data subject - The person whose data is processed by the controller or processor
+Data processor - A person or public body who processes data on the controller's behalf
+Data Protection Officer (DPO) - Mandated company position in charge of how the company is processing and storing personal data to be in compliance
+				       with relevant legislation, being GDPR or the UK DPA.
+
+When Brexit happened, GDPR no longer applied. The UK adopted their own Data Protection Act in 2018 which mimics it.
+
+Data breaches must be reported to relevant authorities within 72 hours.
+
+UK DPA 2018:
+	Largely in line with EU's GDPR, which stopped applying to the UK from January 1st 2021.
+	Empowers people with the control of their data, allowing requests for access & deletion, but not necessarily for free unless the records in question 													concern credit, health or education. The price is maxed at £10.
+	Created new offences for dealing with emerging threats.
+	Places the duty on the data controller to notify the Data Commissioner and the individual concerned within a data breach.
+	Data controllers and processors exclusively based in the UK may be required to appoint an EU representative.
+
+	Allows users:
+		To have incorrect data corrected.
+		To be removed from direct mailing lists.
+		To prevent the processing of their data if it would cause damage or distress.
+
+	Enforced by the Information Commissioner's Office (ICO) who also oversee acts such as the Freedom of Information Act.
+	The ICO have a register of all data controllers, and mandate that any organisation processing personal data must register with them.
+	Complaints can be made to the ICO who will then perform investigations. 
+
+GDPR:
+	Improves data protection within EU member states and internationally by introducing major restrictions on the processing of data concerning EU 																	citizens, even outside of the EU.
+	Penalty for non-compliance is 20 million Euros or 4% of annual turnover, whichever is greater.
+	
+	Principles:	
+		Lawfulness, fairness, transparency.
+		Purpose limitation.
+		Data minimisation.
+		Data accuracy.
+		Storage limitation.
+		Integrity and confidentiality. (Security)
+		Accountability.
+	
+	Gives users the right to be forgotten and to object to the processing of their data.
+
+	Companies should do regular security & risk assessments, alongside security monitoring software, pseudonymization and encryption of all 	processed data.
+	
+	

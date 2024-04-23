@@ -1,0 +1,39 @@
+SSL / TLS handshake
+
+1 - 'client hello' - Has client's TLS version, cipher list and a string of random text called the 'client random'
+2 - 'server hello' - Responds to client, contains server's SSL certificate (inc. public key) and the 'server random'
+
+3 - Client then verifies server's certificate with its authority.
+4 - Then, client sends 'premaster secret', random text encoded with server's public key.
+5 - Server decrypts premaster secret using its private key
+ 
+6 - Session keys are then created from the client random, server random and the premaster secret. If successful, both client and server will have the same results.
+7 - Client will then send a 'finished' message encrypted with a session key.
+8 - Server will do the same.
+
+9 - Now, the handshake is completed and forms a symmetrically encrypted connection using the session keys.
+
+MiTM could theoretically get the premaster secret.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Diffie-Hellman Key Exchange Protocol
+This was mostly explained using diagrams using colors as an example. Refer to these for easier understanding.
+
+Client and server use calculations to arrive at the same premaster secret without ever actually transferring it between each other.
+A man-in-the-middle wouldn't be able to get the secret because they lack secret data from the client and server. 
+
+Client and server agree on two numbers publically. MiTM can get this information.
+Client and server have secret numbers that the other doesn't know. MiTM also doesn't know.
+Client performs a calculation (slide 27) using the public information and their own secret number.
+Server does the same.
+
+Client and server send the results of their calculation to each other. MiTM can see these results.
+They then perform another calculation (slide 30) which will yield the same result for the client and server, becoming the session key. MiTM can't do this calculation.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Both of these methods use symmetric encryption, so the session key(s?) encrypt AND decrypt.
+Asymmetric encryption is not as secure as symmetric. Not sure how exactly, research this.
+
+Also review Shamir Secret Sharing. One slide on the powerpoint that's a basic summary. (Slide 32)
+Seems to split a key into fragments between many people. Can only use it if they all come together?

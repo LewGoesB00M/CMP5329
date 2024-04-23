@@ -1,0 +1,20 @@
+LAN and WANs are featured in a link on Slide 16.
+LAN (Local Area Network):
+	A network in a SINGLE geographically contiguous SITE. Often one owner. An organisation on multiple premises will have a LAN for each one with 	private connections that form a single logical LAN. Often have routers with firewalls that control internet access.
+
+WAN (Wide Area Network):
+	A network that spans larger geographical areas, up to and including the entire world, as the Internet as a whole is a WAN. 
+
+VPN (Virtual Private Network):
+	Client is authenticated with a VPN server. Data transmitted and received by the device is then encrypted (often by AES). Data is then 
+	ENCAPSULATED in an outer packet before being sent via the VPN tunnel. Once the data reaches the VPN server, the outer packet is decrypted 	before being sent from the server. The site you're visiting only sees that the data is coming from the VPN, and not from you, which allows for 	country spoofing. Your ISP knows you're connected to a VPN, but because of the encryption they can't tell what you're using it for.
+	(They could likely infer if you're torrenting by seeing up/down packets, but not strong enough to hold up in court)
+
+	While they are mostly used for things like Netflix country spoofing now, it's not necessarily the original intent. The original intent was for users 	outside of the LAN site to connect via the encrypted tunnel. They are still used that way to this day, and perhaps a lot more frequently given COVID.
+
+SNAT and DNAT (Source and Destination Network Address Translation) [unlikely acronym but good to know]:
+	A NAT is used to translate network addresses to devices on a different network, as the router only has one public IP that is shared by 
+	the devices on it. Slide 22.
+	
+	A source NAT allows servers outside a firewall/router to communicate with clients inside it.
+	A destination NAT allows clients inside a firewall/router to communciate with servers outside it.

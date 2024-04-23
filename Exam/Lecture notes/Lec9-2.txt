@@ -1,0 +1,36 @@
+This will absolutely be on your exam, no shadow of a doubt.
+
+The Lockheed Martin Cyber Kill Chain is a framework for understanding adversary behaviour in a cyber-attack.
+MITRE ATT&CK is MITRE Adversarial Tactics, Techniques and Common Knowledge.
+
+In this order:
+
+Reconnaissance 
+	Gathering information (NMAP, whois, social engineering)
+	Can be detected via security systems such as firewalls, network intrusion detection systems (NIDS) and logging systems.
+
+Weaponisation
+	With the info gained from recon, exploits are created that use any found backdoor, and are then converted to deliverable malware payloads.
+	Can be detected via antivirus and NIDS.
+
+Delivery
+	Delivery of malicious payload, via methods such as USB, phishing and/or malicious URLs.
+
+Exploitation
+	The exploitation of existing vulnerabilities such as the ones found in recon or known zero-days, or privilege exploitations where access control
+	isn't as it should be and a user can do more than they should really be able to. 	
+
+Installation
+	Not much to say, just the execution of the payload I think.
+
+Command & Control (or C2)
+	Control is established, and the device connects to the attacker's server, where they could do thinks like RCEs or data theft.
+
+Actions on objectives
+	Exfiltration of stolen data, and maintaining a foothold over the device to possibly do it again at some point
+
+
+MITRE ATT&CK 
+	There's a massive zoomed out image on slide 36 about this.
+	In summary, it defines the typical behaviours of threat agents in each stage of their attack.
+	There are over a hundred of these, they can't possibly expect you to remember them all?	

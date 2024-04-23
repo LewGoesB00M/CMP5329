@@ -1,0 +1,14 @@
+It's likely that everything here will appear in some way on the exam. Antonio mentioned at the start of W7 lecture that the lectures will be more
+specialised to the exam, so it's likely that you'll want an abundance of knowledge on week 7 onwards. It almost sounds a bit like things before week 7 won't be examined at all, but you can't trust that to be true.
+
+Week 8 will absolutely be present, and probably every single aspect covered in it.
+
+One question will be on Week 9 - risk assessments.
+The question in the week 9 lab exercise is similar to the one that'll be in your exam.
+You'll have to identify the assets, threats, impacts and create risk documentation for it, including a matrix and overall risk assessment.
+The lab sheet shows how it should be done.
+
+I'm not sure how you can do some of that stuff on the DigiExam platform (presumably the one being used)
+
+Could be worthwhile to look back on your skipped labs - I believed they were totally optional but Week 9's lab changes that a bit.
+

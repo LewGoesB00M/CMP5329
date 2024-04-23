@@ -70,7 +70,7 @@ to be used more securely.
 \subsection{Creating a test user}\label{subsec:creating-a-test-user}
 To use the program, it will be necessary to create a new user, whose password can be found in the dictionary.
 For this, the user 'fred' will be created, and his password will be 'peach'.
-We can see if 'peach' appears in the dictionary, as well as the overall dictionary word count.
+We can see if 'peach' appears in the dictionary, as well as the overall dictionary word count of 102,401.
 
 \begin{figure}[H]
     \centering
@@ -89,7 +89,7 @@ We can see if 'peach' appears in the dictionary, as well as the overall dictiona
 It will then be necessary to get the hashed version of Fred's password, which can be done using
 "\textbf{cat /etc/shadow | grep fred | awk -F: '\{ print \$2 \}'}".
 This command will read the shadow file, selecting the row starting with 'fred'.
-Then, it will extract his hash by selecting the second column.
+Then, it will extract his hash by selecting the second colon separated column.
 
 \begin{figure}[H]
     \centering

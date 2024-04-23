@@ -1,0 +1,29 @@
+Slides 26 onwards reference how UNIX systems store passwords, and will likely appear on your exam.
+
+Hybrid dictionary attacks are similar to dictionary attacks where they'll use a list of things to try, but a hybrid will append data to the end.
+For example, the dictionary attack may try "Admin", but the hybrid will try "Admin123". This may be done via crunch wordlist generators (?)
+
+Brute-force attacks are self-explanatory. Every possible combination is tried until it works. Needs a very powerful system to work at a usable speed.
+Brute-force crackers are publically available, such as John the Ripper. Kali Linux bundles tools for brute-forcing.
+Brute force attacks are collosally impeded by setting account lockouts and/or time between each password attempt. 
+
+Rainbow tables contain predefined word-lists created by hashing words. These hashes can then be compared against a hashed password to get
+parts of it, which then massively simplifies brute-force/hybrid-dictionary efforts. Rainbow table attacks are thrown off by salted passwords, because
+a salted password will produce a different hash, even if two users have the same password.
+A tool called Rainbow Crack can be used to perform these. 
+Research this in further detail.
+
+Users should be trained in at least basic security (don't share your password, don't click weird links).
+Multi-factor authentication is very useful, as the attacker likely will only have "Something you HAVE" (your password), so requiring
+another measure on top keeps the system at least somewhat secure even if the attacker manages to get a password.
+It's good to not allow users to even try to set a common password. Setting "password" as your password should instantly be forbidden.
+
+Your security measures are mostly for naught if the client has a vulnerability such as a keylogger.
+They can be software or hardware, and some actually are used for "legitimate" purposes such as parental control or exam invigilation.
+
+If a system did have a keylogger, it could theoretically be mitigated using an on-screen keyboard and setting form data to autofill, so you're not actually
+typing the keys for it to monitor. The best measure is a good antivirus that'll detect it and block it.
+
+Password managers are common now, whether the data from them is locally stored or stored on the cloud such as LastPass (got breached lol)
+A password manager is good for keeping track of your strong passwords, though I feel like it's the same principle as writing them down. If I get your
+password manager, I have EVERYTHING.

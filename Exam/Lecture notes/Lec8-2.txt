@@ -1,0 +1,25 @@
+Security policies:
+	Documents produced by senior management that dictate specific strategic requirements across the business.
+	Dictate the overall direction and management intent.
+	Failure to comply with security policies is often grounds for disciplinary action including termination.
+
+Standards:
+	Mandatory controls to help enforce the securty policy.
+	"Makes policy more meaningful" ???
+	Enforces consistency across the business, such as password length & complexity.
+	"Related to technology or products" ???
+
+Procedures:
+	Step-by-step instructions on how to implement standards and policies.
+	For example, standard operating procedures (SOP) would assign work roles where certain roles are directly responsible for given cybersecurity and 		           privacy tasks. For example, the CEO is likely to oversee and govern, the CTO to operate & maintain, etc. Slide 11.
+
+Security policies are intensely important to a business' continued operation, and they often have a lot of them.
+They allow companies to protect assets, reduce risk, safeguard their intellectual property and comply with regulations.
+
+Common types of policy: 
+	Data Breach Response
+	Email
+	Data Retention
+	Internet Usage
+	Password
+	Access Control

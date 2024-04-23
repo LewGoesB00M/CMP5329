@@ -1,0 +1,18 @@
+Computer Misuse Act introduces 5 offences:
+	1: Unauthorised access to computer material.  Up to 6 months.
+		↪ 2: With intent to commit further offences.  Up to 5 years.
+		↪ 3: With intent to impair, such as unleashing malware to damage, modify or delete data.  Up to 10 years.
+		↪ 3ZA: That cause or create risk of serious damage, such as hacking airport traffic control or a nuclear reactor. 	14 years to life.
+	3A: Making, supplying or obtaining articles for use in aforementioned offences.  14 years to life.
+
+
+The financial industry is a key target for any cybercriminal. Many threats exist that threaten it:
+	Advanced Persistent Threats (APTs)             Insider and internal threats
+	DoS   						  Attacks of SWIFT systems (Facilitates international transactions)
+	Mobile banking breaches                              Supply chain infiltration
+	
+It's essential that functions and assets of the system are identified alongside coutnermeasures to attacks against them via the use of frameworks such as
+CIS18. The system should constantly be monitored, and security controls should be evaluated often, as threats constantly evolve.
+A good security configuration is necessary, including boundary firewalls and internet gateways, access control systems, patch management and malware protection. Patch management in particular is quite worthwhile, as frequent updates allow for zero-days to be quickly nullified, an especially important measure for the financial industry.
+
+

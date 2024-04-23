@@ -1,0 +1,19 @@
+An asymmetric man-in-the-middle (MitM) attack requires deceiving both users into using the threat actor's public key.
+This is much easier to do if both users do not actually know each other, as it's easy to pretend to be Alice when Bob doesn't know them properly.
+How does Bob know that the public key he was given actually belongs to Alice and not a MitM?
+Security at SCALE is a massive issue. It's actually very easy to mitigate previously mentioned MitMs between just 2 people, as they'd likely know each other
+a bit more closely and could verify their identities a lot easier than an entire company of 1000+ employees.
+On a larger scale, we can instead use CERTIFICATES from a TRUSTED THIRD PARTY (TTP). 
+[Slide 16]
+Certificates can be seen by going to any website and checking the HTTPS padlock symbol, which allows you to 
+see the ceritificate issuer (the TTP) for the site, verifying that you've received the correct HTML file. This works for more than just websites, of course.
+
+Certificates are made to the X.509 standard. By conforming to a standard, certificates can be universally recognised so there's no cross-platform issues.
+
+See slides 9 and 10 for better description.
+Very likely to be examined.
+
+
+It's imperative that a hash function works properly (and quickly), as non-repudiation is not possible (?) without being able to prove the original contents.
+A faulty hash function may return the same values for two different things, which would trick people into thinking the file contents are unmodified.
+SHA3 is the currently used one since 2015.

@@ -1,0 +1,37 @@
+Access control, as you'd expect, exists to prevent unauthorised access to data.
+It has two key principles:
+	Authentication - Verifying the unique identity of a user.
+	Authorisation - Verifying that said user has access rights to said data.
+
+								         (such as a) 				            (such as their)
+Authentication - Assigning a unique identifier (username) using a secret (password) known only to them, or a unique feature (biometrics) that characterises them.
+
+Multi-Factor Authentication (MFA, often 2FA) challenges two (or more) of the following:
+	Something you KNOW - Password
+	Something you ARE - Biometrics
+	Something you HAVE - Second device / Access key
+
+Access control requires:
+	Reliable input:
+		User is authenticated
+		User is providing genuine information
+	Least privilege:
+		Granted precisely the permissions that they need and no more.
+	Administrative duties:
+		Only special entities may manage access rights or other entities.
+		You need to trust your admins. Ideally through some kind of legal agreement.
+
+The elements of access control are the subject (user/process accessing objects), the object (data) and the access right (how they access it [read, write, delete, etc]).
+
+Discretionary Access Control (DAC) is your Lab 5 topic.
+It allows subjects that OWN objects to assign permissions to others, which is how it works in operating systems. 
+For example, Bob owns message.txt. He may choose to allow Alice to read it, but not Dave, for example.
+
+Mandatory Access Control (MAC [would they use that acornym?]) labels data as unclassified, confidential, secret and top secret. (Secret is more secret than confidential.)
+Subjects can't allow other entities to access their resources at their discretion. The access rights afforded to a user are dependent on the data's label. 
+The military general can access top secret data, but a sergeant might only be able to access confidential or unclassified data.  The general can't allow the soldier to access it unlike DAC.
+It doesn't inherently mean that the general could access data of a lower label though unless he also has that permission. 
+
+Role-based Access Control assigns access rights to roles rather than individuals. For example, admins can access everything, teachers can access most things, students can access one thing.
+
+Rule-based Access Control evaluates access requests against a set of rules. A firewall is a good example of this - requests to access a certain IP may be blocked.

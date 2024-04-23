@@ -1,0 +1,34 @@
+Authentication - The act of establishing/confirming that something/someone is authentic; could be the validity of someone's claims or their identity itself.
+
+As mentioned in Lecture 5, user authentication challenges:
+	Something you KNOW - Username & password
+	Something you HAVE - Second device/security token
+	Something you ARE - Biometrics
+
+Vulnerabilities can exist client-side, server-side or over the communications channel between the two.
+
+Threats to passwords include:
+	Eavesdropping (physically or digitally)
+	Shoulder surfing 
+	Login spoofing 
+	Offline dictionary attacks - Using a dictionary of passwords (like top 10000 most common passwords) and trying them on yours.
+	Social engineering - Persuading another to give you the details. Often seen by phishing sites that mimic real sites or scam callers.
+	Guessing - Extremely unlikely, but the threat exists if it's from someone who knows you well or the password is weak.
+	
+Entropy is a measure of randomness/unpredictability. Highly entropic data is very hard to crack, whereas low entropy data is easy.
+If my entropy measure is "add a # after each character", that's low entropy because it can be predicted.
+
+Weak passwords, as you'll encounter on most account creation warnings, are passwords that use one type of character (just letters or numbers), 
+default passwords, words in the dictionary, basic obfuscation (p@ssw0rd) and doubled words (passwordpassword). Software will automatically
+try those.
+
+Having two emails is a good security practice (you have six) but none of them should have the same password (some of yours do)
+It's best to regularly change your passwords, as it would stop efforts to crack that one password that isn't it anymore.
+Nobody actually does this by choice, so it's often done at some kind of administrative level, like at your school where you were forced to each term.
+
+The issue with having a complex password is that it's also hard to remember. If you can't remember it, you'll probably write it down, but what if I
+find the paper you wrote it on? If it's easy to remember, what if I just crack it because it's also easy to work out?
+
+
+
+

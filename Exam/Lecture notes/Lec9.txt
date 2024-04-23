@@ -1,0 +1,64 @@
+Seems that threat agent is the term rather than threat actor.
+The definition of a risk assessment is the process of identifying, estimating and prioritising risks that affect a business and its assets/processes.
+
+Risk assessments define the following terminologies:
+	Asset - Something of value belonging to the company; software, hardware, the building, employees.
+	Threat - Anything that could exploit a vulnerability, intentional or not.
+	Vulnerability - A weakness that could be exploited by a threat AGENT.
+	Risk - The combination of these. Probability multiplied by impact. 1 - 5, up to 25. 
+
+Risk management process 
+	Identification and control of information asset risks
+	Contingency planning
+	"Know yourself and know your enemy"
+		Know your own systems and assets, and periodically review them.
+		Identify, examine and understand possible threats, prioritising based on importance.
+		Review your active control methods; are they working? Is it mitigated? If not, why not? Try something better.
+
+Risk identification is the process of examining, documenting and assessing the "security posture" of an organisation's IT and the risks it faces,
+as well as its assets. Assets are prioritsed dependent on their value; the CEO's information is a bit more important than the unpaid intern.
+
+Risk control is to take measures to mitigate a risk. For example, password length enforcement controls the risk of brute-forcing.
+
+Asset identification & valuation:
+	Is it critical to continued operation and success?
+	How much revenue & profit does it generate?
+	Would it be expensive to replace?
+	Would it be expensive to protect?
+	Would it embarrass or damage the company if revealed?
+	Is it legally mandatory to protect it?
+
+The answers to those questions dictate how an asset is weighted. 
+Weighted factor analysis calculates the relative importance of assets and assigns them a score from 0.1 to 1.0 for each critical factor.
+The critical factors then get a weight, from 1 to 100. The diagram on slide 13 explains this best using a table.
+ 
+
+Risk control strategies:
+	Defense approach (preferred)
+		Prevents the exploitation of vulnerabilities by defending them, through methods such as:
+			Application of policy
+			Training and education
+			Technology application
+		Often requires technical solutions
+		Eliminates asset exposure (or attempts to)
+		Implements security controls and safeguards to block attacks.
+	
+	Transference
+		Shifting of risk to something or someone else.
+		Outsourcing, insurance, contracts with other providers
+
+	Mitigation
+		Occurs following a vulnerability's exploitation.
+		Follows a contingency plan,	and requires quick detection and response.
+		Reliant on the quality of other plans to work.
+
+	Acceptance
+		Doing nothing.
+		Often occurs if an asset doesn't justify the cost of its protection; it isn't valuable enough to really even matter.
+		Must be a conscious business decision that isn't taken lightly.
+		
+	Termination
+		Slightly different to acceptance.
+		Removal of an asset altogether so that it can't be exploited.
+		Often occurs if an asset doesn't justify the cost of its protection; it isn't valuable enough to really even matter.
+		Must be a conscious business decision that isn't taken lightly.

@@ -1,0 +1,50 @@
+
+Clark-Wilson Integrity Model:
+	Accounting master file 
+		Each customer's current balance, previous transactions within a certain period, carry forward amount for the start of this period.
+
+	Ledgers:
+		Track assets (such as cash) on their way through the system.
+
+	Journals:
+		Track transaction inputs from check sorters, cash machines etc. that haven't been put into ledgers yet.
+
+	Audit trail:
+		Which staff member did what and when.
+
+	Batch processing:
+		A sequence of programs run at the end of the day, inputting data from journals to ledgers. 
+		The batch order can influence the outcome, with an example being if money IN is processed before money OUT, there will be less overdrafts.
+	
+	Transaction processing: (Not actual money transactions) 
+		Having seperate journals and ledgers allows batches to be rerun in the event of some failure.
+		Backups of all files are taken before the batch.
+	
+	Double-entry bookkeeping:
+		Two ledgers, an assets ledger and a liability ledger.
+		The contents of a cash machine are an asset, whereas the customer's deposit account is a liability.
+		Cash machine has received £100 asset but adding £100 to an account is a liability.
+
+	Separation of duties:
+		Ensures that two or more people are needed to complete a task, such as printing a credit card.
+		One person prints it, but another will send you the PIN code in the post a few days later.
+		Ensures one person doesn't have too much influence over the whole system.
+
+	Terminologies:
+		UDI - Unconstrained data item - An input prior to its validation and authentication.
+		CDI - Constrained data item - An input after verification and authentication.
+		TP - Transformation procedure - The process of constraining input data to output CDI, with enough information to reconstruct that transaction.
+		IVP - Integrity verification procedure - A procedure checking the validity of a CDI.
+		User - An entity that allows a transaction to be made (staff member) or is part of the system itself (ATM, till), often with insider access.
+	
+		(Customers aren't specified whatsoever?)
+
+	!!!	Triple - To ensure shared control (seperation of duties), triples (user, TP, CDI) are used. Ensures one user can't just start transferring millions for 				  example.
+		
+This system isn't without limitations:
+	It is DEscriptive, not PREscriptive. This means that there are parts up to interpretation, such as how the "seperation of duties" isn't outright explained as to 	how that occurs.	
+
+	Some transactions need multiple transformation procedures: a chequing account might need two signatures, which could result in a pending transactions file 	(a "suspense account"), where an employee could manipulate money going in and out of this account at regular intervals, therefore bank employees should 	be mandated to take time off every so often (example is 1 week / 6 months) to ensure they aren't using their insider access to perform scheduled malicious 	actions.
+
+Organisations are audited frequently. These are unannounced, and an auditor will just arrive at some random point to check the records for inconsistencies.
+By having this be so random, threat agents can't act to cover their tracks as efficiently as they would with the knowledge of when they would need to hide their tracks by. The only knowledge is that there is at least one per year. Banks can have INTERNAL auditors, but even if they do an external one must still turn up every year.
