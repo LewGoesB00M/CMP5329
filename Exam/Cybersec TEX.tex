@@ -560,7 +560,7 @@ After Brexit, GDPR no longer applies to the UK because it isn't an EU member sta
 It is enforced by the \textbf{Information Commissioner's Office (ICO)}, who have a register of all data controllers, and mandate that any
 organisation processing personal data registers with them. They carry out investigations in the event of complaints.
 
-\section{Rights}
+\subsection{Rights}
 \begin{itemize}
 	\item GDPR rights.
 	\item To have incorrect data corrected.
@@ -568,7 +568,7 @@ organisation processing personal data registers with them. They carry out invest
 	\item To prevent the processing of their data if it would cause damage or distress.
 \end{itemize}
 
-\section{Requirements}
+\subsection{Requirements}
 \begin{itemize}
 	\item The data controller must notify the Data Commisioner and the individual(s) concerned in a breach about it.
 	\item Data controllers and processors exclusively based in the UK may be required to appoint an EU representative.
@@ -715,5 +715,70 @@ arrive yearly, and are independent entities. This is done so that records are ex
 \addcontentsline{toc}{chapter}{Misc.}
 \section{Eavesdropping}
 Passive eavesdropping is where the attacker is listening to comms and not modifying them. Active is where they are modifying them (deleting, sending their own, etc)
+\section{IP rate limiting}
+IP rate limiting mtitigates DoS attacks by refusing packets from a certain IP address after a quantity is exceeded. This is done using \textbf{iptables} on Linux.
+
+\chapter{\textbf{MOCK EXAM}}
+Recall that you're only expected to answer \textbf{FOUR} questions. If you answer five, only the first four will be marked.
+
+\section{Q1}
+The Clark Wilson Integrity model can be employed by financial organisations to heighten their security by reducing the amount of access and power a single person can have. The term 'UDI' refers to an Unconstrained Data Item, which means data that has been input but has not yet been validated or authenticated. To authenticate the data, transforming it into a CDI (Constrained Data Item), it must undergo a Transformation Process, which is the process of constraining a UDI into a CDI, creating enough information that the transaction could be recreated at a later date. Entities refer to people or devices within the system that facilitate transactions, and could be a human staff member, or an ATM/cash machine, for example. ENTITIES ACTUALLY REFER TO FILES AND THINGS IN THE SYSTEM
+
+
+The certifier in the given scenario should NOT be permitted to execute the Transfer Protocols they certify. This is because this would act in clear violation of a key principle of the Clark Wilson model, which is the seperation of duties. The seperation of duties means that one person should facilitate one action - for example, when a credit card is produced, the person printing the card does not know it's PIN, and a second person would instead send the PIN to the customer at a later date. By executing their own certified transfer protocols, they have the power to create and execute fraudulent ones entirely by themselves, without having to collude with anyone else.
+
+
+Suspense Accounts are used when a transaction (UDI) requires multiple transformation procedures. While the transaction is "in suspense" due to having to wait for the transformation procedures to be carried out, such as getting the signature of a senior bank employee (entity), a suspense account would be created to temporarily hold the funds. Additionally, before the TPs occur, the transaction is in an uncertain state, where it could possibly not happen at all. Therefore, by creating a temporary suspense account to hold information, finances can temporarily be held without putting risk and liability on a permanent account.
+ACTUALLY USED FOR TRANSACTION BETWEEN DIFFERENT BANKS
+
+\section{Q2}
+It is possible that the Sony hack could have been prevented by implementing CIS-18 controls \#13 (Network Monitoring and Defense) and \#3 (Data Protection). Future attacks could be prevented via controls \#17 (Incident Response Management) and \#18 (Penetration Testing) Network Monitoring and Defense is an essential security measure for any business to prevent situations such as this 2011 hack, as having a strong, robust, monitored network would ensure that Sony would be aware of any intrusions if they were to happen, and could begin immediately defending against them. They could do this using Network Intrusion Detection Systems (NIDs), which are capable of detecting threat agents trying to gather information using tools like nmap, and detecting them trying to infiltrate the network using tools like Metasploit. With the application of strong NIDs, it is likely that the attackers could have been stopped before they could gain access to the network.
+
+Control \#3, Data Protection, is an intensely important part of any business, not only because it is legally mandated under the EU's GDPR and the UK's DPA 2018, but also because the severe reputational, operational and financial loss incurred by a data breach can be crippling to a company, as Sony themselves found out with their estimated \$171 million loss. The attackers were able to exfiltrate the data of 24 million users, which could have been prevented had this data been kept more secure through encryption via services such as Bitlocker, which is built-in to Microsoft devices, and pseudonymization.
+
+Control \#17, Incident Response Management, would have been another strong part in restoring service to users at the time and in the event of any future attacks. If Sony had better incident response plans ahead of time, it is likely that they could have restored service much faster and more efficiently than they did. Because their plans evidently were not good enough, their mitigation strategy for this attack was unable to successfully stop it within an acceptable timeframe, as mitigation strategies are entirely dependent upon the quality of plans such as data breach response plans and business continuity plans.
+
+Control \#18, Penetration Testing, can be used to prevent attacks like this happening in future. Penetration testing is the process of contracting someone to attempt to gain malicious access to the system and reporting back the vulnerabilities they found. Had Sony conducted more penetration tests, it is possible that they could have identified the vulnerabilities of their system which became the attack vector of these threat agents before they were able to exploit it. They should still do this even after this breach and also at regular intervals to ensure new vulnerabilities such as zero-day exploits do not appear on their systems.
+
+\section{Q3}
+\subsubsection{It said do 4 offences, but I did all 5}
+The Computer Misuse Act (CMA) 1990 outlines five offences relating to the malicious use of computers.
+
+Section 1 of the CMA creates the offence "Unauthorised access to computer material", which refers to any person accessing information that they should not have access to, such as accessing someone's personal files on their own account. 
+
+Section 2 defines the offence "Unauthorised access to computer material with intent to commit further offences", which refers to unauthorised access where the offender clearly shows the intent of committing a second crime as a result. For example, if an attacker gains access to someone's account and creates copies of their banking information, an intent that they are trying to commit theft can be established.
+
+Section 3 defines the offence "Unauthorised access to computer material with intent to impair", which refers to unauthorised access where the offender has intentionally damaged or destroyed a system as a result of their access. An example of this would be by logging into an administrator's account and deleting all other accounts, crippling the system.
+
+Section 3ZA defines the offence "Unauthorised access to computer material that causes or creates risk of serious damage", which refers to where the offender has gained access to a critical system such as a hospital or air traffic control, where they could use this access to possibly cause severe harm to others.
+
+Section 3A defines the offence "Making, supplying or obtaining articles for use in offences in sections 1, 3 or 3ZA.", which refers to the offender creating, supplying or possessing tools such as malware that they could then use to commit one of the previously mentioned offences.
+
+\subsubsection{Q3B}
+A software development contractor has heavy responsibilities under the Computer Misuse Act when creating software to be used for penetration testing. Theoretically, penetration testing does violate the Computer Misuse Act, so it is vital that their software is primarily only distributed to certified professionals, and that any use of the software is permitted under contracts between the tester and company.  
+
+\section{Q4}
+Network enumeration is the process of gaining information about a network, such as open ports and connected devices. This is most commonly done with tools such as nmap, which scans a network and reports information back to the user if it is not stopped by firewalls or NIDs. The information gathered by this practice is extremely useful to identify vulnerabilities in a network, though this also means it is extremely useful to threat agents looking to exploit these vulnerabilities. One of the first stages of an attack based on the Lockheed Martin Cyber Kill Chain framework is reconnaissance, which network enumeration would fall under. Information such as open ports allows the identification of services running on the network, such as HTTP on port 80, and SSH on port 22. This information is very useful for administrators and hackers alike, especially if older, vulnerable services like Telnet are present, as a threat agent is always looking to exploit the weakest link in a security chain, so they can then shift their efforts purely into the identified attack vector. Identifying connected devices is also a good thing for bolstering the security of a network, as devices that are unused can be identified and disconnected from the network, preventing them from being exploited to perform attacks.
+
+\subsubsection{Q4B}
+Virtual Private Networks are used to remotely connect to another network via a secure, encrypted tunnel. When using a VPN, outbound packets from the client device are encapsulated in an encrypted outer layer, ensuring that any man-in-the-middle type attacks or general monitoring such as that from an internet service provider yields no information other than that data is being sent and received, as anyone other than the client and VPN server cannot see through the encapsulation. When the server receives the encapsulated packets from the client, it decrypts the outer layer, revealing the packet contents, and then sends it to its intended destination. The destination network only knows that the packet originated from the VPN server's location and not the client's location.
+
+This feature of location spoofing is a key use of VPNs in more modern times, as people use VPNs in order to spoof their location to access content prohibited or otherwise inaccessible in their country.
+
+Though, another major scenario in which VPNs are used (and their original design purpose) is to remotely access Local Area Networks (LANs) from outside of the site. By using a VPN, all data in and out is encapsulated and therefore secured, allowing remote access to private company networks from outside of them. Businesses worldwide utilise VPNs, especially since the pandemic in 2020, to allow "work-from-home" schemes where employees remotely connect to the company network and access their company files.
+
+ \section{Q5}
+ \subsection{Scenario}
+ \includegraphics[width=.95\linewidth]{scenario.png}
+ \subsection{Answer}
+ A risk matrix is a risk identification technique used to quantify how important it is to introduce preventative measures against a risk. Potential risks are assigned a score between 1 and 5 in two categories: probability and impact. Probability refers to how likely it is that the risk will occur, and the impact refers to how much the company will be affected by its occurrence. By multiplying the scores of these categories together, a number up to 25 is yielded which acts as the risk's "score", and can be used in risk assessments and other related plans to determine how important it will be to defend against this risk. Risk quantification is very important to a business, as it dictates how heavily they must plan to defend a risk and which approach they will take to its defense, such as a defense approach where they actively take measures to defend it, transference where it is delegated to a third-party (such as insurance) or acceptance where they simply accept that it may happen (only occurs if it is very low impact).
+
+
+The given scenario has multiple risks associated with it, the first of which being that the PoS equipment is connected to the internet. Connecting any device to the internet introduces the risk of attack, especially if it is processing financial information as point of sale equipment would be. It is also stated that new features are deployed to it remotely via the internet: if someone were to somehow post malicious code to be uploaded to these devices under this remote feature deployment functionality, it could have a catastrophic impact on the company's operations, profit and reputation. Therefore, I would recommend that the point of sale equipment utilises VPNs for encrypted communication to the central server, as well as logging software to capture all administrative actions taken on the device. This would be a defense strategy, as clear steps would be taken to actively mitigate the risk of the remote feature deployment being exploited, and by using VPNs an attempt is made to eliminate the exposure of the point of sale equipment assets.
+
+Another risk in the above scenario ...
+
+\section{Thoughts}
+Overall, I'm very confident going forward. With a finish set of lecture 10 notes, as well as some slight lab recapping, I'm confident that this exam could go very well. 
 
 \end{document}

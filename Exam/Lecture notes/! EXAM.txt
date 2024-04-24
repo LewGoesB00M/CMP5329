@@ -4,6 +4,13 @@ Exam does not cover topics prior to week 7.
 Linux commands will not feature, but good to know.
 No code is expected.
 
+WK12: FINAL NOTES
+Computer Misuse Act will appear.
+CIS-18 will appear.
+Cybersecurity fundamentals? Terminology such as network enumeration.
+If you do one on risk assessments, you may need to make a risk matrix even if it doesn't necessarily say to. Better to be safe.
+< 40, low risk, > 40, high risk.
+
 Wk7:
 Common attack techniques, phishing, spear-phishing, spear-phishing vs regular phishing, phishing mitigation techniques, why are phishing attacks so common (because easy, cheap, lots of tools enabling replication of websites), denial of service, difference between DoS and DDoS, injection attacks.
 
